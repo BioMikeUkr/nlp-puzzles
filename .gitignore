@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files / datasets (download separately)
+datasets/tickets/data.*
+datasets/banking/data.*
+datasets/financial_news/data.*
+datasets/emails/data.*
+datasets/embeddings/*.npy
+datasets/sql/*.db
+!datasets/*/sample.*
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+.huggingface/
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Keep structure
+!.gitkeep
