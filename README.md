@@ -54,13 +54,13 @@ module_name/
 ---
 
 ## Module 1: Python & Data Fundamentals
-> Core skills required for all positions
+> Foundation for all ML/NLP pipelines - data loading, cleaning, and transformation
 
 ### Topics:
-- Pandas: filtering, grouping, merge, pivot
-- JSON parsing and metadata handling
-- Regex for data cleaning
-- File formats (CSV, JSON, Parquet)
+- Pandas: loading data, filtering, grouping, merge, transformations
+- JSON parsing from DataFrame columns
+- Regex for data cleaning and PII removal
+- Text normalization pipelines
 
 ### Documentation:
 - [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)
@@ -69,25 +69,22 @@ module_name/
 - [Real Python - Pandas Tutorial](https://realpython.com/pandas-python-explore-dataset/)
 
 ### Learning Notebooks:
-1. `pandas_essentials.ipynb` - core operations
-2. `data_cleaning.ipynb` - regex, text processing
-3. `json_metadata.ipynb` - parsing complex structures
+1. `01_pandas_essentials.ipynb` - loading CSV/JSON, filtering (boolean, query, isin), JSON column parsing, apply/transform, groupby/agg, merge/map
+2. `02_regex_data_cleaning.ipynb` - regex basics, phone/email/URL patterns, PII removal, text normalization, cleaning pipelines
 
 ### Livecoding Tasks:
-- Filter tickets by metadata status (see examples in tasks/)
-- Data cleaning: phone numbers, emails, PII removal (critical for fintech!)
-- Data aggregation by categories
+- `task_01_ticket_processing.ipynb` - Complete pipeline: extract status from JSON metadata, filter resolved tickets, remove PII (phones, emails), remove category prefix, aggregate by category
 
 ---
 
 ## Module 2: Text Embeddings & Semantic Search
-> Core for GenAI and AI Research positions
+> Foundation for semantic search, RAG, and similarity-based applications
 
 ### Topics:
-- Sentence Transformers: architecture, models (gte-base, all-MiniLM, etc.)
-- Embeddings: what they are, dimensionality, normalization
+- Sentence Transformers: loading models, encoding text
+- Embeddings: dense vectors, dimensionality, normalization
 - Similarity metrics: cosine similarity, dot product, euclidean distance
-- When to use which metric and why
+- Semantic search implementation
 
 ### Documentation:
 - [Sentence Transformers Docs](https://www.sbert.net/)
@@ -97,14 +94,12 @@ module_name/
 - [Understanding Embeddings - OpenAI](https://platform.openai.com/docs/guides/embeddings)
 
 ### Learning Notebooks:
-1. `embeddings_intro.ipynb` - what are embeddings, visualization
-2. `sentence_transformers.ipynb` - using the library
-3. `similarity_metrics.ipynb` - comparing metrics, normalization effects
+1. `01_embeddings_intro.ipynb` - what are embeddings, SentenceTransformer usage, encoding single/batch, cosine similarity, semantic search function
+2. `02_similarity_metrics.ipynb` - cosine vs dot product vs euclidean, normalization effects, when to use which metric, performance comparison
+3. `03_clustering_embeddings.ipynb` - K-Means clustering, Elbow/Silhouette for choosing K, hierarchical clustering with dendrograms, DBSCAN for outliers, t-SNE visualization, cluster quality metrics (ARI, NMI)
 
 ### Livecoding Tasks:
-- Find similar documents (see examples in tasks/)
-- Text deduplication using similarity threshold
-- Ticket clustering using embeddings
+- `task_01_semantic_search.ipynb` - create normalized embeddings, implement search function with top-k, find near-duplicate documents by threshold, cluster documents with KMeans
 
 ---
 
@@ -178,7 +173,7 @@ module_name/
 ---
 
 ## Module 5: RAG (Retrieval-Augmented Generation)
-> Key skill for GenAI Platform position
+> Combining retrieval with generation for knowledge-grounded responses
 
 ### Topics:
 - RAG architecture: retrieval + generation
@@ -234,7 +229,7 @@ module_name/
 ---
 
 ## Module 7: Fine-tuning
-> For AI Research position
+> Adapting models to specific domains for better performance
 
 ### Topics:
 - Sentence Transformers fine-tuning
@@ -289,7 +284,7 @@ module_name/
 ---
 
 ## Module 9: MLOps Basics
-> For DevOps and Platform positions
+> Experiment tracking, model versioning, and deployment infrastructure
 
 ### Topics:
 - MLflow: tracking experiments, model registry
@@ -316,7 +311,7 @@ module_name/
 ---
 
 ## Module 10: Document Automation
-> For Intelligent Automation position
+> Processing PDFs, extracting information, and document classification
 
 ### Topics:
 - Document parsing: PDF, DOCX
@@ -811,7 +806,7 @@ def download_all():
 ---
 
 ## Module 15: Prompt Engineering
-> Critical for GenAI positions
+> Maximizing LLM output quality through effective prompting techniques
 
 ### Topics:
 - Prompt patterns: few-shot, chain-of-thought, role-based
