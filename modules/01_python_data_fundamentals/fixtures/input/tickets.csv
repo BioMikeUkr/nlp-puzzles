@@ -1,0 +1,17 @@
+id,category,description,resolution_note,metadata
+c246cd74-98cd-4e01-a57f-3f46eedcd129,Software Installation,How do I install Adobe Photoshop on my new laptop? Contact: +370 1234567,To install Adobe Photoshop visit adobe.com and download the installer.,"[{""source"": ""email""}, {""language"": ""EN""}, {""status"": ""resolved""}]"
+45eacbab-ef56-493a-9feb-00acb471fada,Software Installation,"Category:
+    Software Installation
+    I am facing issues while trying to install Adobe Photoshop on my Windows 10 PC. 81106258 emily.davis@company.com",Clear your temp folder and retry the installation.,"[{""source"": ""chat""}, {""language"": ""EN""}, {""status"": ""resolved""}]"
+0975a5c7-e5da-450e-b321-2f8eaa56f46c,Software Installation,I need help installing the latest version of Adobe Photoshop on my computer. john.smith@company.com,Download from adobe.com and run as administrator.,"[{""source"": ""email""}, {""language"": ""EN""}, {""status"": ""resolved""}]"
+b7d2f776-d14e-4b17-a932-4bf5f776d14e,Network Issues,Why is my Wi-Fi connection dropping frequently? +370 9876543,Check router firmware and restart the device.,"[{""source"": ""phone""}, {""language"": ""EN""}, {""status"": ""resolved""}]"
+d0614887-4932-4bf5-b7d2-f776d14eb17c,Software Installation,What are the steps to install the latest version of Adobe Photoshop?,Visit adobe.com download Creative Cloud and install Photoshop from there.,"[{""source"": ""email""}, {""language"": ""EN""}, {""status"": ""resolved""}]"
+55932bc5-257a-474d-adb4-c8df22e182f8,Software Installation,How can I install the latest version of Adobe Photoshop on my computer?,Use Creative Cloud installer from adobe.com.,"[{""source"": ""chat""}, {""language"": ""EN""}, {""status"": ""resolved""}]"
+db46453d-0179-4e64-81e6-cc7b5b65474a,Software Installation,How do I install the latest version of Adobe Photoshop on my computer?,Download Creative Cloud from adobe.com.,"[{""source"": ""email""}, {""language"": ""EN""}, {""status"": ""resolved""}]"
+a1b2c3d4-5678-90ab-cdef-1234567890ab,Network Issues,I cannot connect to VPN from home. Contact me at 87654321,Check your VPN client version and firewall settings.,"[{""source"": ""email""}, {""language"": ""EN""}, {""status"": ""pending""}]"
+f9e8d7c6-b5a4-3210-fedc-ba0987654321,Hardware,My laptop screen is flickering constantly. anna.kowalski@company.com,Update graphics drivers or check display cable.,"[{""source"": ""chat""}, {""language"": ""EN""}, {""status"": ""resolved""}]"
+11223344-5566-7788-99aa-bbccddeeff00,Software Installation,"Category:
+    Software Installation
+    Unable to install Microsoft Office. Error code 0x0005. mike.johnson@company.com 81234567",Run the installation as administrator.,"[{""source"": ""email""}, {""language"": ""EN""}, {""status"": ""resolved""}]"
+aabbccdd-eeff-0011-2233-445566778899,Network Issues,WiFi keeps disconnecting every few minutes. Please call +370 5551234,Replace the wireless adapter or update drivers.,"[{""source"": ""phone""}, {""language"": ""EN""}, {""status"": ""resolved""}]"
+99887766-5544-3322-1100-ffeeddccbbaa,Email,Cannot sync email on mobile device. sarah.miller@company.com,Remove and re-add the email account in settings.,"[{""source"": ""chat""}, {""language"": ""EN""}, {""status"": ""pending""}]"
