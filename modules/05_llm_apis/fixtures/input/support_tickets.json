@@ -1,0 +1,72 @@
+[
+  {
+    "ticket_id": "T001",
+    "subject": "Cannot login to my account",
+    "body": "I've been trying to reset my password for the past hour but the reset email never arrives. I've checked my spam folder. This is blocking my work, I need access urgently.",
+    "expected_category": "account",
+    "expected_priority": "high"
+  },
+  {
+    "ticket_id": "T002",
+    "subject": "Payment failed",
+    "body": "My credit card was declined when trying to upgrade my subscription. The card is valid and has sufficient funds. Error code: PAYMENT_002",
+    "expected_category": "billing",
+    "expected_priority": "high"
+  },
+  {
+    "ticket_id": "T003",
+    "subject": "Feature request: Dark mode",
+    "body": "It would be great if the app had a dark mode option for nighttime use. Not urgent, but would improve UX.",
+    "expected_category": "feature_request",
+    "expected_priority": "low"
+  },
+  {
+    "ticket_id": "T004",
+    "subject": "App crashes on startup",
+    "body": "The mobile app crashes immediately when I try to open it. This started after the latest update. iPhone 14, iOS 17.2. Completely unable to use the app.",
+    "expected_category": "bug_report",
+    "expected_priority": "urgent"
+  },
+  {
+    "ticket_id": "T005",
+    "subject": "How do I export my data?",
+    "body": "I'd like to export all my data to CSV format. Can you guide me through the process or point me to documentation?",
+    "expected_category": "general",
+    "expected_priority": "low"
+  },
+  {
+    "ticket_id": "T006",
+    "subject": "Slow dashboard loading",
+    "body": "The analytics dashboard takes 30+ seconds to load. It used to be instant. This is affecting my daily workflow but I can still access data through API.",
+    "expected_category": "technical",
+    "expected_priority": "medium"
+  },
+  {
+    "ticket_id": "T007",
+    "subject": "Security concern - data breach?",
+    "body": "I received an email claiming to be from your company asking for my password. Is this legitimate? I'm worried my account may have been compromised.",
+    "expected_category": "account",
+    "expected_priority": "urgent"
+  },
+  {
+    "ticket_id": "T008",
+    "subject": "Invoice missing from last month",
+    "body": "I was charged last month but didn't receive an invoice. I need it for accounting purposes. Account ID: ACC-12345",
+    "expected_category": "billing",
+    "expected_priority": "medium"
+  },
+  {
+    "ticket_id": "T009",
+    "subject": "Integration with Slack not working",
+    "body": "Set up the Slack integration yesterday but notifications aren't coming through. Checked permissions, everything looks correct. No error messages.",
+    "expected_category": "technical",
+    "expected_priority": "medium"
+  },
+  {
+    "ticket_id": "T010",
+    "subject": "Loving the new features!",
+    "body": "Just wanted to say the recent updates are fantastic. The new UI is much cleaner and the performance improvements are noticeable. Keep up the great work!",
+    "expected_category": "general",
+    "expected_priority": "low"
+  }
+]
