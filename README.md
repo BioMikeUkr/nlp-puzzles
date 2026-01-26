@@ -8,13 +8,6 @@ nlp-puzzles/
 ├── README.md                      # Project overview
 ├── curriculum_plan.md             # This file
 │
-├── system_design_problems/        # 50 complex end-to-end problems
-│   ├── README.md                  # Index of all problems
-│   ├── 01_ticket_search_system.md
-│   ├── 02_document_processing_pipeline.md
-│   ├── 03_realtime_classification.md
-│   └── ...                        # Each with diagrams, data flow, tech choices
-│
 ├── datasets/                      # Shared datasets (real or from HuggingFace)
 │   ├── README.md                  # Dataset descriptions and sources
 │   ├── download_datasets.py       # Script to download from HF
@@ -50,6 +43,145 @@ module_name/
     ├── task_01_solution.ipynb
     └── task_02_solution.ipynb
 ```
+
+---
+
+## Topics Summary
+
+### Module Overview
+
+| Module | Focus Area | Key Technologies | Priority |
+|--------|------------|------------------|----------|
+| 1 | Python & Data | Pandas, Regex, JSON parsing | 🔴 Critical |
+| 2 | Embeddings & Search | sentence-transformers, similarity metrics | 🔴 Critical |
+| 3 | Vector Databases | FAISS, ChromaDB, Pinecone | 🟡 Important |
+| 4 | Cross-Encoders & NLI | Reranking, zero-shot classification | 🟡 Important |
+| 5 | LLM APIs | OpenAI, Anthropic, Pydantic, structured outputs | 🔴 Critical |
+| 6 | RAG | Retrieval-augmented generation, chunking | 🔴 Critical |
+| 7 | Fine-tuning | SBERT, loss functions, dataset preparation | 🟡 Important |
+| 8 | ML Metrics | Precision, Recall, F1, evaluation | 🔴 Critical |
+| 9 | MLOps | MLflow, Docker, experiment tracking | 🟡 Important |
+| 10 | Document Automation | PDF parsing, OCR, extraction | 🟢 Useful |
+| 11 | Data Formats & SQL | Parquet, SQL, database design | 🟡 Important |
+| 12 | FastAPI | API development, async, validation | 🟡 Important |
+| 13 | Testing & Quality | pytest, type hints, code quality | 🟡 Important |
+| 14 | Spark | Big data processing with PySpark | 🟢 Useful |
+| 15 | Prompt Engineering | Patterns, optimization, security | 🔴 Critical |
+| 16 | LangChain | Orchestration, agents, tools | 🟢 Useful |
+
+### Skills by Category
+
+**Foundation (Must-Know):**
+- Data manipulation with pandas (Module 1)
+- Text embeddings and semantic similarity (Module 2)
+- LLM API usage with structured outputs (Module 5)
+- RAG implementation (Module 6)
+- ML evaluation metrics (Module 8)
+- Prompt engineering patterns (Module 15)
+
+**Production Engineering:**
+- Vector databases for scale (Module 3)
+- Reranking with cross-encoders (Module 4)
+- API development with FastAPI (Module 12)
+- MLOps and experiment tracking (Module 9)
+- Testing and code quality (Module 13)
+
+**Advanced/Specialized:**
+- Model fine-tuning (Module 7)
+- Document automation (Module 10)
+- Data formats and SQL optimization (Module 11)
+- Big data with Spark (Module 14)
+- LLM orchestration frameworks (Module 16)
+
+### Learning Path Recommendations
+
+**Path 1: NLP/ML Engineering Focus** (6-8 weeks)
+```
+Modules 1 → 2 → 5 → 6 → 3 → 8 → 15 → 12
+```
+
+**Path 2: Full-Stack ML Engineer** (10-12 weeks)
+```
+Modules 1 → 2 → 5 → 6 → 3 → 4 → 7 → 8 → 9 → 12 → 13
+```
+
+**Path 3: Interview Prep Sprint** (3-4 weeks)
+```
+Modules 1 → 2 → 5 → 8 → 15
+```
+
+---
+
+## How to Use This Curriculum
+
+### Study Workflow for Each Module
+
+```
+1. Read README.md
+   ├─ Understand theory and key concepts
+   ├─ Review documentation links
+   └─ Read through 30 Q&A pairs
+
+2. Experiment in Learning Notebooks
+   ├─ Open learning/*.ipynb files
+   ├─ Run code cells and observe outputs
+   ├─ Modify parameters and experiment
+   └─ Try variations to build intuition
+
+3. Solve Livecoding Tasks
+   ├─ Open tasks/*.ipynb files
+   ├─ Read problem description
+   ├─ Implement solution in empty cells
+   ├─ Run assert statements to validate
+   └─ Debug until all tests pass
+
+4. Check Solutions (if stuck)
+   ├─ Review solutions/*.ipynb
+   ├─ Understand the approach
+   ├─ Try to implement again from scratch
+   └─ Compare your solution with provided one
+```
+
+### Time Estimates per Module
+
+| Activity | Time Required |
+|----------|---------------|
+| README.md + Q&A | 1-2 hours |
+| Learning notebooks | 2-3 hours |
+| Livecoding tasks | 2-4 hours |
+| **Total per module** | **5-9 hours** |
+
+### Best Practices
+
+**Do:**
+- ✅ Type code manually, don't copy-paste
+- ✅ Experiment with parameters in learning notebooks
+- ✅ Read error messages carefully
+- ✅ Try to solve tasks before looking at solutions
+- ✅ Re-implement solutions from scratch after understanding them
+
+**Don't:**
+- ❌ Skip the Q&A section in README
+- ❌ Rush through learning notebooks without experimenting
+- ❌ Look at solutions immediately when stuck
+- ❌ Skip testing your code with assert statements
+- ❌ Ignore documentation links
+
+### When You Get Stuck
+
+1. **Re-read the theory** - Often the answer is in the module README
+2. **Check documentation** - Official docs have examples
+3. **Review learning notebooks** - Similar patterns might be there
+4. **Debug systematically** - Use print statements, check shapes, types
+5. **Look at solution** - But then close it and re-implement yourself
+
+### Progress Tracking
+
+Track your progress with this simple system:
+- 📖 **Reading** - Currently studying theory
+- 🧪 **Experimenting** - Working through learning notebooks
+- 💻 **Coding** - Solving livecoding tasks
+- ✅ **Completed** - Finished all tasks with passing tests
 
 ---
 
@@ -103,31 +235,31 @@ module_name/
 
 ---
 
-## Module 3: Vector Databases
-> Practical skill for production systems
+## Module 3: FAISS for Vector Search
+> Production-ready vector search with Facebook AI Similarity Search
 
 ### Topics:
-- Why vector DBs vs simple numpy arrays
-- Main solutions: FAISS, ChromaDB, Pinecone, Weaviate
-- Index types: Flat, IVF, HNSW
-- Filtering and metadata in vector search
+- Why FAISS vs simple numpy arrays
+- Index types: Flat (exact), IVF (fast), HNSW (balanced)
+- Building and saving indexes
+- Batch search and filtering
+- Performance optimization
 
 ### Documentation:
 - [FAISS Wiki](https://github.com/facebookresearch/faiss/wiki)
-- [ChromaDB Docs](https://docs.trychroma.com/)
-- [Pinecone Docs](https://docs.pinecone.io/)
-- [Weaviate Docs](https://weaviate.io/developers/weaviate)
+- [FAISS Tutorial](https://github.com/facebookresearch/faiss/wiki/Getting-started)
+- [FAISS Index Types](https://github.com/facebookresearch/faiss/wiki/Faiss-indexes)
 - [HNSW Algorithm Paper](https://arxiv.org/abs/1603.09320)
 
 ### Learning Notebooks:
-1. `faiss_basics.ipynb` - local vector search
-2. `chromadb_intro.ipynb` - with persistence and metadata
-3. `scaling_search.ipynb` - indexes and performance
+1. `01_faiss_basics.ipynb` - IndexFlatIP, IndexFlatL2, basic search
+2. `02_faiss_indexes.ipynb` - IVF, HNSW, index selection
+3. `03_faiss_optimization.ipynb` - batch search, memory optimization, GPU acceleration
 
 ### Livecoding Tasks:
-- Build a search system for ticket database
-- Add filtering by category/status
-- Hybrid search: keyword + semantic
+- Build FAISS index for ticket database
+- Compare Flat vs IVF vs HNSW performance
+- Implement search with metadata filtering
 
 ---
 
@@ -172,34 +304,7 @@ module_name/
 
 ---
 
-## Module 5: RAG (Retrieval-Augmented Generation)
-> Combining retrieval with generation for knowledge-grounded responses
-
-### Topics:
-- RAG architecture: retrieval + generation
-- Chunking strategies
-- Prompt engineering for RAG
-- Evaluation metrics: faithfulness, relevance, groundedness
-
-### Documentation:
-- [LangChain RAG Tutorial](https://python.langchain.com/docs/tutorials/rag/)
-- [LlamaIndex RAG Guide](https://docs.llamaindex.ai/en/stable/understanding/rag/)
-- [Chunking Strategies](https://www.pinecone.io/learn/chunking-strategies/)
-- [RAGAS Evaluation](https://docs.ragas.io/)
-- [RAG Paper](https://arxiv.org/abs/2005.11401)
-
-### Learning Notebooks:
-1. `rag_basics.ipynb` - simple RAG pipeline
-2. `chunking_strategies.ipynb` - how to split documents
-3. `rag_evaluation.ipynb` - quality metrics
-
-### Livecoding Tasks:
-- RAG system for documentation Q&A
-- Q&A bot over ticket database (find solution + generate answer)
-
----
-
-## Module 6: LLM APIs & Application Development
+## Module 5: LLM APIs & Application Development
 > Working with OpenAI/Anthropic APIs
 
 ### Topics:
@@ -207,6 +312,7 @@ module_name/
 - Structured outputs with Pydantic
 - Error handling, rate limits, retries
 - Cost optimization strategies
+- Streaming responses
 
 ### Documentation:
 - [OpenAI API Reference](https://platform.openai.com/docs/api-reference)
@@ -225,6 +331,41 @@ module_name/
 - Ticket classification using LLM
 - Extraction pipeline: extract structured data from text
 - Automatic resolution summarization
+
+---
+
+## Module 6: RAG (Retrieval-Augmented Generation)
+> Combining vector search with LLMs for knowledge-grounded responses
+
+### Topics:
+- RAG architecture: retrieval + generation
+- Building embeddings with sentence-transformers
+- Vector database integration with FAISS
+- Chunking strategies for documents
+- Prompt engineering for RAG
+- Context selection and relevance filtering
+- Evaluation metrics: faithfulness, relevance, groundedness
+- Citation and source tracking
+
+### Documentation:
+- [RAG Paper](https://arxiv.org/abs/2005.11401)
+- [Sentence Transformers for RAG](https://www.sbert.net/)
+- [LangChain RAG Tutorial](https://python.langchain.com/docs/tutorials/rag/)
+- [LlamaIndex RAG Guide](https://docs.llamaindex.ai/en/stable/understanding/rag/)
+- [Chunking Strategies](https://www.pinecone.io/learn/chunking-strategies/)
+- [RAGAS Evaluation](https://docs.ragas.io/)
+
+### Learning Notebooks:
+1. `01_rag_basics.ipynb` - RAG pipeline: embeddings (sentence-transformers) + FAISS + LLM
+2. `02_chunking_strategies.ipynb` - fixed-size, semantic, recursive chunking
+3. `03_rag_with_sources.ipynb` - citation tracking and source references
+4. `04_rag_evaluation.ipynb` - quality metrics and testing
+
+### Livecoding Tasks:
+- Build end-to-end RAG system: sentence-transformers → FAISS → OpenAI
+- Implement chunking pipeline with overlap
+- Add source citation to generated answers
+- Q&A bot over ticket database with context retrieval
 
 ---
 
@@ -335,338 +476,6 @@ module_name/
 ### Livecoding Tasks:
 - Classify financial documents
 - Extract key fields from document
-
----
-
-## Fintech-specific Topics (integrate into modules above)
-
-- PII detection and removal (Module 1)
-- Compliance and audit trails (Module 9)
-- Financial document types (Module 10)
-- Risk assessment classification (Module 8)
-
----
-
-## Recommended Learning Order
-
-```
-Week 1-2:   Module 1  (Python/Data) + Module 11 (Data Formats & SQL)
-Week 3-4:   Module 2  (Embeddings) + Module 3 (Vector DB) + Module 8 (ML Metrics)
-Week 5-6:   Module 4  (Cross-encoders) + Module 5 (RAG)
-Week 7-8:   Module 6  (LLM APIs) + Module 15 (Prompt Engineering)
-Week 9-10:  Module 7  (Fine-tuning) + Module 16 (LangChain)
-Week 11-12: Module 9  (MLOps) + Module 14 (Spark)
-Week 13-14: Module 10 (Document Automation) + Module 12 (FastAPI)
-Week 15-16: Module 13 (Testing) + System Design Problems (50 scenarios)
-```
-
-### Daily Practice:
-- Morning: 1-2 learning notebooks
-- Afternoon: 1 livecoding task
-- Evening: 2-3 deep Q&A from README (explain out loud)
-
----
-
-## README.md Template for Each Module (with 30 Deep Q&A)
-
-```markdown
-# Module Name
-
-## Why This Matters
-Practical applications in Fintech/fintech context
-
-## Key Concepts
-- Concept 1: explanation
-- Concept 2: explanation
-
-## Documentation & Resources
-
-### Official Docs:
-- [Library Name - Official Docs](https://...)
-- [API Reference](https://...)
-
-### Tutorials & Articles:
-- [Tutorial 1](https://...)
-- [Deep Dive Article](https://...)
-
-### Papers (optional):
-- [Original Paper](https://arxiv.org/...)
-
-## Self-Assessment Checklist
-- [ ] I understand X
-- [ ] I can explain Y
-- [ ] I can implement Z from scratch
-
----
-
-## Deep Dive Q&A (30 Questions)
-
-### Architecture & Design (10 questions)
-
-#### Q1: You need to build a semantic search system for 10M documents. How would you approach this?
-
-**Answer:**
-1. **Architecture Overview:**
-   - Use bi-encoder (Sentence Transformers) for embedding generation
-   - Store embeddings in vector database (FAISS/Milvus for scale)
-   - Implement two-stage retrieval: fast ANN search + cross-encoder reranking
-
-2. **Technology Stack:**
-   - Embedding model: `sentence-transformers/all-MiniLM-L6-v2` (fast) or `gte-base` (quality)
-   - Vector DB: FAISS with IVF index for 10M scale
-   - Reranker: `cross-encoder/ms-marco-MiniLM-L-6-v2`
-
-3. **Data Flow:**
-   ```
-   Query → Embed → FAISS (top 100) → Cross-encoder rerank → Top 10
-   ```
-
-4. **Considerations:**
-   - Index update strategy (batch vs real-time)
-   - Caching frequent queries
-   - Fallback to keyword search
-
-#### Q2: [Next question...]
-
-### Implementation & Coding (10 questions)
-
-#### Q11: How would you implement efficient batch processing for embeddings?
-
-**Answer:**
-...
-
-### Debugging & Troubleshooting (5 questions)
-
-#### Q21: Your semantic search returns irrelevant results. How do you debug?
-
-**Answer:**
-...
-
-### Trade-offs & Decisions (5 questions)
-
-#### Q26: When would you choose cross-encoder over bi-encoder?
-
-**Answer:**
-...
-```
-
----
-
-## System Design Problems (50 End-to-End Scenarios)
-
-Located in `system_design_problems/` directory. Each problem is a separate markdown file with:
-
-### Problem File Template:
-```markdown
-# Problem 01: Intelligent Ticket Routing System
-
-## Problem Statement
-Design a system that automatically routes incoming support tickets to the
-appropriate team based on content, urgency, and historical resolution data.
-
-## Requirements
-- Handle 10,000 tickets/day
-- Route within 5 seconds
-- 95% routing accuracy
-- Support for 15 categories
-
-## Questions to Answer
-1. What is your high-level architecture?
-2. Which ML models would you use?
-3. How do you handle edge cases?
-4. How do you measure success?
-5. How do you handle model updates?
-
----
-
-## Solution
-
-### Architecture Diagram
-```
-┌─────────────┐     ┌──────────────┐     ┌─────────────┐
-│   Ticket    │────▶│   API        │────▶│  Classifier │
-│   Input     │     │   Gateway    │     │   Service   │
-└─────────────┘     └──────────────┘     └──────┬──────┘
-                                                │
-                    ┌──────────────┐            │
-                    │   Vector DB  │◀───────────┤
-                    │   (similar   │            │
-                    │   tickets)   │            ▼
-                    └──────────────┘     ┌─────────────┐
-                                         │   Routing   │
-                                         │   Engine    │
-                                         └─────────────┘
-```
-
-### Data Flow
-1. Ticket received via API
-2. Text preprocessing and embedding generation
-3. Classification + similar ticket lookup
-4. Confidence-based routing or human escalation
-5. Feedback loop for model improvement
-
-### Technology Choices
-| Component | Technology | Why |
-|-----------|------------|-----|
-| Embeddings | gte-base | Good quality for support domain |
-| Vector DB | FAISS | Scale, cost, self-hosted |
-| Classifier | Fine-tuned BERT | 15 classes, need accuracy |
-| API | FastAPI | Async, fast, Pydantic |
-| Queue | Redis | Simple, fast routing |
-
-### Trade-offs Discussed
-- Real-time vs batch classification
-- Accuracy vs latency
-- Custom model vs LLM API
-
-### Metrics & Monitoring
-- Routing accuracy (weekly review)
-- P95 latency
-- Escalation rate
-- Team satisfaction score
-```
-
-### 50 Problem Categories:
-
-**Search & Retrieval (10):**
-1. Ticket search system (semantic)
-2. Document similarity detection
-3. Duplicate detection pipeline
-4. Multi-language search
-5. Hybrid search (keyword + semantic)
-6. Real-time search indexing
-7. Personalized search ranking
-8. Query understanding system
-9. Auto-complete with semantics
-10. Cross-document linking
-
-**Classification & NLP (10):**
-11. Ticket routing system
-12. Sentiment analysis pipeline
-13. Intent classification
-14. Named entity extraction
-15. Topic modeling at scale
-16. Spam/fraud detection
-17. Priority classification
-18. Multi-label classification
-19. Language detection
-20. Content moderation
-
-**RAG & Generation (10):**
-21. Q&A system over documentation
-22. Automated response generation
-23. Report summarization
-24. Chat with documents
-25. Knowledge base assistant
-26. Code documentation generator
-27. Meeting notes summarizer
-28. Email response suggester
-29. Compliance checker
-30. Contract analysis
-
-**Data Pipelines (10):**
-31. Document processing pipeline
-32. Real-time data enrichment
-33. ETL for ML features
-34. Data quality monitoring
-35. Streaming analytics
-36. Batch embedding generation
-37. Data versioning system
-38. Feature store design
-39. Log analysis pipeline
-40. Anomaly detection stream
-
-**MLOps & Infrastructure (10):**
-41. Model serving architecture
-42. A/B testing framework
-43. Model monitoring system
-44. Retraining pipeline
-45. Multi-model orchestration
-46. Cost optimization system
-47. Caching layer design
-48. Rate limiting for ML APIs
-49. Disaster recovery for ML
-50. Multi-region deployment
-
----
-
-## Datasets Strategy
-
-### Shared Datasets (`datasets/` directory)
-
-#### Real Datasets from HuggingFace:
-
-| Dataset | Source | Size | Use Case |
-|---------|--------|------|----------|
-| Support Tickets | `bitext/Bitext-customer-support-llm-chatbot-training-dataset` | 27K | Classification, search |
-| Financial News | `ashraq/financial-news` | 300K | Sentiment, NER |
-| SEC Filings | `JanosAudworx/SEC-10K-Filings` | 10K | Document processing |
-| Stack Overflow | `koutch/stackoverflow_python` | 2M | Q&A, search |
-| Banking77 | `PolyAI/banking77` | 13K | Intent classification |
-| Contracts | `lexlms/legal-contracts-nli` | 10K | Document automation |
-| Emails | `aeslc` | 18K | Summarization |
-| ArXiv Papers | `ccdv/arxiv-summarization` | 200K | RAG, summarization |
-
-#### download_datasets.py:
-```python
-from datasets import load_dataset
-import os
-
-DATASETS = {
-    "tickets": ("bitext/Bitext-customer-support-llm-chatbot-training-dataset", None),
-    "banking": ("PolyAI/banking77", None),
-    "financial_news": ("ashraq/financial-news", "train[:50000]"),
-    # ... more datasets
-}
-
-def download_all():
-    for name, (path, split) in DATASETS.items():
-        ds = load_dataset(path, split=split)
-        ds.to_parquet(f"datasets/{name}/data.parquet")
-        ds.to_json(f"datasets/{name}/data.jsonl")
-        # Also save as CSV for SQL loading
-        ds.to_csv(f"datasets/{name}/data.csv")
-```
-
-#### Pre-computed Resources:
-- Embeddings for all datasets (`.npy` files)
-- FAISS indexes (ready to load)
-- SQL dumps (PostgreSQL, SQLite)
-- Sample subsets for quick testing
-
-#### Fixture Sizes:
-| Type | Size | Purpose |
-|------|------|---------|
-| Tiny | 100 rows | Unit tests, quick iteration |
-| Small | 1K rows | Learning notebooks |
-| Medium | 10K rows | Livecoding tasks |
-| Full | 100K+ rows | Performance testing, real scenarios |
-
----
-
-## Livecoding Task Format
-
-### Task Notebooks (`tasks/`)
-1. Markdown cell with task description and requirements
-2. Setup code (data loading) - provided
-3. Empty cells for solution - student fills in
-4. Assert statements for validation - tests correctness
-5. Hints in markdown cells (optional)
-
-### Solution Notebooks (`solutions/`)
-1. Same structure as task notebooks
-2. All cells filled with working solutions
-3. Explanations of approach and key decisions
-4. Common pitfalls section at the end
-5. Named `task_XX_solution.ipynb`
-
-### Workflow:
-1. Student attempts `tasks/task_01.ipynb`
-2. Runs assert cells to check correctness
-3. If stuck, checks `solutions/task_01_solution.ipynb`
-4. Reviews solution approach even if passed
-
----
 
 ---
 
@@ -863,7 +672,6 @@ def download_all():
 ## Additional Suggestions
 
 ### Soft Skills / Practice Prep:
-- System design for ML systems (how would you design X?)
 - Explaining technical concepts simply
 - Trade-off discussions (accuracy vs latency, cost vs quality)
 - Debugging approach walkthrough
@@ -883,67 +691,6 @@ def download_all():
 
 ### Question Types for Practice:
 1. **Coding**: Implement X algorithm/pipeline
-2. **System Design**: Design a ticket search system
-3. **ML Theory**: Explain precision vs recall, when to use which loss
-4. **Debugging**: Here's broken code, fix it
-5. **Trade-offs**: Compare approaches A vs B
-
----
-
-## Fixtures Strategy
-
-Each module should have relevant data formats:
-
-| Module | Suggested Fixtures |
-|--------|-------------------|
-| Python/Data | CSV, JSON, Parquet, nested JSON with metadata |
-| Embeddings | Pre-computed embeddings (.npy), text corpus |
-| Vector DB | Sample vector index, metadata JSON |
-| RAG | PDF documents, chunked text, Q&A pairs |
-| LLM APIs | Request/response examples, error cases |
-| Fine-tuning | Training pairs, triplets, evaluation set |
-| ML Metrics | Predictions CSV, ground truth labels |
-| MLOps | MLflow artifacts, model files |
-| Document Automation | Sample PDFs, DOCX, scanned images |
-| Spark | Large CSV, Parquet partitioned data |
-
-### Fixture Naming Convention:
-```
-fixtures/
-├── input/           # Raw input data
-├── expected/        # Expected outputs for validation
-├── edge_cases/      # Tricky examples
-└── large/           # Performance testing (gitignored)
-```
-
----
-
-## Topics Summary
-
-### Extended Topics:
-- Vector databases (critical for production)
-- RAG evaluation metrics
-- Pydantic for structured outputs
-- Document automation
-- PII handling (compliance)
-- Cloud concepts (AWS)
-- Two-stage retrieval (retrieve + rerank)
-- API development (FastAPI)
-- Testing & code quality
-- Spark for big data
-
-### Core Topics:
-- ✅ Sentence transformers fine-tuning
-- ✅ Vector db for search
-- ✅ Cosine similarity, normalization, dot product
-- ✅ Cross encoders
-- ✅ LLM fine-tuning (included in Module 7)
-- ✅ Dataset preparation
-- ✅ Regex
-- ✅ RAG
-- ✅ Different losses
-- ✅ Metrics (F1, precision, recall)
-- ✅ OpenAI API + Pydantic
-- ✅ Custom models pipelines
-- ✅ Data analysis
-- ✅ MLflow setup
+2. **ML Theory**: Explain precision vs recall, when to use which loss
+3. **Debugging**: Here's broken code, fix it
+4. **Trade-offs**: Compare approaches A vs B
