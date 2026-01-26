@@ -93,23 +93,6 @@ module_name/
 - Big data with Spark (Module 14)
 - LLM orchestration frameworks (Module 16)
 
-### Learning Path Recommendations
-
-**Path 1: NLP/ML Engineering Focus** (6-8 weeks)
-```
-Modules 1 → 2 → 5 → 6 → 3 → 8 → 15 → 12
-```
-
-**Path 2: Full-Stack ML Engineer** (10-12 weeks)
-```
-Modules 1 → 2 → 5 → 6 → 3 → 4 → 7 → 8 → 9 → 12 → 13
-```
-
-**Path 3: Interview Prep Sprint** (3-4 weeks)
-```
-Modules 1 → 2 → 5 → 8 → 15
-```
-
 ---
 
 ## How to Use This Curriculum

@@ -1,0 +1,8 @@
+# FAISS for Vector Search
+faiss-cpu>=1.8.0
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+pandas>=2.0.0
+jupyter>=1.0.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
