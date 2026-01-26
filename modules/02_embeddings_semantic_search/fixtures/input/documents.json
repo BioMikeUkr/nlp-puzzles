@@ -1,0 +1,102 @@
+[
+  {
+    "id": "doc_001",
+    "category": "Software Installation",
+    "text": "How do I install Python on Windows? I need to set up Python for development."
+  },
+  {
+    "id": "doc_002",
+    "category": "Software Installation",
+    "text": "How can I install Python on Windows? I want to set up Python for development."
+  },
+  {
+    "id": "doc_003",
+    "category": "Software Installation",
+    "text": "Setting up Python development environment on Mac OS."
+  },
+  {
+    "id": "doc_004",
+    "category": "Network Issues",
+    "text": "My WiFi connection keeps dropping. How can I fix intermittent wireless issues?"
+  },
+  {
+    "id": "doc_005",
+    "category": "Network Issues",
+    "text": "My WiFi connection keeps disconnecting. How do I fix intermittent wireless problems?"
+  },
+  {
+    "id": "doc_006",
+    "category": "Network Issues",
+    "text": "VPN connection fails when working from home. Cannot establish secure tunnel."
+  },
+  {
+    "id": "doc_007",
+    "category": "Hardware",
+    "text": "Laptop screen is flickering. Display issues with monitor brightness."
+  },
+  {
+    "id": "doc_008",
+    "category": "Hardware",
+    "text": "My computer keyboard stopped working after spilling water on it."
+  },
+  {
+    "id": "doc_009",
+    "category": "Email",
+    "text": "Cannot sync email on mobile device. Outlook not receiving new messages."
+  },
+  {
+    "id": "doc_010",
+    "category": "Email",
+    "text": "How to configure email client for corporate account?"
+  },
+  {
+    "id": "doc_011",
+    "category": "Software Installation",
+    "text": "Adobe Photoshop installation fails with error code. Creative Cloud not working."
+  },
+  {
+    "id": "doc_012",
+    "category": "Software Installation",
+    "text": "How to install Microsoft Office 365 on a new computer?"
+  },
+  {
+    "id": "doc_013",
+    "category": "Database",
+    "text": "PostgreSQL database connection timeout. Cannot connect to the server."
+  },
+  {
+    "id": "doc_014",
+    "category": "Database",
+    "text": "How to optimize slow SQL queries in MySQL database?"
+  },
+  {
+    "id": "doc_015",
+    "category": "Security",
+    "text": "Password reset not working. Two-factor authentication issues."
+  },
+  {
+    "id": "doc_016",
+    "category": "Security",
+    "text": "Suspicious login attempt detected on my account. What should I do?"
+  },
+  {
+    "id": "doc_017",
+    "category": "Software Installation",
+    "text": "Installing Python packages with pip. How to use virtual environments?"
+  },
+  {
+    "id": "doc_018",
+    "category": "Network Issues",
+    "text": "Slow internet connection speed. Network bandwidth issues affecting work."
+  },
+  {
+    "id": "doc_019",
+    "category": "Hardware",
+    "text": "Printer not connecting to WiFi network. Cannot print wirelessly."
+  },
+  {
+    "id": "doc_020",
+    "category": "General",
+    "text": "How to schedule a meeting in Microsoft Teams?"
+  }
+]

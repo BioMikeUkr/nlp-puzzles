@@ -1,6 +1,6 @@
 # Module 1: Python & Data Fundamentals
 
-> Core skills required for all ML/NLP positions
+> Foundation for all ML/NLP pipelines - data loading, cleaning, and transformation
 
 ## Why This Matters
 
