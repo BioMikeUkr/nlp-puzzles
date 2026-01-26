@@ -1,0 +1,27 @@
+{
+  "q1": {
+    "query": "How do I reset my password?",
+    "top_3_docs": ["d1", "d4", "d5"],
+    "explanation": "d1 directly answers password reset, d4 provides password requirements, d5 about account recovery"
+  },
+  "q2": {
+    "query": "payment failed credit card declined",
+    "top_3_docs": ["d9", "d6", "d7"],
+    "explanation": "d9 explains declined error, d6 provides troubleshooting, d7 mentions accepted cards"
+  },
+  "q3": {
+    "query": "slow loading performance issues",
+    "top_3_docs": ["d13", "d11", "d12"],
+    "explanation": "d13 gives optimization tips, d11 suggests cache clearing, d12 lists requirements"
+  },
+  "q4": {
+    "query": "how to export data to CSV file",
+    "top_3_docs": ["d16", "d18", "d20"],
+    "explanation": "d16 explains export process, d18 describes CSV format, d20 provides API endpoint"
+  },
+  "q5": {
+    "query": "mobile app not syncing with cloud",
+    "top_3_docs": ["d23", "d21", "d24"],
+    "explanation": "d23 provides sync troubleshooting, d21 suggests initial checks, d24 lists app features"
+  }
+}

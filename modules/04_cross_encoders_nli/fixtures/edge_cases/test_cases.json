@@ -1,0 +1,105 @@
+{
+  "reranking_edge_cases": [
+    {
+      "case": "very_short_query",
+      "query": "login",
+      "documents": [
+        "Login page: Enter username and password",
+        "Python login implementation tutorial",
+        "Security best practices for authentication"
+      ],
+      "challenge": "Single-word query - model must handle limited context"
+    },
+    {
+      "case": "query_longer_than_doc",
+      "query": "I'm having trouble logging into my account. I've tried resetting my password multiple times but the reset email never arrives. I've checked my spam folder and tried different email addresses. What should I do?",
+      "documents": [
+        "Check spam folder",
+        "Reset password",
+        "Contact support"
+      ],
+      "challenge": "Query much longer than documents - unusual reversal"
+    },
+    {
+      "case": "identical_text",
+      "query": "How to export data to CSV",
+      "documents": [
+        "How to export data to CSV",
+        "How to export data to CSV file format",
+        "CSV data export instructions"
+      ],
+      "challenge": "First doc is exact match - should rank highest"
+    },
+    {
+      "case": "semantic_vs_lexical",
+      "query": "change password",
+      "documents": [
+        "To modify your account credentials, visit settings",
+        "Change password reset update credentials modify",
+        "Python password change function implementation"
+      ],
+      "challenge": "Doc 1 has no keyword overlap but is most relevant"
+    },
+    {
+      "case": "negation",
+      "query": "how to prevent account deletion",
+      "documents": [
+        "Steps to delete your account permanently",
+        "Account retention: Cancel deletion within 30 days",
+        "Why users delete their accounts - survey results"
+      ],
+      "challenge": "Must understand 'prevent deletion' != 'deletion'"
+    }
+  ],
+  "classification_edge_cases": [
+    {
+      "case": "sarcasm",
+      "text": "Oh great, another system outage. Just what I needed today. Fantastic job!",
+      "labels": ["positive", "negative", "neutral"],
+      "expected": "negative",
+      "challenge": "Positive words but negative intent (sarcasm)"
+    },
+    {
+      "case": "mixed_sentiment",
+      "text": "The product quality is excellent but shipping took forever and customer service was rude.",
+      "labels": ["positive", "negative", "mixed"],
+      "expected": "mixed",
+      "challenge": "Both positive and negative aspects"
+    },
+    {
+      "case": "technical_jargon",
+      "text": "Seg fault in production. Core dump shows null pointer dereference in auth module.",
+      "labels": ["technical", "urgent", "bug", "feature_request"],
+      "expected": ["technical", "urgent", "bug"],
+      "challenge": "Multiple applicable labels with technical terminology"
+    },
+    {
+      "case": "ambiguous_category",
+      "text": "The system is running",
+      "labels": ["status_update", "technical", "positive", "neutral"],
+      "expected": "neutral",
+      "challenge": "Could be positive (working) or neutral (stating fact)"
+    },
+    {
+      "case": "empty_or_short",
+      "text": "OK",
+      "labels": ["positive", "negative", "neutral", "acknowledgment"],
+      "expected": "acknowledgment",
+      "challenge": "Minimal context for classification"
+    },
+    {
+      "case": "multilabel",
+      "text": "URGENT: Database backup failed overnight. Customer data may be affected. Need immediate investigation.",
+      "labels": ["urgent", "technical", "data", "backup", "customer_facing"],
+      "expected": ["urgent", "technical", "data", "backup", "customer_facing"],
+      "challenge": "Should match all 5 categories"
+    },
+    {
+      "case": "none_of_above",
+      "text": "The quick brown fox jumps over the lazy dog.",
+      "labels": ["support", "technical", "billing", "feedback"],
+      "expected": "none",
+      "challenge": "Text doesn't fit any category"
+    }
+  ]
+}
