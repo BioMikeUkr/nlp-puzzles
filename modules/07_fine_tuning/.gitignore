@@ -1,0 +1,25 @@
+# Fine-tuned models
+output/
+fine_tuned_model/
+*.pth
+*.bin
+checkpoints/
+
+# Training logs
+runs/
+tensorboard/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

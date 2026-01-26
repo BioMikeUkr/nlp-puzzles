@@ -1,0 +1,52 @@
+[
+  {
+    "query": "How do I reset my password?",
+    "positive": "To reset your password, click 'Forgot Password' on the login page",
+    "negative": "Our pricing starts at $29/month for the Starter plan"
+  },
+  {
+    "query": "What's the cost of the Professional plan?",
+    "positive": "Professional plan costs $99/month and includes 25 users",
+    "negative": "You can reset your password from the account settings"
+  },
+  {
+    "query": "Can't login to my account",
+    "positive": "If you're having login issues, try resetting your password",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "Payment failed",
+    "positive": "Check if your credit card has sufficient funds and hasn't expired",
+    "negative": "Python is a high-level programming language"
+  },
+  {
+    "query": "How many vacation days do employees get?",
+    "positive": "New employees receive 15 vacation days per year",
+    "negative": "The API uses Bearer token authentication"
+  },
+  {
+    "query": "What is supervised learning?",
+    "positive": "Supervised learning trains models on labeled data for classification and regression",
+    "negative": "Remote work policy requires minimum 2 days in office"
+  },
+  {
+    "query": "API authentication method",
+    "positive": "Use Bearer token in Authorization header for API authentication",
+    "negative": "Annual subscriptions get 20% discount"
+  },
+  {
+    "query": "Revenue in Q4 2023",
+    "positive": "Q4 2023 revenue was $2.5 million, up 35% year over year",
+    "negative": "Supervised learning uses labeled training data"
+  },
+  {
+    "query": "Remote work options",
+    "positive": "Fully remote work is available for approved roles with regular business hours",
+    "negative": "Professional plan provides 100GB storage"
+  },
+  {
+    "query": "What programming language is Python?",
+    "positive": "Python is a high-level interpreted programming language created in 1991",
+    "negative": "Primary caregiver gets 16 weeks paid parental leave"
+  }
+]

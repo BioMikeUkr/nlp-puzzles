@@ -1,0 +1,2502 @@
+[
+  {
+    "anchor": "What is database transaction?",
+    "positive": "Group of operations that execute as single unit, all succeed or all fail",
+    "negative": "SAVEPOINT creates intermediate point within transaction for partial rollback"
+  },
+  {
+    "anchor": "What is meta-learning?",
+    "positive": "Learn to learn, optimize for quick adaptation to new tasks",
+    "negative": "Rolling deployment gradually replaces old version with new one"
+  },
+  {
+    "anchor": "Difference between SQL and NoSQL?",
+    "positive": "SQL is relational with fixed schema, NoSQL is flexible with various data models",
+    "negative": "Document databases store JSON, relational uses tables with foreign keys"
+  },
+  {
+    "anchor": "How to refresh access token?",
+    "positive": "Use refresh token to obtain new access token when expired",
+    "negative": "Rotate tokens before expiration using background job"
+  },
+  {
+    "anchor": "Container orchestration benefits",
+    "positive": "Automated deployment, self-healing, resource optimization, and scaling",
+    "negative": "Kubernetes manages pod lifecycle and resource allocation"
+  },
+  {
+    "anchor": "How to document API?",
+    "positive": "Use OpenAPI/Swagger with endpoint descriptions and examples",
+    "negative": "Calculate accuracy, BLEU score, or ROUGE metrics"
+  },
+  {
+    "anchor": "What is infrastructure as code?",
+    "positive": "Define infrastructure using declarative configuration files like Terraform",
+    "negative": "Enable TLS, sanitize inputs, use WAF for protection"
+  },
+  {
+    "anchor": "What is enumerate function?",
+    "positive": "Returns tuple of index and value: enumerate(['a', 'b', 'c'])",
+    "negative": "Hold-out validation uses separate test set for final evaluation"
+  },
+  {
+    "anchor": "How to create virtual environment?",
+    "positive": "Run python -m venv myenv to create isolated Python environment",
+    "negative": "Rolling deployment gradually replaces old version with new one"
+  },
+  {
+    "anchor": "What is beam search?",
+    "positive": "Search algorithm to find most likely sequence in decoding",
+    "negative": "Load balancer distributes traffic across multiple servers"
+  },
+  {
+    "anchor": "OAuth 2.0 flow explained",
+    "positive": "Authorization code flow with client credentials and redirect URI",
+    "negative": "Implicit flow returns token directly without authorization code"
+  },
+  {
+    "anchor": "Database replication explained",
+    "positive": "Copy data from primary to replica servers for high availability",
+    "negative": "Master-slave replication sends writes to primary only"
+  },
+  {
+    "anchor": "ACID properties explained",
+    "positive": "Atomicity, Consistency, Isolation, Durability guarantee reliable transactions",
+    "negative": "Warmup gradually increases learning rate at training start"
+  },
+  {
+    "anchor": "How to implement zero-downtime deployment?",
+    "positive": "Use rolling updates, blue-green deployment, or canary releases",
+    "negative": "Include credentials in Basic Auth header with base64 encoding"
+  },
+  {
+    "anchor": "How to monitor application logs?",
+    "positive": "Centralize logs with ELK stack, Loki, or CloudWatch Logs",
+    "negative": "Multiple inheritance uses method resolution order for lookups"
+  },
+  {
+    "anchor": "How to use regular expressions?",
+    "positive": "Use re module: re.match(), re.search(), re.findall()",
+    "negative": "Underfitting occurs when model is too simple for data complexity"
+  },
+  {
+    "anchor": "What is context manager?",
+    "positive": "Object that implements __enter__ and __exit__ for resource management",
+    "negative": "Underfitting occurs when model is too simple for data complexity"
+  },
+  {
+    "anchor": "What is __init__ method?",
+    "positive": "Constructor method called when creating new class instance",
+    "negative": "Subscribe to webhook events with callback URL"
+  },
+  {
+    "anchor": "How to scale database horizontally?",
+    "positive": "Add read replicas and shard data across multiple database instances",
+    "negative": "Calculate accuracy, BLEU score, or ROUGE metrics"
+  },
+  {
+    "anchor": "What is API throttling?",
+    "positive": "Limit request rate per client to prevent abuse",
+    "negative": "Implement backoff strategy when rate limit is exceeded"
+  },
+  {
+    "anchor": "Explain transfer learning benefits",
+    "positive": "Leverage knowledge from large pretrained model for new task",
+    "negative": "Multi-task learning shares representations across related tasks"
+  },
+  {
+    "anchor": "What is Prometheus?",
+    "positive": "Open-source monitoring system with time-series database and alerting",
+    "negative": "Grafana visualizes metrics from multiple data sources"
+  },
+  {
+    "anchor": "How to document API?",
+    "positive": "Use OpenAPI/Swagger with endpoint descriptions and examples",
+    "negative": "Generate API docs automatically from code annotations"
+  },
+  {
+    "anchor": "What is database trigger?",
+    "positive": "Stored procedure that automatically executes on INSERT, UPDATE, or DELETE",
+    "negative": "Schema validation ensures request matches expected format"
+  },
+  {
+    "anchor": "What is perplexity?",
+    "positive": "Exponential of cross-entropy loss, lower is better",
+    "negative": "Use JSON for request/response bodies and proper content types"
+  },
+  {
+    "anchor": "What is context manager?",
+    "positive": "Object that implements __enter__ and __exit__ for resource management",
+    "negative": "with statement automatically handles setup and teardown"
+  },
+  {
+    "anchor": "How to implement zero-downtime deployment?",
+    "positive": "Use rolling updates, blue-green deployment, or canary releases",
+    "negative": "Feature flags toggle new features without redeploying"
+  },
+  {
+    "anchor": "How to design database schema?",
+    "positive": "Identify entities, relationships, define primary keys, normalize tables",
+    "negative": "zip() combines multiple iterables into tuples"
+  },
+  {
+    "anchor": "Explain seq2seq model",
+    "positive": "Encoder processes input, decoder generates output sequence",
+    "negative": "Iterator protocol implements __iter__ and __next__ methods"
+  },
+  {
+    "anchor": "Python decorator explained",
+    "positive": "Function that wraps another function to modify its behavior",
+    "negative": "Deployment manages desired number of pod replicas"
+  },
+  {
+    "anchor": "What is reverse proxy?",
+    "positive": "Server that forwards client requests to backend servers",
+    "negative": "Include credentials in Basic Auth header with base64 encoding"
+  },
+  {
+    "anchor": "What is webhook?",
+    "positive": "Server-to-server callback triggered by specific events",
+    "negative": "One-shot learning classifies from single example per class"
+  },
+  {
+    "anchor": "How to handle API timeouts?",
+    "positive": "Set appropriate timeout values and retry failed requests",
+    "negative": "Class weights assign higher loss to minority class examples"
+  },
+  {
+    "anchor": "What is learning rate?",
+    "positive": "Step size for gradient updates during optimization",
+    "negative": "Warmup gradually increases learning rate at training start"
+  },
+  {
+    "anchor": "What is Helm chart?",
+    "positive": "Package of Kubernetes manifests for deploying applications",
+    "negative": "Kustomize customizes Kubernetes manifests without templates"
+  },
+  {
+    "anchor": "What is idempotency in APIs?",
+    "positive": "Multiple identical requests produce same result as single request",
+    "negative": "Include idempotency key header to prevent duplicate operations"
+  },
+  {
+    "anchor": "What is word embedding?",
+    "positive": "Dense vector representation of words in continuous space",
+    "negative": "Contextualized embeddings change based on surrounding words"
+  },
+  {
+    "anchor": "What is database index?",
+    "positive": "Data structure that improves query performance by creating sorted lookup",
+    "negative": "Basic Auth transmits credentials in every request"
+  },
+  {
+    "anchor": "Python list vs tuple difference",
+    "positive": "Lists are mutable, tuples are immutable and hashable",
+    "negative": "Sets are mutable unordered collections of unique elements"
+  },
+  {
+    "anchor": "How to optimize Docker image size?",
+    "positive": "Use multi-stage builds, minimize layers, use Alpine base images",
+    "negative": "Flyway or Liquibase track and apply schema versions"
+  },
+  {
+    "anchor": "Python decorator explained",
+    "positive": "Function that wraps another function to modify its behavior",
+    "negative": "Document databases store JSON, relational uses tables with foreign keys"
+  },
+  {
+    "anchor": "How to optimize Docker image size?",
+    "positive": "Use multi-stage builds, minimize layers, use Alpine base images",
+    "negative": "Vertical scaling increases resources on single database server"
+  },
+  {
+    "anchor": "What is database trigger?",
+    "positive": "Stored procedure that automatically executes on INSERT, UPDATE, or DELETE",
+    "negative": "DropConnect zeros random weights instead of activations"
+  },
+  {
+    "anchor": "How to optimize SQL query?",
+    "positive": "Add indexes on frequently queried columns, avoid SELECT *, use EXPLAIN",
+    "negative": "NumPy loadtxt reads delimited text files into arrays"
+  },
+  {
+    "anchor": "Explain transfer learning benefits",
+    "positive": "Leverage knowledge from large pretrained model for new task",
+    "negative": "Swagger UI provides interactive API documentation"
+  },
+  {
+    "anchor": "What is GitOps?",
+    "positive": "Declarative infrastructure and application management using Git as source of truth",
+    "negative": "Use 'rb' and 'wb' modes for binary file operations"
+  },
+  {
+    "anchor": "API authentication methods comparison",
+    "positive": "Compare OAuth, API keys, JWT, Basic Auth pros and cons",
+    "negative": "SGD with momentum accumulates gradient history for smoother updates"
+  },
+  {
+    "anchor": "What is backpropagation?",
+    "positive": "Algorithm to compute gradients using chain rule",
+    "negative": "Gradient clipping prevents exploding gradients during training"
+  },
+  {
+    "anchor": "Explain Adam optimizer",
+    "positive": "Adaptive learning rate optimizer with momentum and RMSprop",
+    "negative": "SGD with momentum accumulates gradient history for smoother updates"
+  },
+  {
+    "anchor": "What is context manager?",
+    "positive": "Object that implements __enter__ and __exit__ for resource management",
+    "negative": "Preflight OPTIONS request checks if cross-origin request is allowed"
+  },
+  {
+    "anchor": "How to set up load balancer?",
+    "positive": "Distribute incoming traffic across multiple backend servers",
+    "negative": "Master-slave replication sends writes to primary only"
+  },
+  {
+    "anchor": "How to implement full-text search?",
+    "positive": "Create inverted index on text columns for efficient keyword searches",
+    "negative": "Underfitting occurs when model is too simple for data complexity"
+  },
+  {
+    "anchor": "What is cross-validation?",
+    "positive": "Split data into folds for robust model evaluation",
+    "negative": "Container runtime interface abstracts container execution"
+  },
+  {
+    "anchor": "What is materialized view?",
+    "positive": "Precomputed query result stored as table for faster reads",
+    "negative": "Warmup gradually increases learning rate at training start"
+  },
+  {
+    "anchor": "How to configure Nginx?",
+    "positive": "Edit nginx.conf with server blocks, location directives, and upstream definitions",
+    "negative": "__new__ allocates memory before __init__ initializes instance"
+  },
+  {
+    "anchor": "How to use regular expressions?",
+    "positive": "Use re module: re.match(), re.search(), re.findall()",
+    "negative": "Cascade delete removes child rows when parent is deleted"
+  },
+  {
+    "anchor": "API authentication methods comparison",
+    "positive": "Compare OAuth, API keys, JWT, Basic Auth pros and cons",
+    "negative": "Basic Auth transmits credentials in every request"
+  },
+  {
+    "anchor": "Explain seq2seq model",
+    "positive": "Encoder processes input, decoder generates output sequence",
+    "negative": "Row-level locking allows finer concurrency control"
+  },
+  {
+    "anchor": "JWT token structure",
+    "positive": "Header contains algorithm, payload has claims, signature verifies authenticity",
+    "negative": "Rolling deployment gradually replaces old version with new one"
+  },
+  {
+    "anchor": "How to handle concurrent updates?",
+    "positive": "Use optimistic or pessimistic locking to prevent race conditions",
+    "negative": "Schema validation ensures request matches expected format"
+  },
+  {
+    "anchor": "What is connection pooling?",
+    "positive": "Reuse database connections instead of creating new ones per request",
+    "negative": "CDN caches static content at edge locations"
+  },
+  {
+    "anchor": "How to manage secrets in production?",
+    "positive": "Use HashiCorp Vault, Kubernetes Secrets, or cloud provider secret managers",
+    "negative": "Template strings use $ for placeholders"
+  },
+  {
+    "anchor": "What is GitOps?",
+    "positive": "Declarative infrastructure and application management using Git as source of truth",
+    "negative": "Cascade delete removes child rows when parent is deleted"
+  },
+  {
+    "anchor": "Kubernetes service types explained",
+    "positive": "ClusterIP for internal, NodePort for external on static port, LoadBalancer for cloud",
+    "negative": "Ingress routes external HTTP traffic to services"
+  },
+  {
+    "anchor": "How to backup database?",
+    "positive": "Create full backup, then incremental or differential backups regularly",
+    "negative": "Write integration tests that verify actual HTTP responses"
+  },
+  {
+    "anchor": "Database partitioning strategies",
+    "positive": "Horizontal partitioning by rows, vertical by columns, or functional by table",
+    "negative": "GIL released during I/O, multiprocessing avoids GIL"
+  },
+  {
+    "anchor": "How to deploy Docker container?",
+    "positive": "Build image with Dockerfile, push to registry, run with docker run command",
+    "negative": "Create docker-compose.yml for multi-container applications"
+  },
+  {
+    "anchor": "What is idempotency in APIs?",
+    "positive": "Multiple identical requests produce same result as single request",
+    "negative": "NumPy loadtxt reads delimited text files into arrays"
+  },
+  {
+    "anchor": "How to design RESTful API?",
+    "positive": "Use HTTP methods correctly, noun-based URLs, and proper status codes",
+    "negative": "Use JSON for request/response bodies and proper content types"
+  },
+  {
+    "anchor": "How to validate API requests?",
+    "positive": "Check required fields, data types, and business logic constraints",
+    "negative": "Schema validation ensures request matches expected format"
+  },
+  {
+    "anchor": "What is list comprehension?",
+    "positive": "Concise syntax to create lists: [x*2 for x in range(10)]",
+    "negative": "Environment variables pass configuration at runtime"
+  },
+  {
+    "anchor": "What is Helm chart?",
+    "positive": "Package of Kubernetes manifests for deploying applications",
+    "negative": "zip() combines multiple iterables into tuples"
+  },
+  {
+    "anchor": "Python asyncio explained",
+    "positive": "Asynchronous programming using async/await for concurrent operations",
+    "negative": "Application performance monitoring tracks response times and errors"
+  },
+  {
+    "anchor": "What is observability?",
+    "positive": "Collecting metrics, logs, and traces to understand system behavior",
+    "negative": "Monitoring shows metrics, logging records events, tracing follows requests"
+  },
+  {
+    "anchor": "How to implement zero-downtime deployment?",
+    "positive": "Use rolling updates, blue-green deployment, or canary releases",
+    "negative": "User-defined function returns scalar or table value"
+  },
+  {
+    "anchor": "What is list comprehension?",
+    "positive": "Concise syntax to create lists: [x*2 for x in range(10)]",
+    "negative": "Access token is short-lived credential for API access"
+  },
+  {
+    "anchor": "ACID properties explained",
+    "positive": "Atomicity, Consistency, Isolation, Durability guarantee reliable transactions",
+    "negative": "Include deprecation warnings in response headers"
+  },
+  {
+    "anchor": "How to prevent SQL injection?",
+    "positive": "Use parameterized queries and prepared statements, never concatenate user input",
+    "negative": "CDN caches static content at edge locations"
+  },
+  {
+    "anchor": "Database partitioning strategies",
+    "positive": "Horizontal partitioning by rows, vertical by columns, or functional by table",
+    "negative": "Enable TLS, sanitize inputs, use WAF for protection"
+  },
+  {
+    "anchor": "Python string formatting methods",
+    "positive": "f-strings, format(), or % operator for string interpolation",
+    "negative": "Row-level locking allows finer concurrency control"
+  },
+  {
+    "anchor": "What is connection pooling?",
+    "positive": "Reuse database connections instead of creating new ones per request",
+    "negative": "timedelta represents duration between two datetimes"
+  },
+  {
+    "anchor": "Explain confusion matrix",
+    "positive": "Matrix showing predicted vs actual class counts",
+    "negative": "Classification report shows precision, recall, F1 per class"
+  },
+  {
+    "anchor": "How does attention mechanism work?",
+    "positive": "Self-attention computes relevance scores between all token pairs",
+    "negative": "Virtual machine provides stronger isolation but higher overhead"
+  },
+  {
+    "anchor": "What is materialized view?",
+    "positive": "Precomputed query result stored as table for faster reads",
+    "negative": "Indexed view in SQL Server automatically updates when base tables change"
+  },
+  {
+    "anchor": "ACID properties explained",
+    "positive": "Atomicity, Consistency, Isolation, Durability guarantee reliable transactions",
+    "negative": "CAP theorem states system can't have Consistency, Availability, Partition tolerance simultaneously"
+  },
+  {
+    "anchor": "What is ROC curve?",
+    "positive": "Plot of true positive rate vs false positive rate at different thresholds",
+    "negative": "Implicit flow returns token directly without authorization code"
+  },
+  {
+    "anchor": "Python multiprocessing vs threading",
+    "positive": "Multiprocessing uses separate processes, threading uses threads in same process",
+    "negative": "Hot backup allows database to remain online during backup"
+  },
+  {
+    "anchor": "Kubernetes pod explained",
+    "positive": "Smallest deployable unit containing one or more containers",
+    "negative": "Deployment manages desired number of pod replicas"
+  },
+  {
+    "anchor": "Database replication explained",
+    "positive": "Copy data from primary to replica servers for high availability",
+    "negative": "Weight decay penalizes large weights in loss function"
+  },
+  {
+    "anchor": "How to handle exceptions in Python?",
+    "positive": "Use try-except blocks to catch and handle specific exception types",
+    "negative": "Raise exceptions with raise keyword and custom error messages"
+  },
+  {
+    "anchor": "How to optimize Docker image size?",
+    "positive": "Use multi-stage builds, minimize layers, use Alpine base images",
+    "negative": "Write integration tests that verify actual HTTP responses"
+  },
+  {
+    "anchor": "How to scale database horizontally?",
+    "positive": "Add read replicas and shard data across multiple database instances",
+    "negative": "Docker volume persists data beyond container lifecycle"
+  },
+  {
+    "anchor": "What is materialized view?",
+    "positive": "Precomputed query result stored as table for faster reads",
+    "negative": "Docker volume persists data beyond container lifecycle"
+  },
+  {
+    "anchor": "What is staticmethod?",
+    "positive": "Class method that doesn't access instance or class state",
+    "negative": "classmethod receives class as first argument instead of instance"
+  },
+  {
+    "anchor": "What is reinforcement learning?",
+    "positive": "Agent learns by interacting with environment and receiving rewards",
+    "negative": "Policy gradient optimizes expected reward using gradient ascent"
+  },
+  {
+    "anchor": "How to configure auto-scaling?",
+    "positive": "Define HorizontalPodAutoscaler based on CPU, memory, or custom metrics",
+    "negative": "mypy performs static type checking on annotated code"
+  },
+  {
+    "anchor": "Python class inheritance",
+    "positive": "Child class inherits attributes and methods from parent class",
+    "negative": "Set up alerts for high CPU, memory, or slow query thresholds"
+  },
+  {
+    "anchor": "How to secure Kubernetes cluster?",
+    "positive": "Use RBAC, network policies, pod security policies, and secret encryption",
+    "negative": "Persistent connection reduces overhead of TCP handshake"
+  },
+  {
+    "anchor": "What is Bearer token?",
+    "positive": "Authentication token format: Bearer followed by encoded JWT",
+    "negative": "API gateway handles authentication, rate limiting, and request routing"
+  },
+  {
+    "anchor": "How to work with datetime?",
+    "positive": "Use datetime module: datetime.now(), strftime(), strptime()",
+    "negative": "Attention mechanism allows decoder to focus on relevant encoder states"
+  },
+  {
+    "anchor": "How to implement audit logging?",
+    "positive": "Track all data changes with timestamp, user, and before/after values",
+    "negative": "Contextualized embeddings change based on surrounding words"
+  },
+  {
+    "anchor": "Python data classes explained",
+    "positive": "Use @dataclass decorator to auto-generate __init__ and __repr__",
+    "negative": "NamedTuple creates tuple subclass with named fields"
+  },
+  {
+    "anchor": "Python data classes explained",
+    "positive": "Use @dataclass decorator to auto-generate __init__ and __repr__",
+    "negative": "Cross-entropy measures difference between predicted and true distributions"
+  },
+  {
+    "anchor": "How to handle imbalanced data?",
+    "positive": "Oversample minority class, undersample majority, or use SMOTE",
+    "negative": "Master-slave replication sends writes to primary only"
+  },
+  {
+    "anchor": "How to secure REST API?",
+    "positive": "Use HTTPS, validate inputs, implement authentication and rate limiting",
+    "negative": "Weight decay penalizes large weights in loss function"
+  },
+  {
+    "anchor": "Kubernetes pod explained",
+    "positive": "Smallest deployable unit containing one or more containers",
+    "negative": "Policy gradient optimizes expected reward using gradient ascent"
+  },
+  {
+    "anchor": "Python multiprocessing vs threading",
+    "positive": "Multiprocessing uses separate processes, threading uses threads in same process",
+    "negative": "Implement cache invalidation strategy for dynamic content"
+  },
+  {
+    "anchor": "Explain gradient descent",
+    "positive": "Optimization algorithm that iteratively minimizes loss function",
+    "negative": "Subscribe to webhook events with callback URL"
+  },
+  {
+    "anchor": "What is F1 score?",
+    "positive": "Harmonic mean of precision and recall",
+    "negative": "Flyway or Liquibase track and apply schema versions"
+  },
+  {
+    "anchor": "What is idempotency in APIs?",
+    "positive": "Multiple identical requests produce same result as single request",
+    "negative": "Classification report shows precision, recall, F1 per class"
+  },
+  {
+    "anchor": "How does few-shot learning work?",
+    "positive": "Learn from very few labeled examples per class",
+    "negative": "Fine-tuning updates all pretrained weights on downstream task"
+  },
+  {
+    "anchor": "API response caching strategies",
+    "positive": "Use ETags, Cache-Control headers, and CDN for static responses",
+    "negative": "Accuracy is correct predictions over total predictions"
+  },
+  {
+    "anchor": "How to implement blue-green deployment?",
+    "positive": "Run two identical environments, switch traffic from blue to green after validation",
+    "negative": "__new__ allocates memory before __init__ initializes instance"
+  },
+  {
+    "anchor": "What is global interpreter lock?",
+    "positive": "GIL prevents multiple threads from executing Python bytecode simultaneously",
+    "negative": "Infrastructure as code enables version control of infrastructure"
+  },
+  {
+    "anchor": "Container orchestration benefits",
+    "positive": "Automated deployment, self-healing, resource optimization, and scaling",
+    "negative": "Specificity measures true negative rate"
+  },
+  {
+    "anchor": "What is cross-validation?",
+    "positive": "Split data into folds for robust model evaluation",
+    "negative": "Hold-out validation uses separate test set for final evaluation"
+  },
+  {
+    "anchor": "How to write unit tests?",
+    "positive": "Use pytest or unittest framework with assert statements",
+    "negative": "Mock objects simulate dependencies in isolated tests"
+  },
+  {
+    "anchor": "How to implement disaster recovery?",
+    "positive": "Regular backups, geographically distributed replicas, automated failover",
+    "negative": "Policy gradient optimizes expected reward using gradient ascent"
+  },
+  {
+    "anchor": "How to handle API errors?",
+    "positive": "Return appropriate HTTP status codes with descriptive error messages",
+    "negative": "Kubernetes liveness probe restarts unhealthy containers"
+  },
+  {
+    "anchor": "What is meta-learning?",
+    "positive": "Learn to learn, optimize for quick adaptation to new tasks",
+    "negative": "Subscribe to webhook events with callback URL"
+  },
+  {
+    "anchor": "Database security best practices",
+    "positive": "Encrypt data at rest and in transit, use least privilege access, audit logs",
+    "negative": "Row-level security restricts access based on user attributes"
+  },
+  {
+    "anchor": "What is word embedding?",
+    "positive": "Dense vector representation of words in continuous space",
+    "negative": "Covering index includes all columns needed by query"
+  },
+  {
+    "anchor": "What is observability?",
+    "positive": "Collecting metrics, logs, and traces to understand system behavior",
+    "negative": "Exception chaining with raise...from preserves original exception"
+  },
+  {
+    "anchor": "What is foreign key?",
+    "positive": "Column that references primary key in another table to enforce referential integrity",
+    "negative": "Cascade delete removes child rows when parent is deleted"
+  },
+  {
+    "anchor": "What is property decorator?",
+    "positive": "Converts method to computed attribute accessed without parentheses",
+    "negative": "CAP theorem states system can't have Consistency, Availability, Partition tolerance simultaneously"
+  },
+  {
+    "anchor": "How to handle API timeouts?",
+    "positive": "Set appropriate timeout values and retry failed requests",
+    "negative": "Configure connection and read timeout separately"
+  },
+  {
+    "anchor": "API rate limiting implementation",
+    "positive": "Track requests per client using token buckets or sliding windows",
+    "negative": "Compile regex pattern with re.compile() for reuse"
+  },
+  {
+    "anchor": "Python decorator explained",
+    "positive": "Function that wraps another function to modify its behavior",
+    "negative": "Basic Auth transmits credentials in every request"
+  },
+  {
+    "anchor": "How to design database schema?",
+    "positive": "Identify entities, relationships, define primary keys, normalize tables",
+    "negative": "Generate API docs automatically from code annotations"
+  },
+  {
+    "anchor": "Python data classes explained",
+    "positive": "Use @dataclass decorator to auto-generate __init__ and __repr__",
+    "negative": "Underfitting occurs when model is too simple for data complexity"
+  },
+  {
+    "anchor": "API authentication methods comparison",
+    "positive": "Compare OAuth, API keys, JWT, Basic Auth pros and cons",
+    "negative": "SAVEPOINT creates intermediate point within transaction for partial rollback"
+  },
+  {
+    "anchor": "How to parse JSON in Python?",
+    "positive": "Use json.loads() for strings, json.load() for files",
+    "negative": "json.dumps() serializes Python object to JSON string"
+  },
+  {
+    "anchor": "What is F1 score?",
+    "positive": "Harmonic mean of precision and recall",
+    "negative": "Accuracy is correct predictions over total predictions"
+  },
+  {
+    "anchor": "Difference between clustered and non-clustered index?",
+    "positive": "Clustered index determines physical row order, non-clustered creates separate structure",
+    "negative": "Generate API docs automatically from code annotations"
+  },
+  {
+    "anchor": "How to refresh access token?",
+    "positive": "Use refresh token to obtain new access token when expired",
+    "negative": "Pretraining learns general representations on large unlabeled corpus"
+  },
+  {
+    "anchor": "API versioning best practices",
+    "positive": "Use URL path versioning like /v1/users or header-based versioning",
+    "negative": "T5 is encoder-decoder, GPT is decoder-only architecture"
+  },
+  {
+    "anchor": "What is __str__ vs __repr__?",
+    "positive": "__str__ for human-readable string, __repr__ for developer representation",
+    "negative": "Kubernetes manages pod lifecycle and resource allocation"
+  },
+  {
+    "anchor": "Database partitioning strategies",
+    "positive": "Horizontal partitioning by rows, vertical by columns, or functional by table",
+    "negative": "Kubernetes liveness probe restarts unhealthy containers"
+  },
+  {
+    "anchor": "What is service mesh?",
+    "positive": "Infrastructure layer handling service-to-service communication with sidecar proxies",
+    "negative": "API gateway handles authentication, rate limiting, and request routing"
+  },
+  {
+    "anchor": "What is lambda function?",
+    "positive": "Anonymous inline function: lambda x: x * 2",
+    "negative": "Layer normalization normalizes across features instead of batch"
+  },
+  {
+    "anchor": "What is observability?",
+    "positive": "Collecting metrics, logs, and traces to understand system behavior",
+    "negative": "Template strings use $ for placeholders"
+  },
+  {
+    "anchor": "How to implement full-text search?",
+    "positive": "Create inverted index on text columns for efficient keyword searches",
+    "negative": "PostgreSQL full-text search uses tsvector and tsquery"
+  },
+  {
+    "anchor": "What is cross-validation?",
+    "positive": "Split data into folds for robust model evaluation",
+    "negative": "Conda creates environments with different Python versions"
+  },
+  {
+    "anchor": "How to secure REST API?",
+    "positive": "Use HTTPS, validate inputs, implement authentication and rate limiting",
+    "negative": "Enable TLS, sanitize inputs, use WAF for protection"
+  },
+  {
+    "anchor": "Explain Adam optimizer",
+    "positive": "Adaptive learning rate optimizer with momentum and RMSprop",
+    "negative": "Indexed view in SQL Server automatically updates when base tables change"
+  },
+  {
+    "anchor": "What is __str__ vs __repr__?",
+    "positive": "__str__ for human-readable string, __repr__ for developer representation",
+    "negative": "__hash__ and __eq__ required for objects used as dict keys"
+  },
+  {
+    "anchor": "How to evaluate language model?",
+    "positive": "Measure perplexity on held-out test set",
+    "negative": "Closure is function that captures variables from enclosing scope"
+  },
+  {
+    "anchor": "Python data classes explained",
+    "positive": "Use @dataclass decorator to auto-generate __init__ and __repr__",
+    "negative": "Implement circuit breaker to prevent cascading failures"
+  },
+  {
+    "anchor": "What is transfer learning?",
+    "positive": "Reuse pretrained model weights on new domain-specific task",
+    "negative": "Use content negotiation to return different formats"
+  },
+  {
+    "anchor": "What is ROC curve?",
+    "positive": "Plot of true positive rate vs false positive rate at different thresholds",
+    "negative": "PR curve plots precision vs recall at different thresholds"
+  },
+  {
+    "anchor": "CI/CD pipeline explained",
+    "positive": "Automated process: code commit triggers build, test, and deploy stages",
+    "negative": "Persistent connection reduces overhead of TCP handshake"
+  },
+  {
+    "anchor": "Docker image vs container difference",
+    "positive": "Image is immutable template, container is running instance",
+    "negative": "Docker volume persists data beyond container lifecycle"
+  },
+  {
+    "anchor": "What is cross-validation?",
+    "positive": "Split data into folds for robust model evaluation",
+    "negative": "AFTER trigger executes after statement completes"
+  },
+  {
+    "anchor": "How to manage application configuration?",
+    "positive": "Use ConfigMaps for non-sensitive config and Secrets for credentials",
+    "negative": "Analyze execution plan to identify missing indexes or table scans"
+  },
+  {
+    "anchor": "How to set up load balancer?",
+    "positive": "Distribute incoming traffic across multiple backend servers",
+    "negative": "DNS round-robin distributes requests across multiple IPs"
+  },
+  {
+    "anchor": "What is eventual consistency?",
+    "positive": "Replicas may temporarily have stale data until changes propagate",
+    "negative": "BASE model prioritizes availability over immediate consistency"
+  },
+  {
+    "anchor": "How to implement health checks?",
+    "positive": "Expose HTTP endpoints for liveness and readiness probes",
+    "negative": "Weight decay penalizes large weights in loss function"
+  },
+  {
+    "anchor": "What is stored procedure?",
+    "positive": "Precompiled SQL code stored in database for reusable business logic",
+    "negative": "Docker volume persists data beyond container lifecycle"
+  },
+  {
+    "anchor": "How to handle imbalanced data?",
+    "positive": "Oversample minority class, undersample majority, or use SMOTE",
+    "negative": "Implement cache invalidation strategy for dynamic content"
+  },
+  {
+    "anchor": "API versioning best practices",
+    "positive": "Use URL path versioning like /v1/users or header-based versioning",
+    "negative": "Environment variables pass configuration at runtime"
+  },
+  {
+    "anchor": "How to monitor application logs?",
+    "positive": "Centralize logs with ELK stack, Loki, or CloudWatch Logs",
+    "negative": "Application performance monitoring tracks response times and errors"
+  },
+  {
+    "anchor": "How to parse JSON in Python?",
+    "positive": "Use json.loads() for strings, json.load() for files",
+    "negative": "Container runtime interface abstracts container execution"
+  },
+  {
+    "anchor": "What is perplexity?",
+    "positive": "Exponential of cross-entropy loss, lower is better",
+    "negative": "Cross-entropy measures difference between predicted and true distributions"
+  },
+  {
+    "anchor": "How to deploy Docker container?",
+    "positive": "Build image with Dockerfile, push to registry, run with docker run command",
+    "negative": "Payload contains user ID, expiration time, and custom claims"
+  },
+  {
+    "anchor": "What is GitOps?",
+    "positive": "Declarative infrastructure and application management using Git as source of truth",
+    "negative": "T5 is encoder-decoder, GPT is decoder-only architecture"
+  },
+  {
+    "anchor": "How to prevent SQL injection?",
+    "positive": "Use parameterized queries and prepared statements, never concatenate user input",
+    "negative": "Escape special characters and validate input types"
+  },
+  {
+    "anchor": "How to debug production issues?",
+    "positive": "Check logs, metrics, traces, and use debugging tools like kubectl exec",
+    "negative": "Distributed tracing follows requests across microservices"
+  },
+  {
+    "anchor": "What is database trigger?",
+    "positive": "Stored procedure that automatically executes on INSERT, UPDATE, or DELETE",
+    "negative": "Curriculum learning orders training from easy to hard examples"
+  },
+  {
+    "anchor": "What is query execution plan?",
+    "positive": "Shows steps database takes to execute query with cost estimates",
+    "negative": "Analyze execution plan to identify missing indexes or table scans"
+  },
+  {
+    "anchor": "How to implement OAuth?",
+    "positive": "Implement authorization server, resource server, and client flow",
+    "negative": "Increase model capacity, train longer, or add features"
+  },
+  {
+    "anchor": "What is enumerate function?",
+    "positive": "Returns tuple of index and value: enumerate(['a', 'b', 'c'])",
+    "negative": "Row-level security restricts access based on user attributes"
+  },
+  {
+    "anchor": "What is database transaction?",
+    "positive": "Group of operations that execute as single unit, all succeed or all fail",
+    "negative": "Cross-entropy measures difference between predicted and true distributions"
+  },
+  {
+    "anchor": "Database security best practices",
+    "positive": "Encrypt data at rest and in transit, use least privilege access, audit logs",
+    "negative": "Closure is function that captures variables from enclosing scope"
+  },
+  {
+    "anchor": "How to implement OAuth?",
+    "positive": "Implement authorization server, resource server, and client flow",
+    "negative": "Configure authorization server with client registration"
+  },
+  {
+    "anchor": "API versioning best practices",
+    "positive": "Use URL path versioning like /v1/users or header-based versioning",
+    "negative": "Include deprecation warnings in response headers"
+  },
+  {
+    "anchor": "What is foreign key?",
+    "positive": "Column that references primary key in another table to enforce referential integrity",
+    "negative": "DNS round-robin distributes requests across multiple IPs"
+  },
+  {
+    "anchor": "What is regularization?",
+    "positive": "Add penalty term to loss function to discourage complex models",
+    "negative": "Richardson Maturity Model defines REST levels"
+  },
+  {
+    "anchor": "What is connection pooling?",
+    "positive": "Reuse database connections instead of creating new ones per request",
+    "negative": "Persistent connection reduces overhead of TCP handshake"
+  },
+  {
+    "anchor": "How to scale database horizontally?",
+    "positive": "Add read replicas and shard data across multiple database instances",
+    "negative": "Multiple inheritance uses method resolution order for lookups"
+  },
+  {
+    "anchor": "How to train neural network?",
+    "positive": "Forward pass, compute loss, backward pass, update weights",
+    "negative": "Implement cache invalidation strategy for dynamic content"
+  },
+  {
+    "anchor": "Container orchestration benefits",
+    "positive": "Automated deployment, self-healing, resource optimization, and scaling",
+    "negative": "Document databases store JSON, relational uses tables with foreign keys"
+  },
+  {
+    "anchor": "How to create virtual environment?",
+    "positive": "Run python -m venv myenv to create isolated Python environment",
+    "negative": "Conda creates environments with different Python versions"
+  },
+  {
+    "anchor": "Database partitioning strategies",
+    "positive": "Horizontal partitioning by rows, vertical by columns, or functional by table",
+    "negative": "Policy gradient optimizes expected reward using gradient ascent"
+  },
+  {
+    "anchor": "Explain knowledge distillation",
+    "positive": "Transfer knowledge from large teacher model to smaller student",
+    "negative": "Apache HTTPd configuration uses .htaccess for directory-level settings"
+  },
+  {
+    "anchor": "What is cross-validation?",
+    "positive": "Split data into folds for robust model evaluation",
+    "negative": "Kubernetes liveness probe restarts unhealthy containers"
+  },
+  {
+    "anchor": "Python decorator explained",
+    "positive": "Function that wraps another function to modify its behavior",
+    "negative": "CAP theorem states system can't have Consistency, Availability, Partition tolerance simultaneously"
+  },
+  {
+    "anchor": "How to use API keys?",
+    "positive": "Include API key in request header or query parameter",
+    "negative": "requirements.txt lists all project dependencies"
+  },
+  {
+    "anchor": "Difference between supervised and unsupervised learning",
+    "positive": "Supervised uses labeled data, unsupervised finds patterns without labels",
+    "negative": "Create docker-compose.yml for multi-container applications"
+  },
+  {
+    "anchor": "Docker vs virtual machine difference",
+    "positive": "Docker shares host kernel, VM includes full guest OS",
+    "negative": "__hash__ and __eq__ required for objects used as dict keys"
+  },
+  {
+    "anchor": "How to implement audit logging?",
+    "positive": "Track all data changes with timestamp, user, and before/after values",
+    "negative": "Configure authorization server with client registration"
+  },
+  {
+    "anchor": "What is enumerate function?",
+    "positive": "Returns tuple of index and value: enumerate(['a', 'b', 'c'])",
+    "negative": "Vertical scaling increases resources on single database server"
+  },
+  {
+    "anchor": "Docker image vs container difference",
+    "positive": "Image is immutable template, container is running instance",
+    "negative": "Exception chaining with raise...from preserves original exception"
+  },
+  {
+    "anchor": "Explain gradient descent",
+    "positive": "Optimization algorithm that iteratively minimizes loss function",
+    "negative": "Implement backoff strategy when rate limit is exceeded"
+  },
+  {
+    "anchor": "What is meta-learning?",
+    "positive": "Learn to learn, optimize for quick adaptation to new tasks",
+    "negative": "Curriculum learning orders training from easy to hard examples"
+  },
+  {
+    "anchor": "Explain knowledge distillation",
+    "positive": "Transfer knowledge from large teacher model to smaller student",
+    "negative": "Model compression reduces size via quantization or pruning"
+  },
+  {
+    "anchor": "API authentication methods comparison",
+    "positive": "Compare OAuth, API keys, JWT, Basic Auth pros and cons",
+    "negative": "timedelta represents duration between two datetimes"
+  },
+  {
+    "anchor": "How does dropout work?",
+    "positive": "Randomly zero out neurons during training to prevent co-adaptation",
+    "negative": "DropConnect zeros random weights instead of activations"
+  },
+  {
+    "anchor": "How to handle imbalanced data?",
+    "positive": "Oversample minority class, undersample majority, or use SMOTE",
+    "negative": "Class weights assign higher loss to minority class examples"
+  },
+  {
+    "anchor": "API key rotation strategy",
+    "positive": "Periodically generate new keys and deprecate old ones gradually",
+    "negative": "Use key management service for encryption key rotation"
+  },
+  {
+    "anchor": "Kubernetes service types explained",
+    "positive": "ClusterIP for internal, NodePort for external on static port, LoadBalancer for cloud",
+    "negative": "Enable TLS, sanitize inputs, use WAF for protection"
+  },
+  {
+    "anchor": "What is idempotency in APIs?",
+    "positive": "Multiple identical requests produce same result as single request",
+    "negative": "Denormalization adds redundancy to improve read performance"
+  },
+  {
+    "anchor": "Container networking explained",
+    "positive": "Bridge, host, overlay, or macvlan networks connect containers",
+    "negative": "Container runtime interface abstracts container execution"
+  },
+  {
+    "anchor": "What is webhook?",
+    "positive": "Server-to-server callback triggered by specific events",
+    "negative": "Subscribe to webhook events with callback URL"
+  },
+  {
+    "anchor": "What is Helm chart?",
+    "positive": "Package of Kubernetes manifests for deploying applications",
+    "negative": "Conda creates environments with different Python versions"
+  },
+  {
+    "anchor": "How to handle database deadlocks?",
+    "positive": "Use timeout, retry logic, or detect deadlock and rollback transaction",
+    "negative": "Unpacking operator * expands iterables in function calls"
+  },
+  {
+    "anchor": "What is __init__ method?",
+    "positive": "Constructor method called when creating new class instance",
+    "negative": "B-tree index provides ordered access for range queries"
+  },
+  {
+    "anchor": "GraphQL vs REST differences",
+    "positive": "GraphQL allows clients to request specific fields, REST returns fixed structure",
+    "negative": "REST uses multiple endpoints, GraphQL uses single endpoint"
+  },
+  {
+    "anchor": "Python type hints usage",
+    "positive": "Add type annotations: def func(x: int) -> str:",
+    "negative": "Create docker-compose.yml for multi-container applications"
+  },
+  {
+    "anchor": "Database backup strategies",
+    "positive": "Combine full, differential, and transaction log backups with retention policy",
+    "negative": "Hot backup allows database to remain online during backup"
+  },
+  {
+    "anchor": "Explain BERT architecture",
+    "positive": "Bidirectional encoder uses masked language modeling for pretraining",
+    "negative": "Transformer uses multi-head attention in encoder-decoder blocks"
+  },
+  {
+    "anchor": "How to use regular expressions?",
+    "positive": "Use re module: re.match(), re.search(), re.findall()",
+    "negative": "DNS round-robin distributes requests across multiple IPs"
+  },
+  {
+    "anchor": "What is model pruning?",
+    "positive": "Remove unnecessary weights to compress model size",
+    "negative": "Payload contains user ID, expiration time, and custom claims"
+  },
+  {
+    "anchor": "What is beam search?",
+    "positive": "Search algorithm to find most likely sequence in decoding",
+    "negative": "zip() combines multiple iterables into tuples"
+  },
+  {
+    "anchor": "How to use regular expressions?",
+    "positive": "Use re module: re.match(), re.search(), re.findall()",
+    "negative": "Compile regex pattern with re.compile() for reuse"
+  },
+  {
+    "anchor": "What is foreign key?",
+    "positive": "Column that references primary key in another table to enforce referential integrity",
+    "negative": "Virtual machine provides stronger isolation but higher overhead"
+  },
+  {
+    "anchor": "What is stored procedure?",
+    "positive": "Precompiled SQL code stored in database for reusable business logic",
+    "negative": "Warmup gradually increases learning rate at training start"
+  },
+  {
+    "anchor": "What is Bearer token?",
+    "positive": "Authentication token format: Bearer followed by encoded JWT",
+    "negative": "Apache HTTPd configuration uses .htaccess for directory-level settings"
+  },
+  {
+    "anchor": "How to tune database parameters?",
+    "positive": "Adjust buffer pool size, connection limits, and cache parameters",
+    "negative": "Dictionary comprehension creates dicts: {k: v for k, v in pairs}"
+  },
+  {
+    "anchor": "How to scale database horizontally?",
+    "positive": "Add read replicas and shard data across multiple database instances",
+    "negative": "Read replica handles SELECT queries to offload primary"
+  },
+  {
+    "anchor": "Python data classes explained",
+    "positive": "Use @dataclass decorator to auto-generate __init__ and __repr__",
+    "negative": "Generate API docs automatically from code annotations"
+  },
+  {
+    "anchor": "Python list vs tuple difference",
+    "positive": "Lists are mutable, tuples are immutable and hashable",
+    "negative": "Transformer uses attention, RNN uses recurrent connections"
+  },
+  {
+    "anchor": "How to version API endpoints?",
+    "positive": "Include version in URL path, header, or query parameter",
+    "negative": "Application performance monitoring tracks response times and errors"
+  },
+  {
+    "anchor": "Python list vs tuple difference",
+    "positive": "Lists are mutable, tuples are immutable and hashable",
+    "negative": "CAP theorem states system can't have Consistency, Availability, Partition tolerance simultaneously"
+  },
+  {
+    "anchor": "Difference between GPT and BERT",
+    "positive": "GPT is autoregressive decoder, BERT is bidirectional encoder",
+    "negative": "T5 is encoder-decoder, GPT is decoder-only architecture"
+  },
+  {
+    "anchor": "How to implement canary deployment?",
+    "positive": "Gradually route small percentage of traffic to new version",
+    "negative": "A/B testing compares two versions to measure impact"
+  },
+  {
+    "anchor": "What is idempotency in APIs?",
+    "positive": "Multiple identical requests produce same result as single request",
+    "negative": "Environment-specific configurations use namespaces and overlays"
+  },
+  {
+    "anchor": "What is HATEOAS?",
+    "positive": "Hypermedia As The Engine Of Application State includes navigation links",
+    "negative": "Richardson Maturity Model defines REST levels"
+  },
+  {
+    "anchor": "What is word embedding?",
+    "positive": "Dense vector representation of words in continuous space",
+    "negative": "Point-in-time recovery restores database to specific timestamp"
+  },
+  {
+    "anchor": "What is global interpreter lock?",
+    "positive": "GIL prevents multiple threads from executing Python bytecode simultaneously",
+    "negative": "C extensions can release GIL for CPU-bound operations"
+  },
+  {
+    "anchor": "Python dictionary methods",
+    "positive": "get(), keys(), values(), items(), pop(), update() methods",
+    "negative": "Cascade delete removes child rows when parent is deleted"
+  },
+  {
+    "anchor": "What is Helm chart?",
+    "positive": "Package of Kubernetes manifests for deploying applications",
+    "negative": "Partial function from functools creates function with preset arguments"
+  },
+  {
+    "anchor": "How to test API endpoints?",
+    "positive": "Use curl, Postman, or automated testing frameworks",
+    "negative": "Calculate accuracy, BLEU score, or ROUGE metrics"
+  },
+  {
+    "anchor": "How to secure REST API?",
+    "positive": "Use HTTPS, validate inputs, implement authentication and rate limiting",
+    "negative": "SAVEPOINT creates intermediate point within transaction for partial rollback"
+  },
+  {
+    "anchor": "How to design database schema?",
+    "positive": "Identify entities, relationships, define primary keys, normalize tables",
+    "negative": "Use ER diagrams to visualize entity relationships"
+  },
+  {
+    "anchor": "What is transfer learning?",
+    "positive": "Reuse pretrained model weights on new domain-specific task",
+    "negative": "Change data capture streams all modifications to separate table"
+  },
+  {
+    "anchor": "How to install packages with pip?",
+    "positive": "Run pip install package_name to install from PyPI",
+    "negative": "requirements.txt lists all project dependencies"
+  },
+  {
+    "anchor": "How to set up load balancer?",
+    "positive": "Distribute incoming traffic across multiple backend servers",
+    "negative": "T5 is encoder-decoder, GPT is decoder-only architecture"
+  },
+  {
+    "anchor": "What is materialized view?",
+    "positive": "Precomputed query result stored as table for faster reads",
+    "negative": "GRU is simpler gated unit with fewer parameters than LSTM"
+  },
+  {
+    "anchor": "Python generators vs lists",
+    "positive": "Generators yield values lazily, lists store all values in memory",
+    "negative": "Iterator protocol implements __iter__ and __next__ methods"
+  },
+  {
+    "anchor": "Database partitioning strategies",
+    "positive": "Horizontal partitioning by rows, vertical by columns, or functional by table",
+    "negative": "Implement circuit breaker to prevent cascading failures"
+  },
+  {
+    "anchor": "Python data classes explained",
+    "positive": "Use @dataclass decorator to auto-generate __init__ and __repr__",
+    "negative": "BASE model prioritizes availability over immediate consistency"
+  },
+  {
+    "anchor": "Python decorator explained",
+    "positive": "Function that wraps another function to modify its behavior",
+    "negative": "Closure is function that captures variables from enclosing scope"
+  },
+  {
+    "anchor": "How to implement canary deployment?",
+    "positive": "Gradually route small percentage of traffic to new version",
+    "negative": "Classification report shows precision, recall, F1 per class"
+  },
+  {
+    "anchor": "What is eventual consistency?",
+    "positive": "Replicas may temporarily have stale data until changes propagate",
+    "negative": "Implement circuit breaker to prevent cascading failures"
+  },
+  {
+    "anchor": "How to monitor database performance?",
+    "positive": "Track slow queries, connection count, cache hit ratio, and disk I/O",
+    "negative": "Semi-supervised uses both labeled and unlabeled data"
+  },
+  {
+    "anchor": "What is perplexity?",
+    "positive": "Exponential of cross-entropy loss, lower is better",
+    "negative": "Rewrite subqueries as JOINs, limit result set, use covering indexes"
+  },
+  {
+    "anchor": "What is beam search?",
+    "positive": "Search algorithm to find most likely sequence in decoding",
+    "negative": "Generator expression uses parentheses: (x*2 for x in range(10))"
+  },
+  {
+    "anchor": "Python asyncio explained",
+    "positive": "Asynchronous programming using async/await for concurrent operations",
+    "negative": "Application performance monitoring tracks response times and errors"
+  },
+  {
+    "anchor": "How does self-attention work?",
+    "positive": "Compute attention scores between query, key, and value vectors",
+    "negative": "REST uses multiple endpoints, GraphQL uses single endpoint"
+  },
+  {
+    "anchor": "How does attention mechanism work?",
+    "positive": "Self-attention computes relevance scores between all token pairs",
+    "negative": "Cross-attention computes alignment between encoder and decoder states"
+  },
+  {
+    "anchor": "What is list comprehension?",
+    "positive": "Concise syntax to create lists: [x*2 for x in range(10)]",
+    "negative": "Transformer uses attention, RNN uses recurrent connections"
+  },
+  {
+    "anchor": "What is *args and **kwargs?",
+    "positive": "*args captures variable positional arguments, **kwargs captures keyword arguments",
+    "negative": "Unpacking operator * expands iterables in function calls"
+  },
+  {
+    "anchor": "What is service mesh?",
+    "positive": "Infrastructure layer handling service-to-service communication with sidecar proxies",
+    "negative": "Use cursor-based pagination for large datasets"
+  },
+  {
+    "anchor": "Kubernetes pod explained",
+    "positive": "Smallest deployable unit containing one or more containers",
+    "negative": "Rotate tokens before expiration using background job"
+  },
+  {
+    "anchor": "What is Helm chart?",
+    "positive": "Package of Kubernetes manifests for deploying applications",
+    "negative": "Implement circuit breaker to prevent cascading failures"
+  },
+  {
+    "anchor": "How to tune database parameters?",
+    "positive": "Adjust buffer pool size, connection limits, and cache parameters",
+    "negative": "Configure max connections, work memory, and checkpoint intervals"
+  },
+  {
+    "anchor": "API response caching strategies",
+    "positive": "Use ETags, Cache-Control headers, and CDN for static responses",
+    "negative": "Implement cache invalidation strategy for dynamic content"
+  },
+  {
+    "anchor": "How to handle database deadlocks?",
+    "positive": "Use timeout, retry logic, or detect deadlock and rollback transaction",
+    "negative": "Set lock timeout to prevent indefinite waits"
+  },
+  {
+    "anchor": "How to handle API timeouts?",
+    "positive": "Set appropriate timeout values and retry failed requests",
+    "negative": "Dictionary comprehension creates dicts: {k: v for k, v in pairs}"
+  },
+  {
+    "anchor": "What is enumerate function?",
+    "positive": "Returns tuple of index and value: enumerate(['a', 'b', 'c'])",
+    "negative": "zip() combines multiple iterables into tuples"
+  },
+  {
+    "anchor": "What is database migration?",
+    "positive": "Version-controlled schema changes applied to update database structure",
+    "negative": "Environment-specific configurations use namespaces and overlays"
+  },
+  {
+    "anchor": "How to backup database?",
+    "positive": "Create full backup, then incremental or differential backups regularly",
+    "negative": "Load balancer distributes traffic across multiple servers"
+  },
+  {
+    "anchor": "Explain seq2seq model",
+    "positive": "Encoder processes input, decoder generates output sequence",
+    "negative": "Attention mechanism allows decoder to focus on relevant encoder states"
+  },
+  {
+    "anchor": "What is stored procedure?",
+    "positive": "Precompiled SQL code stored in database for reusable business logic",
+    "negative": "User-defined function returns scalar or table value"
+  },
+  {
+    "anchor": "Python asyncio explained",
+    "positive": "Asynchronous programming using async/await for concurrent operations",
+    "negative": "Configure max connections, work memory, and checkpoint intervals"
+  },
+  {
+    "anchor": "Database replication explained",
+    "positive": "Copy data from primary to replica servers for high availability",
+    "negative": "Partial function from functools creates function with preset arguments"
+  },
+  {
+    "anchor": "Python multiprocessing vs threading",
+    "positive": "Multiprocessing uses separate processes, threading uses threads in same process",
+    "negative": "Document databases store JSON, relational uses tables with foreign keys"
+  },
+  {
+    "anchor": "Database security best practices",
+    "positive": "Encrypt data at rest and in transit, use least privilege access, audit logs",
+    "negative": "Apache HTTPd configuration uses .htaccess for directory-level settings"
+  },
+  {
+    "anchor": "What is property decorator?",
+    "positive": "Converts method to computed attribute accessed without parentheses",
+    "negative": "Getter and setter methods control attribute access"
+  },
+  {
+    "anchor": "What is __init__ method?",
+    "positive": "Constructor method called when creating new class instance",
+    "negative": "__new__ allocates memory before __init__ initializes instance"
+  },
+  {
+    "anchor": "What is list comprehension?",
+    "positive": "Concise syntax to create lists: [x*2 for x in range(10)]",
+    "negative": "Generate API docs automatically from code annotations"
+  },
+  {
+    "anchor": "JWT token structure",
+    "positive": "Header contains algorithm, payload has claims, signature verifies authenticity",
+    "negative": "Payload contains user ID, expiration time, and custom claims"
+  },
+  {
+    "anchor": "Explain gradient descent",
+    "positive": "Optimization algorithm that iteratively minimizes loss function",
+    "negative": "Configure authorization server with client registration"
+  },
+  {
+    "anchor": "What is lambda function?",
+    "positive": "Anonymous inline function: lambda x: x * 2",
+    "negative": "Partial function from functools creates function with preset arguments"
+  },
+  {
+    "anchor": "Python type hints usage",
+    "positive": "Add type annotations: def func(x: int) -> str:",
+    "negative": "mypy performs static type checking on annotated code"
+  },
+  {
+    "anchor": "API versioning best practices",
+    "positive": "Use URL path versioning like /v1/users or header-based versioning",
+    "negative": "Semi-supervised uses both labeled and unlabeled data"
+  },
+  {
+    "anchor": "What is connection pooling?",
+    "positive": "Reuse database connections instead of creating new ones per request",
+    "negative": "Raise exceptions with raise keyword and custom error messages"
+  },
+  {
+    "anchor": "What is list comprehension?",
+    "positive": "Concise syntax to create lists: [x*2 for x in range(10)]",
+    "negative": "Generator expression uses parentheses: (x*2 for x in range(10))"
+  },
+  {
+    "anchor": "API rate limiting implementation",
+    "positive": "Track requests per client using token buckets or sliding windows",
+    "negative": "Multiple inheritance uses method resolution order for lookups"
+  },
+  {
+    "anchor": "How to create virtual environment?",
+    "positive": "Run python -m venv myenv to create isolated Python environment",
+    "negative": "Rolling deployment gradually replaces old version with new one"
+  },
+  {
+    "anchor": "Python class inheritance",
+    "positive": "Child class inherits attributes and methods from parent class",
+    "negative": "Ansible playbooks define desired state for configuration management"
+  },
+  {
+    "anchor": "How to implement audit logging?",
+    "positive": "Track all data changes with timestamp, user, and before/after values",
+    "negative": "Conda creates environments with different Python versions"
+  },
+  {
+    "anchor": "How to handle file I/O?",
+    "positive": "Use open() with mode 'r', 'w', 'a', or use pathlib",
+    "negative": "Generate API docs automatically from code annotations"
+  },
+  {
+    "anchor": "How to validate API requests?",
+    "positive": "Check required fields, data types, and business logic constraints",
+    "negative": "json.dumps() serializes Python object to JSON string"
+  },
+  {
+    "anchor": "Difference between supervised and unsupervised learning",
+    "positive": "Supervised uses labeled data, unsupervised finds patterns without labels",
+    "negative": "Write integration tests that verify actual HTTP responses"
+  },
+  {
+    "anchor": "How to configure Nginx?",
+    "positive": "Edit nginx.conf with server blocks, location directives, and upstream definitions",
+    "negative": "Apache HTTPd configuration uses .htaccess for directory-level settings"
+  },
+  {
+    "anchor": "What is webhook?",
+    "positive": "Server-to-server callback triggered by specific events",
+    "negative": "Row-level locking allows finer concurrency control"
+  },
+  {
+    "anchor": "Container networking explained",
+    "positive": "Bridge, host, overlay, or macvlan networks connect containers",
+    "negative": "REST uses multiple endpoints, GraphQL uses single endpoint"
+  },
+  {
+    "anchor": "How to implement full-text search?",
+    "positive": "Create inverted index on text columns for efficient keyword searches",
+    "negative": "Partial function from functools creates function with preset arguments"
+  },
+  {
+    "anchor": "Difference between CNN and RNN",
+    "positive": "CNN uses convolutions for spatial data, RNN for sequential data",
+    "negative": "Transformer uses attention, RNN uses recurrent connections"
+  },
+  {
+    "anchor": "What is data augmentation?",
+    "positive": "Apply transformations to increase training data diversity",
+    "negative": "Mixup creates synthetic examples by interpolating between samples"
+  },
+  {
+    "anchor": "Difference between GPT and BERT",
+    "positive": "GPT is autoregressive decoder, BERT is bidirectional encoder",
+    "negative": "Use JSON for request/response bodies and proper content types"
+  },
+  {
+    "anchor": "How to read CSV file in Python?",
+    "positive": "Use pandas read_csv or csv.DictReader to parse CSV files",
+    "negative": "Stochastic gradient descent uses mini-batches for faster convergence"
+  },
+  {
+    "anchor": "Database partitioning strategies",
+    "positive": "Horizontal partitioning by rows, vertical by columns, or functional by table",
+    "negative": "Range partitioning divides data by value ranges"
+  },
+  {
+    "anchor": "Python generators vs lists",
+    "positive": "Generators yield values lazily, lists store all values in memory",
+    "negative": "Kustomize customizes Kubernetes manifests without templates"
+  },
+  {
+    "anchor": "What is transformer architecture?",
+    "positive": "Encoder-decoder architecture using self-attention mechanism",
+    "negative": "BERT uses only encoder with bidirectional pretraining"
+  },
+  {
+    "anchor": "How to deploy Docker container?",
+    "positive": "Build image with Dockerfile, push to registry, run with docker run command",
+    "negative": "Policy gradient optimizes expected reward using gradient ascent"
+  },
+  {
+    "anchor": "How to backup database?",
+    "positive": "Create full backup, then incremental or differential backups regularly",
+    "negative": "__new__ allocates memory before __init__ initializes instance"
+  },
+  {
+    "anchor": "API response caching strategies",
+    "positive": "Use ETags, Cache-Control headers, and CDN for static responses",
+    "negative": "Hot backup allows database to remain online during backup"
+  },
+  {
+    "anchor": "What is database index?",
+    "positive": "Data structure that improves query performance by creating sorted lookup",
+    "negative": "Use key management service for encryption key rotation"
+  },
+  {
+    "anchor": "How does attention mechanism work?",
+    "positive": "Self-attention computes relevance scores between all token pairs",
+    "negative": "__hash__ and __eq__ required for objects used as dict keys"
+  },
+  {
+    "anchor": "Python dictionary methods",
+    "positive": "get(), keys(), values(), items(), pop(), update() methods",
+    "negative": "Rewrite subqueries as JOINs, limit result set, use covering indexes"
+  },
+  {
+    "anchor": "How to handle file I/O?",
+    "positive": "Use open() with mode 'r', 'w', 'a', or use pathlib",
+    "negative": "Use 'rb' and 'wb' modes for binary file operations"
+  },
+  {
+    "anchor": "How to monitor database performance?",
+    "positive": "Track slow queries, connection count, cache hit ratio, and disk I/O",
+    "negative": "Set up alerts for high CPU, memory, or slow query thresholds"
+  },
+  {
+    "anchor": "How to prevent overfitting?",
+    "positive": "Use regularization, dropout, early stopping, or data augmentation",
+    "negative": "Set up alerts for high CPU, memory, or slow query thresholds"
+  },
+  {
+    "anchor": "What is beam search?",
+    "positive": "Search algorithm to find most likely sequence in decoding",
+    "negative": "Feature flags toggle new features without redeploying"
+  },
+  {
+    "anchor": "What is beam search?",
+    "positive": "Search algorithm to find most likely sequence in decoding",
+    "negative": "Greedy decoding selects highest probability token at each step"
+  },
+  {
+    "anchor": "How to handle concurrent updates?",
+    "positive": "Use optimistic or pessimistic locking to prevent race conditions",
+    "negative": "Sets are mutable unordered collections of unique elements"
+  },
+  {
+    "anchor": "What is infrastructure as code?",
+    "positive": "Define infrastructure using declarative configuration files like Terraform",
+    "negative": "Ansible playbooks define desired state for configuration management"
+  },
+  {
+    "anchor": "How to prevent overfitting?",
+    "positive": "Use regularization, dropout, early stopping, or data augmentation",
+    "negative": "Increase model capacity, train longer, or add features"
+  },
+  {
+    "anchor": "How to optimize Docker image size?",
+    "positive": "Use multi-stage builds, minimize layers, use Alpine base images",
+    "negative": "Docker layer caching speeds up builds by reusing unchanged layers"
+  },
+  {
+    "anchor": "How to design database schema?",
+    "positive": "Identify entities, relationships, define primary keys, normalize tables",
+    "negative": "Template strings use $ for placeholders"
+  },
+  {
+    "anchor": "How to monitor API performance?",
+    "positive": "Track response times, error rates, and throughput metrics",
+    "negative": "GRU is simpler gated unit with fewer parameters than LSTM"
+  },
+  {
+    "anchor": "How to secure REST API?",
+    "positive": "Use HTTPS, validate inputs, implement authentication and rate limiting",
+    "negative": "Fine-tuning updates all pretrained weights on downstream task"
+  },
+  {
+    "anchor": "Python asyncio explained",
+    "positive": "Asynchronous programming using async/await for concurrent operations",
+    "negative": "Coroutines are functions defined with async def"
+  },
+  {
+    "anchor": "How to authenticate API requests?",
+    "positive": "Add Bearer token to Authorization header for each request",
+    "negative": "Include credentials in Basic Auth header with base64 encoding"
+  },
+  {
+    "anchor": "What is foreign key?",
+    "positive": "Column that references primary key in another table to enforce referential integrity",
+    "negative": "Implicit flow returns token directly without authorization code"
+  },
+  {
+    "anchor": "What is foreign key?",
+    "positive": "Column that references primary key in another table to enforce referential integrity",
+    "negative": "Include deprecation warnings in response headers"
+  },
+  {
+    "anchor": "What is batch normalization?",
+    "positive": "Normalize layer inputs to stabilize and speed up training",
+    "negative": "Store API keys securely in environment variables or secret manager"
+  },
+  {
+    "anchor": "How to implement health checks?",
+    "positive": "Expose HTTP endpoints for liveness and readiness probes",
+    "negative": "Kubernetes liveness probe restarts unhealthy containers"
+  },
+  {
+    "anchor": "How to validate API requests?",
+    "positive": "Check required fields, data types, and business logic constraints",
+    "negative": "Mock objects simulate dependencies in isolated tests"
+  },
+  {
+    "anchor": "How to monitor database performance?",
+    "positive": "Track slow queries, connection count, cache hit ratio, and disk I/O",
+    "negative": "Rolling deployment gradually replaces old version with new one"
+  },
+  {
+    "anchor": "What is reverse proxy?",
+    "positive": "Server that forwards client requests to backend servers",
+    "negative": "requirements.txt lists all project dependencies"
+  },
+  {
+    "anchor": "How to manage secrets in production?",
+    "positive": "Use HashiCorp Vault, Kubernetes Secrets, or cloud provider secret managers",
+    "negative": "Unpacking operator * expands iterables in function calls"
+  },
+  {
+    "anchor": "What is stored procedure?",
+    "positive": "Precompiled SQL code stored in database for reusable business logic",
+    "negative": "Configure authorization server with client registration"
+  },
+  {
+    "anchor": "What is transfer learning?",
+    "positive": "Reuse pretrained model weights on new domain-specific task",
+    "negative": "Domain adaptation adjusts model from source to target distribution"
+  },
+  {
+    "anchor": "Difference between supervised and unsupervised learning",
+    "positive": "Supervised uses labeled data, unsupervised finds patterns without labels",
+    "negative": "Semi-supervised uses both labeled and unlabeled data"
+  },
+  {
+    "anchor": "How to optimize Docker image size?",
+    "positive": "Use multi-stage builds, minimize layers, use Alpine base images",
+    "negative": "Layer normalization normalizes across features instead of batch"
+  },
+  {
+    "anchor": "Python dictionary methods",
+    "positive": "get(), keys(), values(), items(), pop(), update() methods",
+    "negative": "Cascade delete removes child rows when parent is deleted"
+  },
+  {
+    "anchor": "What is Bearer token?",
+    "positive": "Authentication token format: Bearer followed by encoded JWT",
+    "negative": "Access token is short-lived credential for API access"
+  },
+  {
+    "anchor": "How to implement audit logging?",
+    "positive": "Track all data changes with timestamp, user, and before/after values",
+    "negative": "Change data capture streams all modifications to separate table"
+  },
+  {
+    "anchor": "How to read CSV file in Python?",
+    "positive": "Use pandas read_csv or csv.DictReader to parse CSV files",
+    "negative": "NumPy loadtxt reads delimited text files into arrays"
+  },
+  {
+    "anchor": "What is database index?",
+    "positive": "Data structure that improves query performance by creating sorted lookup",
+    "negative": "Docker layer caching speeds up builds by reusing unchanged layers"
+  },
+  {
+    "anchor": "What is batch normalization?",
+    "positive": "Normalize layer inputs to stabilize and speed up training",
+    "negative": "Layer normalization normalizes across features instead of batch"
+  },
+  {
+    "anchor": "How to configure auto-scaling?",
+    "positive": "Define HorizontalPodAutoscaler based on CPU, memory, or custom metrics",
+    "negative": "Implicit flow returns token directly without authorization code"
+  },
+  {
+    "anchor": "Difference between clustered and non-clustered index?",
+    "positive": "Clustered index determines physical row order, non-clustered creates separate structure",
+    "negative": "Covering index includes all columns needed by query"
+  },
+  {
+    "anchor": "What is zero-shot learning?",
+    "positive": "Classify without seeing training examples using descriptions",
+    "negative": "One-shot learning classifies from single example per class"
+  },
+  {
+    "anchor": "Difference between SQL and NoSQL?",
+    "positive": "SQL is relational with fixed schema, NoSQL is flexible with various data models",
+    "negative": "Use 'rb' and 'wb' modes for binary file operations"
+  },
+  {
+    "anchor": "Python asyncio explained",
+    "positive": "Asynchronous programming using async/await for concurrent operations",
+    "negative": "Set up alerts for high CPU, memory, or slow query thresholds"
+  },
+  {
+    "anchor": "How to optimize SQL query?",
+    "positive": "Add indexes on frequently queried columns, avoid SELECT *, use EXPLAIN",
+    "negative": "Deployment manages desired number of pod replicas"
+  },
+  {
+    "anchor": "ACID properties explained",
+    "positive": "Atomicity, Consistency, Isolation, Durability guarantee reliable transactions",
+    "negative": "Preflight OPTIONS request checks if cross-origin request is allowed"
+  },
+  {
+    "anchor": "How to implement disaster recovery?",
+    "positive": "Regular backups, geographically distributed replicas, automated failover",
+    "negative": "zip() combines multiple iterables into tuples"
+  },
+  {
+    "anchor": "What is GitOps?",
+    "positive": "Declarative infrastructure and application management using Git as source of truth",
+    "negative": "Include idempotency key header to prevent duplicate operations"
+  },
+  {
+    "anchor": "Python list vs tuple difference",
+    "positive": "Lists are mutable, tuples are immutable and hashable",
+    "negative": "Grafana visualizes metrics from multiple data sources"
+  },
+  {
+    "anchor": "How to secure REST API?",
+    "positive": "Use HTTPS, validate inputs, implement authentication and rate limiting",
+    "negative": "Read replica handles SELECT queries to offload primary"
+  },
+  {
+    "anchor": "Explain gradient descent",
+    "positive": "Optimization algorithm that iteratively minimizes loss function",
+    "negative": "Stochastic gradient descent uses mini-batches for faster convergence"
+  },
+  {
+    "anchor": "What is Prometheus?",
+    "positive": "Open-source monitoring system with time-series database and alerting",
+    "negative": "Denormalization adds redundancy to improve read performance"
+  },
+  {
+    "anchor": "What is database index?",
+    "positive": "Data structure that improves query performance by creating sorted lookup",
+    "negative": "B-tree index provides ordered access for range queries"
+  },
+  {
+    "anchor": "How to validate API requests?",
+    "positive": "Check required fields, data types, and business logic constraints",
+    "negative": "One-shot learning classifies from single example per class"
+  },
+  {
+    "anchor": "Python dictionary methods",
+    "positive": "get(), keys(), values(), items(), pop(), update() methods",
+    "negative": "Dictionary comprehension creates dicts: {k: v for k, v in pairs}"
+  },
+  {
+    "anchor": "Python class inheritance",
+    "positive": "Child class inherits attributes and methods from parent class",
+    "negative": "Multiple inheritance uses method resolution order for lookups"
+  },
+  {
+    "anchor": "What is regularization?",
+    "positive": "Add penalty term to loss function to discourage complex models",
+    "negative": "Weight decay penalizes large weights in loss function"
+  },
+  {
+    "anchor": "How to manage application configuration?",
+    "positive": "Use ConfigMaps for non-sensitive config and Secrets for credentials",
+    "negative": "Environment-specific configurations use namespaces and overlays"
+  },
+  {
+    "anchor": "How to handle imbalanced data?",
+    "positive": "Oversample minority class, undersample majority, or use SMOTE",
+    "negative": "Persistent connection reduces overhead of TCP handshake"
+  },
+  {
+    "anchor": "How to deploy Docker container?",
+    "positive": "Build image with Dockerfile, push to registry, run with docker run command",
+    "negative": "Neural architecture search automatically finds optimal model structure"
+  },
+  {
+    "anchor": "API rate limiting implementation",
+    "positive": "Track requests per client using token buckets or sliding windows",
+    "negative": "Implement circuit breaker to prevent cascading failures"
+  },
+  {
+    "anchor": "How to refresh access token?",
+    "positive": "Use refresh token to obtain new access token when expired",
+    "negative": "Exception chaining with raise...from preserves original exception"
+  },
+  {
+    "anchor": "What is materialized view?",
+    "positive": "Precomputed query result stored as table for faster reads",
+    "negative": "Include deprecation warnings in response headers"
+  },
+  {
+    "anchor": "Database backup strategies",
+    "positive": "Combine full, differential, and transaction log backups with retention policy",
+    "negative": "mypy performs static type checking on annotated code"
+  },
+  {
+    "anchor": "What is overfitting?",
+    "positive": "Model memorizes training data instead of learning patterns",
+    "negative": "with statement automatically handles setup and teardown"
+  },
+  {
+    "anchor": "Database security best practices",
+    "positive": "Encrypt data at rest and in transit, use least privilege access, audit logs",
+    "negative": "GIL released during I/O, multiprocessing avoids GIL"
+  },
+  {
+    "anchor": "What is __init__ method?",
+    "positive": "Constructor method called when creating new class instance",
+    "negative": "DNS round-robin distributes requests across multiple IPs"
+  },
+  {
+    "anchor": "How to paginate API results?",
+    "positive": "Return page and per_page parameters with total count and next link",
+    "negative": "Use cursor-based pagination for large datasets"
+  },
+  {
+    "anchor": "What is database transaction?",
+    "positive": "Group of operations that execute as single unit, all succeed or all fail",
+    "negative": "DNS round-robin distributes requests across multiple IPs"
+  },
+  {
+    "anchor": "What is context manager?",
+    "positive": "Object that implements __enter__ and __exit__ for resource management",
+    "negative": "Basic Auth transmits credentials in every request"
+  },
+  {
+    "anchor": "What is GitOps?",
+    "positive": "Declarative infrastructure and application management using Git as source of truth",
+    "negative": "Infrastructure as code enables version control of infrastructure"
+  },
+  {
+    "anchor": "How to write unit tests?",
+    "positive": "Use pytest or unittest framework with assert statements",
+    "negative": "Virtual machine provides stronger isolation but higher overhead"
+  },
+  {
+    "anchor": "What is __init__ method?",
+    "positive": "Constructor method called when creating new class instance",
+    "negative": "Early stopping halts training when validation loss stops improving"
+  },
+  {
+    "anchor": "What is word embedding?",
+    "positive": "Dense vector representation of words in continuous space",
+    "negative": "Kustomize customizes Kubernetes manifests without templates"
+  },
+  {
+    "anchor": "What is observability?",
+    "positive": "Collecting metrics, logs, and traces to understand system behavior",
+    "negative": "Denormalization adds redundancy to improve read performance"
+  },
+  {
+    "anchor": "What is database trigger?",
+    "positive": "Stored procedure that automatically executes on INSERT, UPDATE, or DELETE",
+    "negative": "Rotate tokens before expiration using background job"
+  },
+  {
+    "anchor": "What is Kubernetes?",
+    "positive": "Container orchestration platform that automates deployment, scaling, and management",
+    "negative": "Use cursor-based pagination for large datasets"
+  },
+  {
+    "anchor": "How to monitor API performance?",
+    "positive": "Track response times, error rates, and throughput metrics",
+    "negative": "Set up alerts for high latency or error rates"
+  },
+  {
+    "anchor": "How to handle imbalanced data?",
+    "positive": "Oversample minority class, undersample majority, or use SMOTE",
+    "negative": "Rewrite subqueries as JOINs, limit result set, use covering indexes"
+  },
+  {
+    "anchor": "How to implement blue-green deployment?",
+    "positive": "Run two identical environments, switch traffic from blue to green after validation",
+    "negative": "Underfitting occurs when model is too simple for data complexity"
+  },
+  {
+    "anchor": "CI/CD pipeline explained",
+    "positive": "Automated process: code commit triggers build, test, and deploy stages",
+    "negative": "Change data capture streams all modifications to separate table"
+  },
+  {
+    "anchor": "How to implement disaster recovery?",
+    "positive": "Regular backups, geographically distributed replicas, automated failover",
+    "negative": "Change data capture streams all modifications to separate table"
+  },
+  {
+    "anchor": "What is data augmentation?",
+    "positive": "Apply transformations to increase training data diversity",
+    "negative": "Row-level security restricts access based on user attributes"
+  },
+  {
+    "anchor": "Python decorator explained",
+    "positive": "Function that wraps another function to modify its behavior",
+    "negative": "Implement backoff strategy when rate limit is exceeded"
+  },
+  {
+    "anchor": "What is database trigger?",
+    "positive": "Stored procedure that automatically executes on INSERT, UPDATE, or DELETE",
+    "negative": "AFTER trigger executes after statement completes"
+  },
+  {
+    "anchor": "How to paginate API results?",
+    "positive": "Return page and per_page parameters with total count and next link",
+    "negative": "Infrastructure as code enables version control of infrastructure"
+  },
+  {
+    "anchor": "What is __init__ method?",
+    "positive": "Constructor method called when creating new class instance",
+    "negative": "Create docker-compose.yml for multi-container applications"
+  },
+  {
+    "anchor": "What is API gateway?",
+    "positive": "Single entry point that routes, authenticates, and rate limits requests",
+    "negative": "Load balancer distributes traffic across multiple servers"
+  },
+  {
+    "anchor": "What is database migration?",
+    "positive": "Version-controlled schema changes applied to update database structure",
+    "negative": "Flyway or Liquibase track and apply schema versions"
+  },
+  {
+    "anchor": "What is materialized view?",
+    "positive": "Precomputed query result stored as table for faster reads",
+    "negative": "Rolling deployment gradually replaces old version with new one"
+  },
+  {
+    "anchor": "Python type hints usage",
+    "positive": "Add type annotations: def func(x: int) -> str:",
+    "negative": "Domain adaptation adjusts model from source to target distribution"
+  },
+  {
+    "anchor": "How does few-shot learning work?",
+    "positive": "Learn from very few labeled examples per class",
+    "negative": "Include deprecation warnings in response headers"
+  },
+  {
+    "anchor": "How to work with datetime?",
+    "positive": "Use datetime module: datetime.now(), strftime(), strptime()",
+    "negative": "Attention mechanism allows decoder to focus on relevant encoder states"
+  },
+  {
+    "anchor": "CI/CD pipeline explained",
+    "positive": "Automated process: code commit triggers build, test, and deploy stages",
+    "negative": "Schema validation ensures request matches expected format"
+  },
+  {
+    "anchor": "What is beam search?",
+    "positive": "Search algorithm to find most likely sequence in decoding",
+    "negative": "Grafana visualizes metrics from multiple data sources"
+  },
+  {
+    "anchor": "How to handle API errors?",
+    "positive": "Return appropriate HTTP status codes with descriptive error messages",
+    "negative": "Use problem details JSON format with error codes"
+  },
+  {
+    "anchor": "How to work with datetime?",
+    "positive": "Use datetime module: datetime.now(), strftime(), strptime()",
+    "negative": "timedelta represents duration between two datetimes"
+  },
+  {
+    "anchor": "How to monitor API performance?",
+    "positive": "Track response times, error rates, and throughput metrics",
+    "negative": "Warmup gradually increases learning rate at training start"
+  },
+  {
+    "anchor": "What is LSTM?",
+    "positive": "Long Short-Term Memory cell with gates to control information flow",
+    "negative": "GRU is simpler gated unit with fewer parameters than LSTM"
+  },
+  {
+    "anchor": "How to implement zero-downtime deployment?",
+    "positive": "Use rolling updates, blue-green deployment, or canary releases",
+    "negative": "Basic Auth transmits credentials in every request"
+  },
+  {
+    "anchor": "How to create custom exception?",
+    "positive": "Inherit from Exception class and override __init__ or __str__",
+    "negative": "Weight decay penalizes large weights in loss function"
+  },
+  {
+    "anchor": "Python string formatting methods",
+    "positive": "f-strings, format(), or % operator for string interpolation",
+    "negative": "Template strings use $ for placeholders"
+  },
+  {
+    "anchor": "How to use API keys?",
+    "positive": "Include API key in request header or query parameter",
+    "negative": "Store API keys securely in environment variables or secret manager"
+  },
+  {
+    "anchor": "What is foreign key?",
+    "positive": "Column that references primary key in another table to enforce referential integrity",
+    "negative": "Raise exceptions with raise keyword and custom error messages"
+  },
+  {
+    "anchor": "How to handle concurrent updates?",
+    "positive": "Use optimistic or pessimistic locking to prevent race conditions",
+    "negative": "Row-level locking allows finer concurrency control"
+  },
+  {
+    "anchor": "What is Kubernetes?",
+    "positive": "Container orchestration platform that automates deployment, scaling, and management",
+    "negative": "Docker Swarm is simpler container orchestration alternative to Kubernetes"
+  },
+  {
+    "anchor": "How to install packages with pip?",
+    "positive": "Run pip install package_name to install from PyPI",
+    "negative": "Escape special characters and validate input types"
+  },
+  {
+    "anchor": "How to optimize SQL query?",
+    "positive": "Add indexes on frequently queried columns, avoid SELECT *, use EXPLAIN",
+    "negative": "Rewrite subqueries as JOINs, limit result set, use covering indexes"
+  },
+  {
+    "anchor": "How to implement disaster recovery?",
+    "positive": "Regular backups, geographically distributed replicas, automated failover",
+    "negative": "Point-in-time recovery restores database to specific timestamp"
+  },
+  {
+    "anchor": "Database security best practices",
+    "positive": "Encrypt data at rest and in transit, use least privilege access, audit logs",
+    "negative": "Generate API docs automatically from code annotations"
+  },
+  {
+    "anchor": "What is idempotency in APIs?",
+    "positive": "Multiple identical requests produce same result as single request",
+    "negative": "Point-in-time recovery restores database to specific timestamp"
+  },
+  {
+    "anchor": "Difference between SQL and NoSQL?",
+    "positive": "SQL is relational with fixed schema, NoSQL is flexible with various data models",
+    "negative": "Configure authorization server with client registration"
+  },
+  {
+    "anchor": "How does self-attention work?",
+    "positive": "Compute attention scores between query, key, and value vectors",
+    "negative": "Multi-head attention runs parallel attention in different subspaces"
+  },
+  {
+    "anchor": "OAuth 2.0 flow explained",
+    "positive": "Authorization code flow with client credentials and redirect URI",
+    "negative": "Ansible playbooks define desired state for configuration management"
+  },
+  {
+    "anchor": "What is reverse proxy?",
+    "positive": "Server that forwards client requests to backend servers",
+    "negative": "Generator expression uses parentheses: (x*2 for x in range(10))"
+  },
+  {
+    "anchor": "How to implement zero-downtime deployment?",
+    "positive": "Use rolling updates, blue-green deployment, or canary releases",
+    "negative": "CAP theorem states system can't have Consistency, Availability, Partition tolerance simultaneously"
+  },
+  {
+    "anchor": "How to secure Kubernetes cluster?",
+    "positive": "Use RBAC, network policies, pod security policies, and secret encryption",
+    "negative": "Network policies control traffic between pods"
+  },
+  {
+    "anchor": "Container orchestration benefits",
+    "positive": "Automated deployment, self-healing, resource optimization, and scaling",
+    "negative": "Enable TLS, sanitize inputs, use WAF for protection"
+  },
+  {
+    "anchor": "How to handle API errors?",
+    "positive": "Return appropriate HTTP status codes with descriptive error messages",
+    "negative": "Kubernetes liveness probe restarts unhealthy containers"
+  },
+  {
+    "anchor": "How to manage secrets in production?",
+    "positive": "Use HashiCorp Vault, Kubernetes Secrets, or cloud provider secret managers",
+    "negative": "Environment variables pass configuration at runtime"
+  },
+  {
+    "anchor": "How to version API endpoints?",
+    "positive": "Include version in URL path, header, or query parameter",
+    "negative": "Use content negotiation to return different formats"
+  },
+  {
+    "anchor": "How to secure Kubernetes cluster?",
+    "positive": "Use RBAC, network policies, pod security policies, and secret encryption",
+    "negative": "timedelta represents duration between two datetimes"
+  },
+  {
+    "anchor": "How to deploy Docker container?",
+    "positive": "Build image with Dockerfile, push to registry, run with docker run command",
+    "negative": "Weight decay penalizes large weights in loss function"
+  },
+  {
+    "anchor": "Database normalization levels",
+    "positive": "1NF eliminates repeating groups, 2NF removes partial dependencies, 3NF removes transitive dependencies",
+    "negative": "mypy performs static type checking on annotated code"
+  },
+  {
+    "anchor": "What is infrastructure as code?",
+    "positive": "Define infrastructure using declarative configuration files like Terraform",
+    "negative": "Raise exceptions with raise keyword and custom error messages"
+  },
+  {
+    "anchor": "How to evaluate language model?",
+    "positive": "Measure perplexity on held-out test set",
+    "negative": "Calculate accuracy, BLEU score, or ROUGE metrics"
+  },
+  {
+    "anchor": "What is database sharding?",
+    "positive": "Distribute data across multiple databases using partition key",
+    "negative": "Vertical scaling increases resources on single database server"
+  },
+  {
+    "anchor": "Difference between precision and recall",
+    "positive": "Precision is correct positives over all predicted positives, recall over actual positives",
+    "negative": "Coroutines are functions defined with async def"
+  },
+  {
+    "anchor": "What is model pruning?",
+    "positive": "Remove unnecessary weights to compress model size",
+    "negative": "Early stopping halts training when validation loss stops improving"
+  },
+  {
+    "anchor": "How to refresh access token?",
+    "positive": "Use refresh token to obtain new access token when expired",
+    "negative": "Rewrite subqueries as JOINs, limit result set, use covering indexes"
+  },
+  {
+    "anchor": "What is lambda function?",
+    "positive": "Anonymous inline function: lambda x: x * 2",
+    "negative": "Gradient clipping prevents exploding gradients during training"
+  },
+  {
+    "anchor": "How to tune hyperparameters?",
+    "positive": "Grid search, random search, or Bayesian optimization",
+    "negative": "Neural architecture search automatically finds optimal model structure"
+  },
+  {
+    "anchor": "How to test API endpoints?",
+    "positive": "Use curl, Postman, or automated testing frameworks",
+    "negative": "Write integration tests that verify actual HTTP responses"
+  },
+  {
+    "anchor": "How to train neural network?",
+    "positive": "Forward pass, compute loss, backward pass, update weights",
+    "negative": "Inference pass computes predictions without updating parameters"
+  },
+  {
+    "anchor": "How to create custom exception?",
+    "positive": "Inherit from Exception class and override __init__ or __str__",
+    "negative": "Exception chaining with raise...from preserves original exception"
+  },
+  {
+    "anchor": "How to secure REST API?",
+    "positive": "Use HTTPS, validate inputs, implement authentication and rate limiting",
+    "negative": "CDN caches static content at edge locations"
+  },
+  {
+    "anchor": "Python asyncio explained",
+    "positive": "Asynchronous programming using async/await for concurrent operations",
+    "negative": "Change data capture streams all modifications to separate table"
+  },
+  {
+    "anchor": "How to use API keys?",
+    "positive": "Include API key in request header or query parameter",
+    "negative": "Attention mechanism allows decoder to focus on relevant encoder states"
+  },
+  {
+    "anchor": "How to validate API requests?",
+    "positive": "Check required fields, data types, and business logic constraints",
+    "negative": "requirements.txt lists all project dependencies"
+  },
+  {
+    "anchor": "Difference between supervised and unsupervised learning",
+    "positive": "Supervised uses labeled data, unsupervised finds patterns without labels",
+    "negative": "Iterator protocol implements __iter__ and __next__ methods"
+  },
+  {
+    "anchor": "CI/CD pipeline explained",
+    "positive": "Automated process: code commit triggers build, test, and deploy stages",
+    "negative": "Include idempotency key header to prevent duplicate operations"
+  },
+  {
+    "anchor": "What is backpropagation?",
+    "positive": "Algorithm to compute gradients using chain rule",
+    "negative": "Sets are mutable unordered collections of unique elements"
+  },
+  {
+    "anchor": "How to design database schema?",
+    "positive": "Identify entities, relationships, define primary keys, normalize tables",
+    "negative": "T5 is encoder-decoder, GPT is decoder-only architecture"
+  },
+  {
+    "anchor": "How to tune hyperparameters?",
+    "positive": "Grid search, random search, or Bayesian optimization",
+    "negative": "Cascade delete removes child rows when parent is deleted"
+  },
+  {
+    "anchor": "What is stored procedure?",
+    "positive": "Precompiled SQL code stored in database for reusable business logic",
+    "negative": "Write integration tests that verify actual HTTP responses"
+  },
+  {
+    "anchor": "How to set up load balancer?",
+    "positive": "Distribute incoming traffic across multiple backend servers",
+    "negative": "Configure max connections, work memory, and checkpoint intervals"
+  },
+  {
+    "anchor": "CI/CD pipeline explained",
+    "positive": "Automated process: code commit triggers build, test, and deploy stages",
+    "negative": "Build pipeline includes compile, test, security scan, and artifact generation"
+  },
+  {
+    "anchor": "How to implement disaster recovery?",
+    "positive": "Regular backups, geographically distributed replicas, automated failover",
+    "negative": "__hash__ and __eq__ required for objects used as dict keys"
+  },
+  {
+    "anchor": "What is beam search?",
+    "positive": "Search algorithm to find most likely sequence in decoding",
+    "negative": "Access token is short-lived credential for API access"
+  },
+  {
+    "anchor": "Python list vs tuple difference",
+    "positive": "Lists are mutable, tuples are immutable and hashable",
+    "negative": "Docker volume persists data beyond container lifecycle"
+  },
+  {
+    "anchor": "How to implement audit logging?",
+    "positive": "Track all data changes with timestamp, user, and before/after values",
+    "negative": "Coroutines are functions defined with async def"
+  },
+  {
+    "anchor": "Kubernetes pod explained",
+    "positive": "Smallest deployable unit containing one or more containers",
+    "negative": "BASE model prioritizes availability over immediate consistency"
+  },
+  {
+    "anchor": "What is ROC curve?",
+    "positive": "Plot of true positive rate vs false positive rate at different thresholds",
+    "negative": "Virtual machine provides stronger isolation but higher overhead"
+  },
+  {
+    "anchor": "How to install packages with pip?",
+    "positive": "Run pip install package_name to install from PyPI",
+    "negative": "Distributed tracing follows requests across microservices"
+  },
+  {
+    "anchor": "What is fine-tuning?",
+    "positive": "Adapt pretrained model to specific downstream task with small dataset",
+    "negative": "Pretraining learns general representations on large unlabeled corpus"
+  },
+  {
+    "anchor": "Python multiprocessing vs threading",
+    "positive": "Multiprocessing uses separate processes, threading uses threads in same process",
+    "negative": "GIL released during I/O, multiprocessing avoids GIL"
+  },
+  {
+    "anchor": "What is webhook?",
+    "positive": "Server-to-server callback triggered by specific events",
+    "negative": "Cross-entropy measures difference between predicted and true distributions"
+  },
+  {
+    "anchor": "How to parse JSON in Python?",
+    "positive": "Use json.loads() for strings, json.load() for files",
+    "negative": "Escape special characters and validate input types"
+  },
+  {
+    "anchor": "Database partitioning strategies",
+    "positive": "Horizontal partitioning by rows, vertical by columns, or functional by table",
+    "negative": "C extensions can release GIL for CPU-bound operations"
+  },
+  {
+    "anchor": "Difference between precision and recall",
+    "positive": "Precision is correct positives over all predicted positives, recall over actual positives",
+    "negative": "Specificity measures true negative rate"
+  },
+  {
+    "anchor": "Database security best practices",
+    "positive": "Encrypt data at rest and in transit, use least privilege access, audit logs",
+    "negative": "Swagger UI provides interactive API documentation"
+  },
+  {
+    "anchor": "Database normalization levels",
+    "positive": "1NF eliminates repeating groups, 2NF removes partial dependencies, 3NF removes transitive dependencies",
+    "negative": "Load balancer distributes traffic across multiple servers"
+  },
+  {
+    "anchor": "How to handle API errors?",
+    "positive": "Return appropriate HTTP status codes with descriptive error messages",
+    "negative": "Accuracy is correct predictions over total predictions"
+  },
+  {
+    "anchor": "How to implement blue-green deployment?",
+    "positive": "Run two identical environments, switch traffic from blue to green after validation",
+    "negative": "Rolling deployment gradually replaces old version with new one"
+  },
+  {
+    "anchor": "Python decorator explained",
+    "positive": "Function that wraps another function to modify its behavior",
+    "negative": "Increase model capacity, train longer, or add features"
+  },
+  {
+    "anchor": "Database normalization levels",
+    "positive": "1NF eliminates repeating groups, 2NF removes partial dependencies, 3NF removes transitive dependencies",
+    "negative": "Denormalization adds redundancy to improve read performance"
+  },
+  {
+    "anchor": "What is database transaction?",
+    "positive": "Group of operations that execute as single unit, all succeed or all fail",
+    "negative": "with statement automatically handles setup and teardown"
+  },
+  {
+    "anchor": "How to implement OAuth?",
+    "positive": "Implement authorization server, resource server, and client flow",
+    "negative": "One-shot learning classifies from single example per class"
+  },
+  {
+    "anchor": "What is regularization?",
+    "positive": "Add penalty term to loss function to discourage complex models",
+    "negative": "classmethod receives class as first argument instead of instance"
+  },
+  {
+    "anchor": "What is Bearer token?",
+    "positive": "Authentication token format: Bearer followed by encoded JWT",
+    "negative": "Inference pass computes predictions without updating parameters"
+  },
+  {
+    "anchor": "How to monitor application logs?",
+    "positive": "Centralize logs with ELK stack, Loki, or CloudWatch Logs",
+    "negative": "Cross-entropy measures difference between predicted and true distributions"
+  },
+  {
+    "anchor": "What is Kubernetes?",
+    "positive": "Container orchestration platform that automates deployment, scaling, and management",
+    "negative": "Use cursor-based pagination for large datasets"
+  },
+  {
+    "anchor": "How to use API keys?",
+    "positive": "Include API key in request header or query parameter",
+    "negative": "Set up alerts for high CPU, memory, or slow query thresholds"
+  },
+  {
+    "anchor": "How to authenticate API requests?",
+    "positive": "Add Bearer token to Authorization header for each request",
+    "negative": "Cross-attention computes alignment between encoder and decoder states"
+  },
+  {
+    "anchor": "How to implement full-text search?",
+    "positive": "Create inverted index on text columns for efficient keyword searches",
+    "negative": "Domain adaptation adjusts model from source to target distribution"
+  },
+  {
+    "anchor": "What is Helm chart?",
+    "positive": "Package of Kubernetes manifests for deploying applications",
+    "negative": "Curriculum learning orders training from easy to hard examples"
+  },
+  {
+    "anchor": "OAuth 2.0 flow explained",
+    "positive": "Authorization code flow with client credentials and redirect URI",
+    "negative": "Hold-out validation uses separate test set for final evaluation"
+  },
+  {
+    "anchor": "How to tune database parameters?",
+    "positive": "Adjust buffer pool size, connection limits, and cache parameters",
+    "negative": "Preflight OPTIONS request checks if cross-origin request is allowed"
+  },
+  {
+    "anchor": "Python dictionary methods",
+    "positive": "get(), keys(), values(), items(), pop(), update() methods",
+    "negative": "Read replica handles SELECT queries to offload primary"
+  },
+  {
+    "anchor": "What is overfitting?",
+    "positive": "Model memorizes training data instead of learning patterns",
+    "negative": "Underfitting occurs when model is too simple for data complexity"
+  },
+  {
+    "anchor": "What is __init__ method?",
+    "positive": "Constructor method called when creating new class instance",
+    "negative": "Payload contains user ID, expiration time, and custom claims"
+  },
+  {
+    "anchor": "JWT token structure",
+    "positive": "Header contains algorithm, payload has claims, signature verifies authenticity",
+    "negative": "PostgreSQL full-text search uses tsvector and tsquery"
+  },
+  {
+    "anchor": "How to configure auto-scaling?",
+    "positive": "Define HorizontalPodAutoscaler based on CPU, memory, or custom metrics",
+    "negative": "Vertical pod autoscaling adjusts resource requests and limits"
+  },
+  {
+    "anchor": "What is F1 score?",
+    "positive": "Harmonic mean of precision and recall",
+    "negative": "BASE model prioritizes availability over immediate consistency"
+  },
+  {
+    "anchor": "What is reverse proxy?",
+    "positive": "Server that forwards client requests to backend servers",
+    "negative": "CDN caches static content at edge locations"
+  },
+  {
+    "anchor": "OpenAPI specification explained",
+    "positive": "YAML or JSON format defining endpoints, parameters, and responses",
+    "negative": "Swagger UI provides interactive API documentation"
+  },
+  {
+    "anchor": "What is Bearer token?",
+    "positive": "Authentication token format: Bearer followed by encoded JWT",
+    "negative": "GIL released during I/O, multiprocessing avoids GIL"
+  },
+  {
+    "anchor": "How to deploy Docker container?",
+    "positive": "Build image with Dockerfile, push to registry, run with docker run command",
+    "negative": "Policy gradient optimizes expected reward using gradient ascent"
+  },
+  {
+    "anchor": "How does attention mechanism work?",
+    "positive": "Self-attention computes relevance scores between all token pairs",
+    "negative": "__new__ allocates memory before __init__ initializes instance"
+  },
+  {
+    "anchor": "How to prevent SQL injection?",
+    "positive": "Use parameterized queries and prepared statements, never concatenate user input",
+    "negative": "Coroutines are functions defined with async def"
+  },
+  {
+    "anchor": "How to implement zero-downtime deployment?",
+    "positive": "Use rolling updates, blue-green deployment, or canary releases",
+    "negative": "Transformer uses attention, RNN uses recurrent connections"
+  },
+  {
+    "anchor": "How to train neural network?",
+    "positive": "Forward pass, compute loss, backward pass, update weights",
+    "negative": "Persistent connection reduces overhead of TCP handshake"
+  },
+  {
+    "anchor": "Database partitioning strategies",
+    "positive": "Horizontal partitioning by rows, vertical by columns, or functional by table",
+    "negative": "Implicit flow returns token directly without authorization code"
+  },
+  {
+    "anchor": "Docker image vs container difference",
+    "positive": "Image is immutable template, container is running instance",
+    "negative": "Implicit flow returns token directly without authorization code"
+  },
+  {
+    "anchor": "How to optimize SQL query?",
+    "positive": "Add indexes on frequently queried columns, avoid SELECT *, use EXPLAIN",
+    "negative": "Docker layer caching speeds up builds by reusing unchanged layers"
+  },
+  {
+    "anchor": "How to work with datetime?",
+    "positive": "Use datetime module: datetime.now(), strftime(), strptime()",
+    "negative": "Semi-supervised uses both labeled and unlabeled data"
+  },
+  {
+    "anchor": "Docker vs virtual machine difference",
+    "positive": "Docker shares host kernel, VM includes full guest OS",
+    "negative": "Virtual machine provides stronger isolation but higher overhead"
+  },
+  {
+    "anchor": "How to backup database?",
+    "positive": "Create full backup, then incremental or differential backups regularly",
+    "negative": "Point-in-time recovery using transaction logs"
+  },
+  {
+    "anchor": "How to monitor database performance?",
+    "positive": "Track slow queries, connection count, cache hit ratio, and disk I/O",
+    "negative": "Domain adaptation adjusts model from source to target distribution"
+  },
+  {
+    "anchor": "What is CORS?",
+    "positive": "Cross-Origin Resource Sharing allows browsers to make cross-domain requests",
+    "negative": "GIL released during I/O, multiprocessing avoids GIL"
+  },
+  {
+    "anchor": "CI/CD pipeline explained",
+    "positive": "Automated process: code commit triggers build, test, and deploy stages",
+    "negative": "Vertical scaling increases resources on single database server"
+  },
+  {
+    "anchor": "What is CORS?",
+    "positive": "Cross-Origin Resource Sharing allows browsers to make cross-domain requests",
+    "negative": "Preflight OPTIONS request checks if cross-origin request is allowed"
+  },
+  {
+    "anchor": "How to refresh access token?",
+    "positive": "Use refresh token to obtain new access token when expired",
+    "negative": "Model compression reduces size via quantization or pruning"
+  },
+  {
+    "anchor": "How to prevent SQL injection?",
+    "positive": "Use parameterized queries and prepared statements, never concatenate user input",
+    "negative": "Network policies control traffic between pods"
+  },
+  {
+    "anchor": "What is connection pooling?",
+    "positive": "Reuse database connections instead of creating new ones per request",
+    "negative": "GRU is simpler gated unit with fewer parameters than LSTM"
+  }
+]
