@@ -1,0 +1,22 @@
+# API keys
+.env
+*.key
+
+# Output files
+output/
+*.index
+*.faiss
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

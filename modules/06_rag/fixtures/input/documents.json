@@ -1,0 +1,62 @@
+[
+  {
+    "doc_id": "doc1",
+    "source": "python_guide.txt",
+    "content": "Python is a high-level, interpreted programming language created by Guido van Rossum in 1991. It emphasizes code readability with significant use of whitespace. Python supports multiple programming paradigms including procedural, object-oriented, and functional programming.\n\nPython is dynamically typed and garbage-collected. It has a comprehensive standard library and is often described as a 'batteries included' language due to its extensive modules and packages.\n\nCommon use cases for Python include web development (Django, Flask), data analysis (pandas, NumPy), machine learning (scikit-learn, TensorFlow), automation, and scripting.",
+    "metadata": {
+      "category": "programming",
+      "language": "python",
+      "level": "beginner"
+    }
+  },
+  {
+    "doc_id": "doc2",
+    "source": "company_pricing.txt",
+    "content": "Product Pricing Structure (2024)\n\nStarter Plan: $29/month\n- Up to 5 users\n- 10GB storage\n- Email support\n- Basic analytics\n\nProfessional Plan: $99/month\n- Up to 25 users\n- 100GB storage\n- Priority email support\n- Advanced analytics\n- API access\n\nEnterprise Plan: Custom pricing\n- Unlimited users\n- Unlimited storage\n- 24/7 phone support\n- Custom integrations\n- Dedicated account manager\n- SLA guarantee\n\nAll plans include a 14-day free trial. Annual subscriptions receive a 20% discount.",
+    "metadata": {
+      "category": "pricing",
+      "department": "sales",
+      "date": "2024-01-01"
+    }
+  },
+  {
+    "doc_id": "doc3",
+    "source": "q4_earnings.txt",
+    "content": "Q4 2023 Financial Results\n\nRevenue: $2.5 million (up 35% YoY)\nGross Margin: 72%\nOperating Expenses: $1.2 million\nNet Income: $500,000\n\nKey Highlights:\n- Customer base grew to 1,200 companies\n- Average contract value increased to $15,000 annually\n- Launched 3 major product features\n- Expanded into European market (UK, Germany, France)\n- Team grew from 45 to 60 employees\n\nLooking ahead to Q1 2024:\n- Expected revenue: $2.8-3.0 million\n- Planned product launches: Mobile app, API v2\n- Hiring: 10 additional engineers and 5 sales reps",
+    "metadata": {
+      "category": "financial",
+      "period": "Q4 2023",
+      "department": "finance"
+    }
+  },
+  {
+    "doc_id": "doc4",
+    "source": "employee_handbook.txt",
+    "content": "Employee Handbook - Time Off Policies\n\nVacation Days:\n- New employees: 15 days per year\n- After 2 years: 20 days per year\n- After 5 years: 25 days per year\n\nSick Leave:\n- Unlimited sick days (with manager approval)\n- Doctor's note required for absences over 3 consecutive days\n\nHolidays:\n- 10 paid company holidays\n- Office closed between December 24-31\n\nParental Leave:\n- Primary caregiver: 16 weeks paid\n- Secondary caregiver: 6 weeks paid\n\nRemote Work:\n- Hybrid policy: minimum 2 days in office per week\n- Fully remote available for approved roles\n- Must maintain regular business hours (9am-5pm local time)",
+    "metadata": {
+      "category": "hr",
+      "department": "human_resources",
+      "effective_date": "2023-01-01"
+    }
+  },
+  {
+    "doc_id": "doc5",
+    "source": "api_documentation.txt",
+    "content": "API Documentation - Authentication\n\nAll API requests require authentication using API keys. To authenticate:\n\n1. Generate an API key in your dashboard under Settings > API Keys\n2. Include the key in request headers:\n   Authorization: Bearer YOUR_API_KEY\n\nEndpoints:\n\nGET /api/v1/users\n- Retrieve list of users\n- Parameters: limit (default: 50), offset (default: 0)\n- Response: JSON array of user objects\n\nPOST /api/v1/users\n- Create new user\n- Required fields: email, name\n- Optional fields: role, department\n- Response: Created user object with ID\n\nGET /api/v1/users/{id}\n- Retrieve specific user by ID\n- Response: User object or 404 if not found\n\nDELETE /api/v1/users/{id}\n- Delete user (requires admin role)\n- Response: 204 No Content on success\n\nRate Limits:\n- 1000 requests per hour per API key\n- Headers include: X-RateLimit-Remaining, X-RateLimit-Reset",
+    "metadata": {
+      "category": "technical",
+      "department": "engineering",
+      "version": "v1"
+    }
+  },
+  {
+    "doc_id": "doc6",
+    "source": "machine_learning_intro.txt",
+    "content": "Introduction to Machine Learning\n\nMachine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. There are three main types:\n\n1. Supervised Learning:\n   - Model learns from labeled training data\n   - Examples: classification, regression\n   - Algorithms: linear regression, decision trees, neural networks\n   - Use cases: spam detection, price prediction\n\n2. Unsupervised Learning:\n   - Model finds patterns in unlabeled data\n   - Examples: clustering, dimensionality reduction\n   - Algorithms: K-means, PCA, autoencoders\n   - Use cases: customer segmentation, anomaly detection\n\n3. Reinforcement Learning:\n   - Model learns through trial and error with rewards\n   - Examples: game playing, robotics\n   - Algorithms: Q-learning, policy gradients\n   - Use cases: AlphaGo, autonomous driving\n\nKey concepts:\n- Training set: Data used to train the model\n- Test set: Data used to evaluate model performance\n- Overfitting: Model performs well on training data but poorly on new data\n- Cross-validation: Technique to assess model generalization",
+    "metadata": {
+      "category": "education",
+      "topic": "machine_learning",
+      "level": "beginner"
+    }
+  }
+]

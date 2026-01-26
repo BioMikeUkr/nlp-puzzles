@@ -1,0 +1,72 @@
+[
+  {
+    "query_id": "q1",
+    "query": "What is Python?",
+    "expected_doc_ids": ["doc1"],
+    "expected_answer_contains": ["programming language", "Guido van Rossum", "1991"],
+    "category": "factual"
+  },
+  {
+    "query_id": "q2",
+    "query": "How much does the Professional plan cost?",
+    "expected_doc_ids": ["doc2"],
+    "expected_answer_contains": ["$99", "month", "25 users"],
+    "category": "pricing"
+  },
+  {
+    "query_id": "q3",
+    "query": "What was our Q4 2023 revenue?",
+    "expected_doc_ids": ["doc3"],
+    "expected_answer_contains": ["$2.5 million", "35%"],
+    "category": "financial"
+  },
+  {
+    "query_id": "q4",
+    "query": "How many vacation days do new employees get?",
+    "expected_doc_ids": ["doc4"],
+    "expected_answer_contains": ["15 days"],
+    "category": "hr"
+  },
+  {
+    "query_id": "q5",
+    "query": "What are the API rate limits?",
+    "expected_doc_ids": ["doc5"],
+    "expected_answer_contains": ["1000 requests", "hour"],
+    "category": "technical"
+  },
+  {
+    "query_id": "q6",
+    "query": "What is supervised learning?",
+    "expected_doc_ids": ["doc6"],
+    "expected_answer_contains": ["labeled", "training data"],
+    "category": "educational"
+  },
+  {
+    "query_id": "q7",
+    "query": "How much discount do we get with annual subscription?",
+    "expected_doc_ids": ["doc2"],
+    "expected_answer_contains": ["20%"],
+    "category": "pricing"
+  },
+  {
+    "query_id": "q8",
+    "query": "How many employees did we have at the end of Q4 2023?",
+    "expected_doc_ids": ["doc3"],
+    "expected_answer_contains": ["60"],
+    "category": "financial"
+  },
+  {
+    "query_id": "q9",
+    "query": "What authentication method does the API use?",
+    "expected_doc_ids": ["doc5"],
+    "expected_answer_contains": ["API key", "Bearer"],
+    "category": "technical"
+  },
+  {
+    "query_id": "q10",
+    "query": "Can I work fully remote?",
+    "expected_doc_ids": ["doc4"],
+    "expected_answer_contains": ["approved roles", "fully remote available"],
+    "category": "hr"
+  }
+]
