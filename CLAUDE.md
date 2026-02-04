@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an NLP/ML learning curriculum with 16 modules covering practical skills for ML engineering roles. The repository contains:
+This is an NLP/ML learning curriculum with 19 modules covering practical skills for ML engineering roles. The repository contains:
 - Learning notebooks with explanations
 - Livecoding tasks (empty cells + asserts for validation)
 - Solution notebooks (fully solved versions)
@@ -83,11 +83,14 @@ fixtures/
 6. LLM APIs (OpenAI, Pydantic)
 7. Fine-tuning (sentence-transformers)
 8. ML Metrics (precision, recall, F1)
-9. MLOps (MLflow, Docker)
-10. Document Automation (PDF, OCR)
-11. Data Formats & SQL (Parquet, PostgreSQL)
-12. FastAPI for ML
-13. Testing & Code Quality (pytest)
-14. Spark Basics
-15. Prompt Engineering
-16. LangChain & Orchestration
+9. Data Formats & SQL (Parquet, PostgreSQL)
+10. FastAPI for ML
+11. Testing & Code Quality (pytest)
+12. Spark Basics
+13. Prompt Engineering
+14. LangChain & Orchestration
+15. NER with GLiNER (zero-shot entity extraction)
+16. Text Classification with GLiClass (few-shot)
+17. Dataset Generation with LLM for NER
+18. Gradio Demos (interactive UIs)
+19. End-to-End ML System Design (capstone)
