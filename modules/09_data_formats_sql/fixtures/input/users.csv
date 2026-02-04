@@ -1,0 +1,22 @@
+user_id,username,email,signup_date,plan_type,company
+101,alice_jones,alice.jones@techcorp.com,2023-06-15,premium,TechCorp
+102,bob_smith,bob.smith@dataflow.io,2023-07-22,enterprise,DataFlow
+103,carol_white,carol.white@cloudnine.com,2023-08-10,premium,CloudNine
+104,david_brown,david.brown@analytica.net,2023-09-05,free,Analytica
+105,emma_davis,emma.davis@nexus.co,2023-10-12,enterprise,Nexus
+106,frank_wilson,frank.wilson@startupx.io,2023-11-18,free,StartupX
+107,grace_taylor,grace.taylor@devops.com,2023-12-03,premium,DevOps Co
+108,henry_moore,henry.moore@agiletech.net,2024-01-08,free,AgileTech
+109,iris_martin,iris.martin@cloudsys.io,2024-01-20,premium,CloudSys
+110,jack_lee,jack.lee@webscale.com,2024-02-05,enterprise,WebScale
+111,kate_anderson,kate.anderson@innovate.co,2024-02-14,premium,Innovate
+112,liam_thomas,liam.thomas@buildit.net,2024-02-28,free,BuildIT
+113,mia_jackson,mia.jackson@techwave.io,2024-03-10,premium,TechWave
+114,noah_harris,noah.harris@pipeline.com,2024-03-18,free,Pipeline
+115,olivia_clark,olivia.clark@datacore.co,2024-03-25,enterprise,DataCore
+116,peter_lewis,peter.lewis@apigate.io,2024-04-02,premium,APIGate
+117,quinn_walker,quinn.walker@streamit.net,2024-04-10,free,StreamIT
+118,rachel_hall,rachel.hall@memorydb.com,2024-04-15,enterprise,MemoryDB
+119,steve_allen,steve.allen@authpro.io,2024-04-22,premium,AuthPro
+120,tina_young,tina.young@cachesys.co,2024-05-01,enterprise,CacheSys
+121,uma_king,uma.king@promo.net,2024-05-08,free,PromoHub
