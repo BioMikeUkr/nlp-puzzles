@@ -1,0 +1,27 @@
+[
+    {
+        "id": "txt_001",
+        "text": "This product is absolutely amazing! Best purchase I've made this year.",
+        "expected_label": "positive"
+    },
+    {
+        "id": "txt_002",
+        "text": "Terrible quality. Broke after one use. Complete waste of money.",
+        "expected_label": "negative"
+    },
+    {
+        "id": "txt_003",
+        "text": "The package arrived on time and was well-packaged.",
+        "expected_label": "neutral"
+    },
+    {
+        "id": "txt_004",
+        "text": "I love this! Highly recommend to everyone!",
+        "expected_label": "positive"
+    },
+    {
+        "id": "txt_005",
+        "text": "Not what I expected. Very disappointed with the service.",
+        "expected_label": "negative"
+    }
+]
