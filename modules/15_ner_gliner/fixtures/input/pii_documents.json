@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "text": "Customer John Smith called our support line from 415-555-0182 on March 10, 2024. His email is john.smith@example.com and he reported an issue with his account number 789-654-3210.",
+    "domain": "support",
+    "pii_types": ["name", "phone number", "email address", "account number"]
+  },
+  {
+    "id": 2,
+    "text": "Employee record: Sarah Johnson, DOB 04/15/1985, SSN 123-45-6789. Home address: 742 Evergreen Terrace, Springfield, IL 62701. Emergency contact: Michael Johnson at 312-555-9988.",
+    "domain": "hr",
+    "pii_types": ["name", "dob", "ssn", "location address", "phone number"]
+  },
+  {
+    "id": 3,
+    "text": "Patient: Robert Davis, Date of Birth: 02/28/1972. Admitted to St. Mary's Medical Center on January 5, 2024. Diagnosis: Type 2 diabetes. Insurance policy: BlueCross-1234567. Physician: Dr. Emily Carter.",
+    "domain": "healthcare",
+    "pii_types": ["name", "dob", "organization medical facility", "condition", "name medical professional"]
+  },
+  {
+    "id": 4,
+    "text": "Transaction alert: A charge of $2,499.00 was made on credit card ending 4532 (expiry 09/26, CVV 847) by Michael Chen, 88 Pine Street, New York, NY 10005.",
+    "domain": "finance",
+    "pii_types": ["name", "credit card", "credit card expiration", "cvv", "location address", "money"]
+  },
+  {
+    "id": 5,
+    "text": "Insurance claim submitted by Jennifer White, policy number POL-2024-88732. Claimant SSN: 987-65-4321. Bank routing number: 021000021, account: 4539-8821-1234. Date of loss: 11/30/2023.",
+    "domain": "insurance",
+    "pii_types": ["name", "ssn", "routing number", "bank account"]
+  },
+  {
+    "id": 6,
+    "text": "Dear Mr. William Taylor, your passport number AB1234567 expires on 2025-08-14. Please renew at the US Embassy, 2 Avenue Gabriel, Paris, France. Contact us at w.taylor@mail.com or +1-800-555-0199.",
+    "domain": "travel",
+    "pii_types": ["name", "passport number", "location address", "email address", "phone number"]
+  },
+  {
+    "id": 7,
+    "text": "From: Lisa Martinez <l.martinez@corp.com>\nSubject: Login credentials\n\nHi team, your temporary password is P@ssw0rd2024! and username is lmartinez. Please change after first login. If you have issues call 888-555-7777.",
+    "domain": "it",
+    "pii_types": ["name", "email address", "password", "username", "phone number"]
+  },
+  {
+    "id": 8,
+    "text": "Driver license renewal notice for Thomas Anderson, DOB 07/04/1990. License number: DL-TX-9876543. Address: 1313 Mockingbird Lane, Dallas, TX 75201. Vehicle: 2020 Toyota Camry, VIN 1HGBH41JXMN109186.",
+    "domain": "dmv",
+    "pii_types": ["name", "dob", "driver license", "location address", "vehicle id"]
+  }
+]
