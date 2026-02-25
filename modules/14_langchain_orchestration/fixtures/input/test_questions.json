@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "How long does a refund take to process?",
+    "expected_keywords": ["5-7", "business days", "refund"],
+    "relevant_article_id": 1
+  },
+  {
+    "id": 2,
+    "question": "My password reset email is not arriving. What should I do?",
+    "expected_keywords": ["spam", "junk", "5 minutes", "reset"],
+    "relevant_article_id": 2
+  },
+  {
+    "id": 3,
+    "question": "Why is the API returning 429 errors?",
+    "expected_keywords": ["rate limit", "429", "Too Many Requests"],
+    "relevant_article_id": 3
+  },
+  {
+    "id": 4,
+    "question": "What happens to my data after I cancel my subscription?",
+    "expected_keywords": ["90 days", "export", "deleted"],
+    "relevant_article_id": 8
+  },
+  {
+    "id": 5,
+    "question": "How do I add a team member if the invite button is grayed out?",
+    "expected_keywords": ["user limit", "Admin", "permissions"],
+    "relevant_article_id": 9
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {"id": 1,  "text": "I was charged $49.99 twice this billing cycle. Please investigate and issue a refund.",          "category": "billing",   "priority": "high"},
+  {"id": 2,  "text": "My subscription was cancelled without consent and I was charged a termination fee.",            "category": "billing",   "priority": "high"},
+  {"id": 3,  "text": "I cannot find my invoice from last month. I need it for reimbursement.",                       "category": "billing",   "priority": "medium"},
+  {"id": 4,  "text": "What payment methods do you accept? I want to switch to PayPal.",                              "category": "billing",   "priority": "low"},
+  {"id": 5,  "text": "Does the annual plan include a discount compared to monthly billing?",                         "category": "billing",   "priority": "low"},
+  {"id": 6,  "text": "The API returns 500 errors on all POST requests since the update this morning. Production down.", "category": "technical", "priority": "high"},
+  {"id": 7,  "text": "Data export is broken — the CSV file is empty despite having 10,000 records.",                "category": "technical", "priority": "high"},
+  {"id": 8,  "text": "The mobile app crashes on iOS 17 when uploading files larger than 10MB.",                      "category": "technical", "priority": "medium"},
+  {"id": 9,  "text": "Search results take 30 seconds to load. It used to respond in under 1 second.",               "category": "technical", "priority": "medium"},
+  {"id": 10, "text": "Dark mode setting does not persist between app sessions.",                                     "category": "technical", "priority": "low"},
+  {"id": 11, "text": "My account was compromised. I see login attempts from Russia. Please lock it immediately.",    "category": "account",   "priority": "high"},
+  {"id": 12, "text": "All my project data was deleted after upgrading my plan. I need it restored urgently.",        "category": "account",   "priority": "high"},
+  {"id": 13, "text": "I cannot change my email address. The verification email never arrives.",                     "category": "account",   "priority": "medium"},
+  {"id": 14, "text": "How do I add a team member to my organization? The invite button is grayed out.",              "category": "account",   "priority": "medium"},
+  {"id": 15, "text": "I would like to update my display name and profile picture.",                                 "category": "account",   "priority": "low"},
+  {"id": 16, "text": "Order #78234 was marked as delivered but I never received it. It contained expensive hardware.", "category": "shipping", "priority": "high"},
+  {"id": 17, "text": "Wrong item delivered: I ordered a laptop stand but received a mouse pad.",                    "category": "shipping",  "priority": "high"},
+  {"id": 18, "text": "My package has been stuck in transit for two weeks with no tracking updates.",                "category": "shipping",  "priority": "medium"},
+  {"id": 19, "text": "I need to change the delivery address. The order has not shipped yet.",                       "category": "shipping",  "priority": "medium"},
+  {"id": 20, "text": "Can I upgrade my shipping to express? I placed the order two hours ago.",                     "category": "shipping",  "priority": "low"}
+]

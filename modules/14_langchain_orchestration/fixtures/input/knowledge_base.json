@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Refund Policy and Process",
+    "content": "Our refund policy allows customers to request a refund within 30 days of purchase. To request a refund, log in to your account and navigate to Billing > Refund Request. Fill out the form with your order number and reason. Refunds are processed within 5-7 business days and credited to your original payment method. Duplicate charges are refunded within 2 business days upon verification. Annual plan refunds are prorated based on the unused portion of the subscription. To report a duplicate charge, attach your bank statement showing both transactions to expedite processing. Refunds cannot be issued after 30 days except in cases of technical failure on our end."
+  },
+  {
+    "id": 2,
+    "title": "Password Reset and Account Recovery",
+    "content": "To reset your password, click 'Forgot Password' on the login page and enter your registered email address. A reset link is sent immediately and is valid for 24 hours. If the email does not arrive within 5 minutes, check your spam/junk folder. If still not received, verify that the email address is correct and add noreply@company.com to your safe sender list. For accounts with two-factor authentication (2FA) enabled, you will also need access to your authenticator app. If you have lost access to your 2FA device, contact support with government-issued ID for manual verification. Account recovery for compromised accounts requires identity verification and can take 24-48 hours."
+  },
+  {
+    "id": 3,
+    "title": "API Rate Limits and Best Practices",
+    "content": "Our API enforces the following rate limits: Free plan: 100 requests/minute, 10,000 requests/day. Pro plan: 1,000 requests/minute, 100,000 requests/day. Enterprise: custom limits. Rate limit responses return HTTP 429 (Too Many Requests) with a Retry-After header indicating when to retry. Best practices: implement exponential backoff starting at 1 second, use bulk endpoints where available, cache responses for repeated queries. The API was updated on 2024-11-15 — POST endpoints now require the Content-Type: application/json header. Ensure all POST requests include this header to avoid 500 errors. Monitor your usage via the API Dashboard under Account > API Keys > Usage."
+  },
+  {
+    "id": 4,
+    "title": "Subscription Plans and Billing Cycles",
+    "content": "We offer three plans: Free (up to 3 users, 5GB storage), Pro ($49/month or $470/year — 2 months free), and Enterprise (custom pricing). Billing occurs on the same day each month as your original subscription date. Payment methods accepted: credit/debit cards (Visa, Mastercard, Amex), PayPal, bank transfer (Enterprise only). To switch payment methods, go to Billing > Payment Methods > Add New Method. To upgrade or downgrade, changes take effect at the start of the next billing cycle. Invoices are emailed automatically and available in Billing > Invoice History. If you need an invoice in a specific format for accounting, contact billing@company.com."
+  },
+  {
+    "id": 5,
+    "title": "Order Tracking and Shipping",
+    "content": "After placing an order, you receive a confirmation email with your order number. Once shipped, a tracking number is emailed within 24 hours. Track your order at Tracking > Enter Order Number on our website, or directly on the courier's website. Standard shipping takes 5-7 business days; express shipping (2-day) is available at checkout for an additional fee. To upgrade to express shipping after placing an order, contact support within 2 hours of purchase — after that, the order may already be in processing. For orders marked as delivered but not received, open a missing package claim within 7 days by navigating to Orders > Report Missing Package and attaching proof of address."
+  },
+  {
+    "id": 6,
+    "title": "Account Security and Compromised Accounts",
+    "content": "If you suspect your account has been compromised, immediately change your password and enable two-factor authentication (2FA) under Account > Security. Review your login history at Account > Security > Login History to identify unauthorized access. To lock your account immediately, click Account > Security > Lock Account or contact support 24/7. We will freeze the account within 15 minutes of receiving your report. Supported 2FA methods: authenticator apps (Google Authenticator, Authy), SMS, and hardware security keys (YubiKey). We will never ask for your password via email or phone. Report suspicious emails pretending to be from us to security@company.com."
+  },
+  {
+    "id": 7,
+    "title": "Mobile App Troubleshooting",
+    "content": "Common mobile app issues and solutions: (1) App crashes on file upload: caused by a known issue on iOS 17.x with files over 10MB. Workaround: compress files before uploading, or use the web version. Fix expected in app version 3.2.1. (2) App crashes on settings screen: clear the app cache in Device Settings > App > Clear Cache. (3) Dark mode not persisting: a known bug in version 3.1.x — dark mode preference resets on app restart. Fixed in version 3.2.0. Update the app from the App Store or Google Play. (4) Slow loading: ensure you have a stable internet connection. Try switching between Wi-Fi and mobile data. If issues persist, uninstall and reinstall the app."
+  },
+  {
+    "id": 8,
+    "title": "Cancellation Policy and Data Retention",
+    "content": "To cancel your subscription, go to Billing > Subscription > Cancel Plan. You can use your subscription until the end of the current billing period — no partial refunds are issued for the remaining days. After cancellation, your account is downgraded to Free plan. Your data is retained for 90 days in case you wish to reactivate. After 90 days, all data is permanently deleted. To export your data before cancellation, go to Account > Data > Export — the export is delivered as a ZIP file within 24 hours. Enterprise contracts require 30 days written notice for cancellation. Reactivating within 90 days of cancellation restores all data and settings."
+  },
+  {
+    "id": 9,
+    "title": "Team Management and Organization Settings",
+    "content": "To add a team member, go to Organization > Members > Invite Member. Enter their email address and select their role (Viewer, Editor, Admin). An invitation email is sent valid for 7 days. If the invite button is grayed out, it may mean: (1) you have reached your plan's user limit — upgrade to add more members, (2) you do not have Admin permissions — ask your organization owner to grant you admin rights, (3) the member is already invited — check Organization > Members > Pending Invitations. Roles: Viewer (read-only), Editor (create and edit content), Admin (full organization management). The organization owner can transfer ownership under Organization > Settings > Transfer Ownership."
+  },
+  {
+    "id": 10,
+    "title": "Data Export and GDPR Compliance",
+    "content": "We are fully GDPR compliant. As a data subject, you have the right to: (1) access your data — request via Account > Privacy > Download My Data, (2) correct your data — update directly in Account > Profile, (3) delete your data — request account deletion via Account > Privacy > Delete Account (processed within 30 days), (4) data portability — export in JSON or CSV format. Data export includes your profile, content, activity logs, and billing history. For GDPR data access requests from EU citizens, we respond within 30 days as required by law. To appoint a GDPR representative or for DPA (Data Processing Agreement) inquiries, contact privacy@company.com."
+  }
+]
