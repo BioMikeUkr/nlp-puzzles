@@ -1,5 +1,5 @@
 # NLP Puzzles
-![alt text](statis/logo.png)
+![alt text](static/logo.png)
 A hands-on NLP/ML curriculum for **trainees and juniors** who already know basic Python, ML and want to get production-ready in AI/ML engineering from embeddings to production APIs.
 
 ---
