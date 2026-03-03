@@ -1,0 +1,62 @@
+[
+  {
+    "query_id": "q1",
+    "query": "How do I reset my password?",
+    "documents": [
+      {"doc_id": "d1", "text": "To reset your password, go to Settings > Account > Reset Password. Enter your email and click the reset link sent to you."},
+      {"doc_id": "d2", "text": "Python password hashing tutorial: Use bcrypt library to securely hash passwords in your application."},
+      {"doc_id": "d3", "text": "Customer support is available Monday-Friday 9am-5pm EST. Contact us at support@example.com."},
+      {"doc_id": "d4", "text": "Password requirements: minimum 8 characters, at least one uppercase letter, one number, and one special character."},
+      {"doc_id": "d5", "text": "Forgot your username? Visit the login page and click 'Forgot username' to recover it via email."}
+    ],
+    "relevant_docs": ["d1", "d4"]
+  },
+  {
+    "query_id": "q2",
+    "query": "payment failed credit card declined",
+    "documents": [
+      {"doc_id": "d6", "text": "If your payment fails, check that your credit card hasn't expired and has sufficient funds. Contact your bank if the issue persists."},
+      {"doc_id": "d7", "text": "We accept Visa, Mastercard, American Express, and PayPal. All transactions are encrypted and secure."},
+      {"doc_id": "d8", "text": "Monthly subscription costs $9.99. Annual subscription is $99 (save 17%). Enterprise plans start at $299/month."},
+      {"doc_id": "d9", "text": "Credit card declined error: This happens when your card issuer rejects the transaction. Common reasons include insufficient funds, expired card, or fraud protection."},
+      {"doc_id": "d10", "text": "Refund policy: Request a full refund within 30 days of purchase. Refunds are processed within 5-7 business days."}
+    ],
+    "relevant_docs": ["d6", "d9"]
+  },
+  {
+    "query_id": "q3",
+    "query": "slow loading performance issues",
+    "documents": [
+      {"doc_id": "d11", "text": "If the application is loading slowly, try clearing your browser cache and cookies. This often resolves performance issues."},
+      {"doc_id": "d12", "text": "System requirements: Minimum 4GB RAM, modern browser (Chrome 90+, Firefox 88+, Safari 14+), stable internet connection."},
+      {"doc_id": "d13", "text": "Performance optimization tips: Disable browser extensions, close unused tabs, check your internet speed at speedtest.net."},
+      {"doc_id": "d14", "text": "Our API returns JSON responses with average latency under 200ms. Rate limit is 1000 requests per hour."},
+      {"doc_id": "d15", "text": "Scheduled maintenance: We perform system updates every Sunday 2am-4am EST. Expect brief downtime during this window."}
+    ],
+    "relevant_docs": ["d11", "d13"]
+  },
+  {
+    "query_id": "q4",
+    "query": "how to export data to CSV file",
+    "documents": [
+      {"doc_id": "d16", "text": "To export your data, go to Reports > Export > Select CSV format. Choose date range and columns, then click Download."},
+      {"doc_id": "d17", "text": "Data retention policy: We store your data for 90 days. Download exports before the retention period expires."},
+      {"doc_id": "d18", "text": "CSV file format: Comma-separated values with header row. Open in Excel, Google Sheets, or any spreadsheet application."},
+      {"doc_id": "d19", "text": "Bulk import data from CSV: Go to Settings > Import and upload your file. Map columns to database fields."},
+      {"doc_id": "d20", "text": "API endpoint for data export: GET /api/export?format=csv&start_date=YYYY-MM-DD&end_date=YYYY-MM-DD"}
+    ],
+    "relevant_docs": ["d16", "d18"]
+  },
+  {
+    "query_id": "q5",
+    "query": "mobile app not syncing with cloud",
+    "documents": [
+      {"doc_id": "d21", "text": "If your mobile app isn't syncing, check your internet connection and ensure you're logged into the same account on all devices."},
+      {"doc_id": "d22", "text": "Cloud storage limits: Free tier includes 5GB. Upgrade to Premium for 100GB or Enterprise for unlimited storage."},
+      {"doc_id": "d23", "text": "Sync troubleshooting: Force quit the app, restart your phone, and log back in. If issues persist, reinstall the app."},
+      {"doc_id": "d24", "text": "Mobile app features: Available on iOS 14+ and Android 9+. Offline mode, push notifications, biometric login."},
+      {"doc_id": "d25", "text": "Desktop app sync: Install the desktop client from our downloads page. Syncs automatically every 5 minutes."}
+    ],
+    "relevant_docs": ["d21", "d23"]
+  }
+]

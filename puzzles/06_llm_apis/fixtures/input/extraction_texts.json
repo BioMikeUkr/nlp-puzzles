@@ -1,0 +1,71 @@
+[
+  {
+    "text_id": "E001",
+    "text": "Hi, I'm John Smith from Acme Corp. You can reach me at john.smith@acmecorp.com or call me at +1-555-0123. I'm interested in your Enterprise plan.",
+    "expected": {
+      "name": "John Smith",
+      "company": "Acme Corp",
+      "email": "john.smith@acmecorp.com",
+      "phone": "+1-555-0123",
+      "interest": "Enterprise plan"
+    }
+  },
+  {
+    "text_id": "E002",
+    "text": "Please invoice to: TechStart Inc, 123 Main Street, San Francisco, CA 94105. Attention: Jane Doe, CFO. Total amount: $12,450.00 for Q4 services.",
+    "expected": {
+      "company": "TechStart Inc",
+      "address": "123 Main Street, San Francisco, CA 94105",
+      "contact_name": "Jane Doe",
+      "contact_title": "CFO",
+      "amount": 12450.00,
+      "period": "Q4"
+    }
+  },
+  {
+    "text_id": "E003",
+    "text": "Meeting scheduled for tomorrow, March 15th at 2:30 PM PST. Attendees: Alice (alice@example.com), Bob (bob@example.com). Topic: Q1 Review.",
+    "expected": {
+      "date": "March 15th",
+      "time": "2:30 PM PST",
+      "attendees": [
+        {"name": "Alice", "email": "alice@example.com"},
+        {"name": "Bob", "email": "bob@example.com"}
+      ],
+      "topic": "Q1 Review"
+    }
+  },
+  {
+    "text_id": "E004",
+    "text": "Order #ORD-98765: 3x Widget Pro ($49.99 each), 1x Widget Premium ($99.99). Shipping: $15.00. Tax: $18.45. Total: $283.44. Ship to: 456 Oak Ave, Austin, TX 78701.",
+    "expected": {
+      "order_id": "ORD-98765",
+      "items": [
+        {"name": "Widget Pro", "quantity": 3, "unit_price": 49.99},
+        {"name": "Widget Premium", "quantity": 1, "unit_price": 99.99}
+      ],
+      "shipping": 15.00,
+      "tax": 18.45,
+      "total": 283.44,
+      "shipping_address": "456 Oak Ave, Austin, TX 78701"
+    }
+  },
+  {
+    "text_id": "E005",
+    "text": "Bug Report: Application crashes when uploading files larger than 10MB. Browser: Chrome 120, OS: Windows 11. Reproducible: Yes. Severity: High. Steps: 1. Click upload 2. Select file >10MB 3. Click submit 4. App freezes.",
+    "expected": {
+      "type": "Bug Report",
+      "issue": "Application crashes when uploading files larger than 10MB",
+      "browser": "Chrome 120",
+      "os": "Windows 11",
+      "reproducible": true,
+      "severity": "High",
+      "steps": [
+        "Click upload",
+        "Select file >10MB",
+        "Click submit",
+        "App freezes"
+      ]
+    }
+  }
+]

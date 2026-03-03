@@ -1,0 +1,186 @@
+{
+  "description": "Edge cases and tricky scenarios for FAISS vector search testing",
+  "test_cases": [
+    {
+      "name": "empty_query",
+      "query": "",
+      "expected_behavior": "Should handle gracefully, may return low-confidence results",
+      "category": "input_validation"
+    },
+    {
+      "name": "very_long_query",
+      "query": "I have been experiencing a very frustrating issue with the application where every single time I try to perform any action it seems to take an extremely long amount of time to complete and sometimes it doesn't even finish at all which is causing major problems for my workflow and productivity and I really need this resolved as soon as possible because it's affecting my ability to get my work done efficiently",
+      "expected_behavior": "Should truncate or handle appropriately based on model's max length",
+      "category": "input_validation"
+    },
+    {
+      "name": "special_characters",
+      "query": "!@#$%^&*() payment <script>alert('test')</script>",
+      "expected_behavior": "Should handle special characters and HTML without breaking",
+      "category": "input_validation"
+    },
+    {
+      "name": "unicode_characters",
+      "query": "пароль сброс 密码重置 パスワードリセット",
+      "expected_behavior": "Should handle multilingual input (though may not match English tickets well)",
+      "category": "input_validation"
+    },
+    {
+      "name": "numeric_query",
+      "query": "12345 67890",
+      "expected_behavior": "Should handle numeric-only queries",
+      "category": "input_validation"
+    },
+    {
+      "name": "single_word",
+      "query": "login",
+      "expected_behavior": "Should return relevant login-related tickets",
+      "category": "semantic_search"
+    },
+    {
+      "name": "exact_title_match",
+      "query": "Cannot reset my password",
+      "expected_behavior": "Should return ticket #1 as top result",
+      "category": "semantic_search",
+      "expected_top_id": 1
+    },
+    {
+      "name": "synonym_search",
+      "query": "account access problem",
+      "expected_behavior": "Should match 'login' and 'authentication' tickets",
+      "category": "semantic_search",
+      "related_categories": ["account"]
+    },
+    {
+      "name": "negation_handling",
+      "query": "not receiving emails",
+      "expected_behavior": "Should match tickets about email delivery issues",
+      "category": "semantic_search",
+      "expected_related_ids": [26, 38, 1]
+    },
+    {
+      "name": "technical_jargon",
+      "query": "API endpoint 404 response",
+      "expected_behavior": "Should match technical error tickets",
+      "category": "semantic_search",
+      "expected_related_ids": [16, 40]
+    },
+    {
+      "name": "filter_no_results",
+      "query": "payment issue",
+      "filter": {"category": "feature", "status": "resolved"},
+      "expected_behavior": "May return empty results if no matching tickets exist",
+      "category": "filtering"
+    },
+    {
+      "name": "filter_single_category",
+      "query": "error",
+      "filter": {"category": "billing"},
+      "expected_behavior": "All results should have category='billing'",
+      "category": "filtering"
+    },
+    {
+      "name": "filter_restrictive",
+      "query": "help",
+      "filter": {"category": "account", "status": "resolved"},
+      "expected_behavior": "Should return only resolved account tickets",
+      "category": "filtering"
+    },
+    {
+      "name": "k_equals_1",
+      "query": "login problem",
+      "k": 1,
+      "expected_behavior": "Should return exactly 1 result",
+      "category": "parameter_validation"
+    },
+    {
+      "name": "k_larger_than_corpus",
+      "query": "issue",
+      "k": 1000,
+      "expected_behavior": "Should return all available tickets (max 50)",
+      "category": "parameter_validation"
+    },
+    {
+      "name": "k_equals_0",
+      "query": "test",
+      "k": 0,
+      "expected_behavior": "Should handle gracefully, may return empty list or error",
+      "category": "parameter_validation"
+    },
+    {
+      "name": "ambiguous_query",
+      "query": "not working",
+      "expected_behavior": "Very generic - could match many different tickets",
+      "category": "semantic_search",
+      "note": "Results may vary, check for reasonable diversity"
+    },
+    {
+      "name": "compound_issue",
+      "query": "payment failed and account locked",
+      "expected_behavior": "Should balance between payment and account issues",
+      "category": "semantic_search"
+    },
+    {
+      "name": "temporal_query",
+      "query": "issue started yesterday",
+      "expected_behavior": "May not match well since tickets don't describe timing",
+      "category": "semantic_search",
+      "note": "Temporal information is in metadata, not searchable content"
+    },
+    {
+      "name": "case_sensitivity",
+      "query": "PASSWORD RESET ISSUE",
+      "expected_behavior": "Should return same results as lowercase query",
+      "category": "input_validation"
+    }
+  ],
+  "performance_edge_cases": [
+    {
+      "name": "recall_comparison",
+      "description": "IVF and HNSW may have different recall on specific queries",
+      "test": "Compare top-10 results from Flat vs IVF vs HNSW",
+      "expected": "Recall should be >= 0.8 for most queries"
+    },
+    {
+      "name": "consistency",
+      "description": "Same query should return same results when run multiple times",
+      "test": "Run same query 5 times and compare results",
+      "expected": "Results should be identical (deterministic)"
+    },
+    {
+      "name": "score_range",
+      "description": "Cosine similarity scores should be in valid range",
+      "test": "Check all returned scores",
+      "expected": "Scores should be between 0 and 1 for normalized embeddings with inner product"
+    }
+  ],
+  "validation_rules": {
+    "embeddings": {
+      "shape": "(n_tickets, 384)",
+      "dtype": "float32",
+      "normalization": "L2 norm should be ~1.0 for all vectors"
+    },
+    "indexes": {
+      "Flat": {
+        "type": "IndexFlatIP",
+        "ntotal": "should equal number of tickets"
+      },
+      "IVF": {
+        "type": "IndexIVFFlat",
+        "nlist": 100,
+        "nprobe": 10,
+        "is_trained": true
+      },
+      "HNSW": {
+        "type": "IndexHNSWFlat",
+        "M": 32,
+        "efSearch": 64
+      }
+    },
+    "search_results": {
+      "structure": "List of dicts with 'ticket' and 'score' keys",
+      "score_order": "Descending (highest similarity first)",
+      "length": "Should match k parameter"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+ticket_id,user_id,category,description,created_at,resolved_at,priority,status
+1,101,Technical,Cannot connect to VPN,2024-01-15 09:30:00,2024-01-15 11:45:00,high,resolved
+2,102,Billing,Invoice discrepancy in December statement,2024-01-16 10:00:00,2024-01-16 14:30:00,medium,resolved
+3,103,Technical,System crashes when opening large files,2024-01-17 08:15:00,2024-01-17 16:20:00,high,resolved
+4,101,Account,Password reset request,2024-01-18 13:45:00,2024-01-18 14:00:00,low,resolved
+5,104,Technical,Database connection timeout errors,2024-01-20 09:00:00,2024-01-20 17:30:00,critical,resolved
+6,105,Billing,Payment method update needed,2024-01-22 11:30:00,2024-01-23 09:00:00,medium,resolved
+7,102,Technical,Application not loading dashboard,2024-01-24 14:00:00,2024-01-25 10:15:00,high,resolved
+8,106,Account,Unable to access admin panel,2024-01-25 08:30:00,2024-01-25 12:00:00,medium,resolved
+9,103,Technical,API returning 500 errors,2024-01-26 10:45:00,2024-01-26 15:30:00,critical,resolved
+10,107,Billing,Subscription renewal confirmation,2024-01-28 09:15:00,2024-01-28 10:30:00,low,resolved
+11,104,Technical,Email notifications not working,2024-02-01 11:00:00,2024-02-01 16:45:00,medium,resolved
+12,105,Account,Two-factor authentication setup,2024-02-03 13:30:00,2024-02-03 14:45:00,low,resolved
+13,108,Technical,Mobile app crashing on startup,2024-02-05 08:00:00,2024-02-05 12:30:00,high,resolved
+14,101,Billing,Refund request for duplicate charge,2024-02-07 10:30:00,2024-02-08 09:15:00,high,resolved
+15,109,Technical,Data export feature not working,2024-02-10 14:15:00,2024-02-10 17:00:00,medium,resolved
+16,102,Account,Profile picture upload failing,2024-02-12 09:45:00,2024-02-12 11:30:00,low,resolved
+17,110,Technical,Search functionality returning no results,2024-02-15 11:30:00,2024-02-15 15:45:00,high,resolved
+18,103,Billing,Tax information update,2024-02-18 08:30:00,2024-02-18 10:00:00,low,resolved
+19,104,Technical,Report generation timing out,2024-02-20 13:00:00,2024-02-21 09:30:00,high,resolved
+20,111,Account,Account deletion request,2024-02-22 10:15:00,2024-02-22 16:00:00,medium,resolved
+21,105,Technical,Integration with third-party service failing,2024-02-25 09:00:00,2024-02-26 11:45:00,critical,resolved
+22,106,Billing,Upgrade to premium plan,2024-02-28 14:30:00,2024-02-28 15:15:00,low,resolved
+23,112,Technical,Backup restore not completing,2024-03-01 08:45:00,2024-03-01 14:30:00,critical,resolved
+24,107,Account,Change email address,2024-03-03 11:00:00,2024-03-03 12:15:00,low,resolved
+25,108,Technical,Performance issues during peak hours,2024-03-05 10:30:00,2024-03-06 09:00:00,high,resolved
+26,113,Billing,Annual billing instead of monthly,2024-03-08 13:45:00,2024-03-08 15:30:00,medium,resolved
+27,109,Technical,File upload size limit too restrictive,2024-03-10 09:15:00,2024-03-10 16:00:00,medium,resolved
+28,110,Account,Username change request,2024-03-12 14:00:00,2024-03-12 15:00:00,low,resolved
+29,114,Technical,SSL certificate warning appearing,2024-03-15 08:30:00,2024-03-15 11:45:00,high,resolved
+30,111,Billing,Proration question for plan change,2024-03-18 10:00:00,2024-03-18 11:30:00,low,resolved
+31,101,Technical,Cannot connect to VPN again,2024-03-20 09:30:00,2024-03-20 12:00:00,high,resolved
+32,115,Account,API key generation failing,2024-03-22 11:15:00,2024-03-22 14:30:00,medium,resolved
+33,102,Technical,Slow page load times,2024-03-25 13:30:00,2024-03-26 10:15:00,medium,resolved
+34,103,Billing,Download invoice as PDF,2024-03-28 09:00:00,2024-03-28 09:45:00,low,resolved
+35,116,Technical,Webhook events not being received,2024-04-01 10:45:00,2024-04-01 15:30:00,high,resolved
+36,104,Account,Security audit log access,2024-04-03 14:00:00,2024-04-03 16:15:00,medium,resolved
+37,105,Technical,Rate limiting errors on API,2024-04-05 08:15:00,2024-04-05 13:00:00,high,resolved
+38,117,Billing,Credit card expiration update,2024-04-08 11:30:00,2024-04-08 12:00:00,low,resolved
+39,106,Technical,Cron jobs not executing on schedule,2024-04-10 09:45:00,2024-04-11 08:30:00,critical,resolved
+40,107,Account,Organization invite not working,2024-04-12 13:15:00,2024-04-12 15:45:00,medium,resolved
+41,118,Technical,Memory leak in background worker,2024-04-15 10:00:00,2024-04-16 11:30:00,critical,resolved
+42,108,Billing,Add additional seats to plan,2024-04-18 14:30:00,2024-04-18 15:45:00,low,resolved
+43,109,Technical,CORS errors on API requests,2024-04-20 09:00:00,2024-04-20 12:15:00,high,resolved
+44,119,Account,SSO configuration assistance,2024-04-22 11:45:00,2024-04-23 09:30:00,high,resolved
+45,110,Technical,Queue processing delays,2024-04-25 08:30:00,2024-04-25 14:00:00,medium,resolved
+46,111,Billing,Downgrade plan at end of billing cycle,2024-04-28 10:15:00,2024-04-28 11:00:00,low,resolved
+47,120,Technical,Redis connection pool exhausted,2024-05-01 13:00:00,2024-05-01 17:45:00,critical,resolved
+48,112,Account,Export user data per GDPR request,2024-05-03 09:30:00,2024-05-04 10:15:00,high,resolved
+49,113,Technical,GraphQL query optimization needed,2024-05-06 11:00:00,2024-05-06 16:30:00,medium,resolved
+50,121,Billing,Apply promotional discount code,2024-05-08 14:45:00,2024-05-08 15:30:00,low,resolved

@@ -1,0 +1,5 @@
+This is a test file for upload testing.
+It contains multiple lines of text.
+Each line will be processed by the API.
+The processing simulates real-world text analysis.
+FastAPI makes it easy to handle file uploads.

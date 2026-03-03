@@ -1,0 +1,20 @@
+# Data Formats
+pyarrow>=14.0.0  # Parquet, Arrow
+fastparquet>=2023.10.0  # Alternative Parquet implementation
+pandas>=2.1.0
+
+# Compression
+python-snappy>=0.6.1  # Snappy compression
+zstandard>=0.22.0  # Zstandard compression
+
+# Database
+sqlalchemy>=2.0.0  # ORM and database toolkit
+psycopg2-binary>=2.9.9  # PostgreSQL adapter
+pymysql>=1.1.0  # MySQL adapter
+
+# JSON processing
+orjson>=3.9.0  # Fast JSON library
+jsonlines>=4.0.0  # JSONL format
+
+# Utilities
+duckdb>=0.9.0  # Embedded analytical database

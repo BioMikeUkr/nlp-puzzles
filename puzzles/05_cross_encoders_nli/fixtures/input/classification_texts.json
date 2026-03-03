@@ -1,0 +1,74 @@
+[
+  {
+    "text_id": "t1",
+    "text": "I absolutely love this product! It exceeded all my expectations and the customer service was fantastic.",
+    "true_labels": ["positive"],
+    "candidate_labels": ["positive", "negative", "neutral"]
+  },
+  {
+    "text_id": "t2",
+    "text": "This is the worst purchase I've ever made. Complete waste of money. Do not buy!",
+    "true_labels": ["negative"],
+    "candidate_labels": ["positive", "negative", "neutral"]
+  },
+  {
+    "text_id": "t3",
+    "text": "The product arrived on time. It's okay, nothing special.",
+    "true_labels": ["neutral"],
+    "candidate_labels": ["positive", "negative", "neutral"]
+  },
+  {
+    "text_id": "t4",
+    "text": "URGENT: Payment system is down. All transactions failing. Multiple customers affected.",
+    "true_labels": ["urgent", "technical", "payment"],
+    "candidate_labels": ["urgent", "technical", "payment", "account", "feature_request"]
+  },
+  {
+    "text_id": "t5",
+    "text": "Can you add dark mode to the mobile app? It would be great for nighttime use.",
+    "true_labels": ["feature_request"],
+    "candidate_labels": ["urgent", "bug", "feature_request", "question", "feedback"]
+  },
+  {
+    "text_id": "t6",
+    "text": "The login button doesn't work on Safari browser. Getting error 500.",
+    "true_labels": ["bug", "technical"],
+    "candidate_labels": ["bug", "technical", "feature_request", "urgent", "account"]
+  },
+  {
+    "text_id": "t7",
+    "text": "How do I upgrade my subscription plan?",
+    "true_labels": ["question", "billing"],
+    "candidate_labels": ["question", "billing", "technical", "feature_request", "feedback"]
+  },
+  {
+    "text_id": "t8",
+    "text": "The new update is pretty good. Some features are better, but the UI changes are confusing.",
+    "true_labels": ["feedback", "mixed"],
+    "candidate_labels": ["positive", "negative", "mixed", "feedback"]
+  },
+  {
+    "text_id": "t9",
+    "text": "Server response time increased from 200ms to 5 seconds after yesterday's deployment.",
+    "true_labels": ["technical", "performance", "urgent"],
+    "candidate_labels": ["technical", "performance", "urgent", "bug", "feature_request"]
+  },
+  {
+    "text_id": "t10",
+    "text": "Received wrong item in my order. Order #12345 was supposed to be blue, got red instead.",
+    "true_labels": ["order_issue", "shipping"],
+    "candidate_labels": ["order_issue", "shipping", "payment", "technical", "account"]
+  },
+  {
+    "text_id": "t11",
+    "text": "The annual report shows 25% revenue growth. Profit margins improved by 5 percentage points.",
+    "true_labels": ["business", "finance"],
+    "candidate_labels": ["business", "finance", "technology", "marketing", "operations"]
+  },
+  {
+    "text_id": "t12",
+    "text": "New machine learning model achieves 95% accuracy on test set. Used transformer architecture with 12 layers.",
+    "true_labels": ["technology", "ai"],
+    "candidate_labels": ["technology", "ai", "business", "science", "engineering"]
+  }
+]

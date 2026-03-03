@@ -1,0 +1,145 @@
+{
+  "description": "Expected top search results for common queries. These are example results to validate semantic search quality.",
+  "queries": {
+    "password reset issue": {
+      "expected_top_tickets": [
+        {
+          "id": 1,
+          "title": "Cannot reset my password",
+          "relevance": "High - Direct match for password reset"
+        },
+        {
+          "id": 23,
+          "title": "Password reset link expired",
+          "relevance": "High - About password reset functionality"
+        },
+        {
+          "id": 4,
+          "title": "Unable to login to my account",
+          "relevance": "Medium - Related to authentication issues"
+        }
+      ]
+    },
+    "payment failed": {
+      "expected_top_tickets": [
+        {
+          "id": 2,
+          "title": "Payment failed with credit card",
+          "relevance": "High - Exact match"
+        },
+        {
+          "id": 21,
+          "title": "Payment method declined",
+          "relevance": "High - Same issue, different wording"
+        },
+        {
+          "id": 8,
+          "title": "Duplicate charges on my card",
+          "relevance": "Medium - Payment-related"
+        }
+      ]
+    },
+    "slow performance": {
+      "expected_top_tickets": [
+        {
+          "id": 3,
+          "title": "Website loads very slowly",
+          "relevance": "High - Direct performance issue"
+        },
+        {
+          "id": 28,
+          "title": "Mobile app not syncing with web",
+          "relevance": "Medium - Performance/sync issue"
+        },
+        {
+          "id": 43,
+          "title": "Memory leak in desktop application",
+          "relevance": "Medium - Performance degradation"
+        }
+      ]
+    },
+    "cannot login": {
+      "expected_top_tickets": [
+        {
+          "id": 4,
+          "title": "Unable to login to my account",
+          "relevance": "High - Exact semantic match"
+        },
+        {
+          "id": 1,
+          "title": "Cannot reset my password",
+          "relevance": "High - Login-related"
+        },
+        {
+          "id": 17,
+          "title": "Two-factor authentication not working",
+          "relevance": "High - Login process issue"
+        }
+      ]
+    },
+    "refund": {
+      "expected_top_tickets": [
+        {
+          "id": 5,
+          "title": "Refund not received after cancellation",
+          "relevance": "High - Direct match"
+        },
+        {
+          "id": 8,
+          "title": "Duplicate charges on my card",
+          "relevance": "Medium - Mentions refund needed"
+        },
+        {
+          "id": 12,
+          "title": "Subscription auto-renewed unexpectedly",
+          "relevance": "Medium - Mentions wanting refund"
+        }
+      ]
+    }
+  },
+  "filtering_examples": {
+    "category_billing": {
+      "query": "payment",
+      "filter": {"category": "billing"},
+      "expected_count": ">= 3",
+      "should_include_ids": [2, 5, 8, 12, 15, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48]
+    },
+    "category_technical": {
+      "query": "issue",
+      "filter": {"category": "technical"},
+      "expected_count": ">= 3",
+      "should_include_ids": [3, 6, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49]
+    },
+    "status_open": {
+      "query": "problem",
+      "filter": {"status": "open"},
+      "expected_count": ">= 3",
+      "note": "Only tickets with status='open' should be returned"
+    },
+    "combined_filter": {
+      "query": "error",
+      "filter": {"category": "technical", "status": "open"},
+      "expected_count": ">= 2",
+      "note": "Must match both category AND status filters"
+    }
+  },
+  "performance_benchmarks": {
+    "index_types": {
+      "Flat": {
+        "expected_recall": 1.0,
+        "note": "Ground truth, 100% recall"
+      },
+      "IVF": {
+        "expected_recall": ">= 0.8",
+        "note": "nlist=10, nprobe=5. Should be faster than Flat with good recall"
+      },
+      "HNSW": {
+        "expected_recall": ">= 0.8",
+        "note": "M=32, efSearch=64. Should be faster than Flat with good recall"
+      }
+    },
+    "latency": {
+      "note": "For small datasets (50 tickets) differences may be minimal. Performance gap increases with larger datasets."
+    }
+  }
+}

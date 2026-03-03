@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "text": "I bought a MacBook Pro M3 last week and the keyboard is completely unresponsive after the latest macOS update.",
+    "expected": {"product": "MacBook Pro M3", "issue": "keyboard unresponsive", "sentiment": "negative"}
+  },
+  {
+    "id": 2,
+    "text": "The Spotify Premium subscription I purchased yesterday is still not showing as active on my account.",
+    "expected": {"product": "Spotify Premium", "issue": "subscription not activating", "sentiment": "negative"}
+  },
+  {
+    "id": 3,
+    "text": "Just wanted to say the new Samsung Galaxy S24 Ultra works perfectly with your app. Amazing experience!",
+    "expected": {"product": "Samsung Galaxy S24 Ultra", "issue": null, "sentiment": "positive"}
+  },
+  {
+    "id": 4,
+    "text": "My Adobe Creative Cloud subscription was charged even though I cancelled it two months ago.",
+    "expected": {"product": "Adobe Creative Cloud", "issue": "charged after cancellation", "sentiment": "negative"}
+  },
+  {
+    "id": 5,
+    "text": "The Sony WH-1000XM5 headphones I received have a defective right ear cup — no sound comes from it.",
+    "expected": {"product": "Sony WH-1000XM5", "issue": "defective right ear cup", "sentiment": "negative"}
+  },
+  {
+    "id": 6,
+    "text": "I'm impressed by how smoothly Microsoft 365 integrates with your platform. Great job!",
+    "expected": {"product": "Microsoft 365", "issue": null, "sentiment": "positive"}
+  },
+  {
+    "id": 7,
+    "text": "The Dell XPS 15 I ordered arrived with a cracked screen. I need a replacement sent immediately.",
+    "expected": {"product": "Dell XPS 15", "issue": "cracked screen on arrival", "sentiment": "negative"}
+  },
+  {
+    "id": 8,
+    "text": "Trying to activate my Windows 11 Pro license but the key says it is already in use.",
+    "expected": {"product": "Windows 11 Pro", "issue": "license key already in use", "sentiment": "negative"}
+  },
+  {
+    "id": 9,
+    "text": "The Logitech MX Master 3 mouse I received matches the description exactly. Very satisfied.",
+    "expected": {"product": "Logitech MX Master 3", "issue": null, "sentiment": "positive"}
+  },
+  {
+    "id": 10,
+    "text": "My iPad Air keeps crashing when I try to open any document in your app. Very frustrating.",
+    "expected": {"product": "iPad Air", "issue": "app crashes when opening documents", "sentiment": "negative"}
+  }
+]

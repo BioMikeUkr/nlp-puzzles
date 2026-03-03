@@ -1,0 +1,14 @@
+{
+  "classification": {
+    "accuracy": 0.847,
+    "precision": 0.712,
+    "recall": 0.789,
+    "f1": 0.748,
+    "roc_auc": 0.882
+  },
+  "multiclass": {
+    "accuracy": 0.658,
+    "macro_f1": 0.651,
+    "weighted_f1": 0.655
+  }
+}

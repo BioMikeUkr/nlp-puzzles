@@ -1,0 +1,2282 @@
+[
+  {
+    "query": "Transfer learning explained",
+    "positive": "Continue training pretrained model on domain-specific data",
+    "negative": "ML enables computers to learn patterns without explicit programming"
+  },
+  {
+    "query": "API authentication method",
+    "positive": "Include API key in request headers for authentication",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "Bearer token usage",
+    "positive": "Add authentication token to HTTP headers",
+    "negative": "Deploy through staging before production release"
+  },
+  {
+    "query": "How do transformers work?",
+    "positive": "Transformers use self-attention to process sequences in parallel",
+    "negative": "Machine learning trains algorithms on data to make predictions"
+  },
+  {
+    "query": "What is RAG?",
+    "positive": "Retrieves context from database before generating answer",
+    "negative": "Specialize general model for specific use case"
+  },
+  {
+    "query": "Transfer learning explained",
+    "positive": "Fine-tuning adapts pretrained models to specific tasks",
+    "negative": "Neural architecture using attention mechanisms for NLP"
+  },
+  {
+    "query": "Can't remember my password",
+    "positive": "Reset password from account settings security section",
+    "negative": "Transfer learning by updating model weights on new data"
+  },
+  {
+    "query": "BERT and GPT architecture",
+    "positive": "Transformers use self-attention to process sequences in parallel",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "Database not responding",
+    "positive": "Verify connection string and database server status",
+    "negative": "Transfer learning by updating model weights on new data"
+  },
+  {
+    "query": "Deep learning explained",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Execute deployment pipeline with health checks"
+  },
+  {
+    "query": "How do transformers work?",
+    "positive": "Processes entire sequence simultaneously using attention",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "What is RAG?",
+    "positive": "Retrieves context from database before generating answer",
+    "negative": "Gym membership discount for full-time employees"
+  },
+  {
+    "query": "Adapt pretrained models",
+    "positive": "Transfer learning by updating model weights on new data",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "Deep vs shallow learning",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Low-dimensional vectors representing high-dimensional data"
+  },
+  {
+    "query": "Transformer architecture explained",
+    "positive": "Model architecture that revolutionized NLP with attention",
+    "negative": "Add authentication token to HTTP headers"
+  },
+  {
+    "query": "Transformer architecture explained",
+    "positive": "Neural architecture using attention mechanisms for NLP",
+    "negative": "Add authentication token to HTTP headers"
+  },
+  {
+    "query": "Forgot password steps",
+    "positive": "Reset password from account settings security section",
+    "negative": "Company founded in 2015 by three engineers"
+  },
+  {
+    "query": "How does RAG work?",
+    "positive": "RAG retrieves relevant documents to enhance LLM responses",
+    "negative": "Use automated deployment with rollback capability"
+  },
+  {
+    "query": "Password recovery help",
+    "positive": "Reset password from account settings security section",
+    "negative": "Neural networks with multiple hidden layers for complex patterns"
+  },
+  {
+    "query": "What is deep learning?",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "Check firewall rules and database permissions"
+  },
+  {
+    "query": "Deep vs shallow learning",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Reset password from account settings security section"
+  },
+  {
+    "query": "Explain ML to beginners",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Dense vector representations capturing semantic meaning"
+  },
+  {
+    "query": "How do I reset my password?",
+    "positive": "Reset password from account settings security section",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "Adapt pretrained models",
+    "positive": "Specialize general model for specific use case",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "Transfer learning explained",
+    "positive": "Specialize general model for specific use case",
+    "negative": "ML enables computers to learn patterns without explicit programming"
+  },
+  {
+    "query": "What is machine learning?",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Include API key in request headers for authentication"
+  },
+  {
+    "query": "How do transformers work?",
+    "positive": "Model architecture that revolutionized NLP with attention",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "Machine learning definition",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "What is RAG?",
+    "positive": "Combines information retrieval with text generation",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "Explain ML to beginners",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Subset of ML using layered neural networks"
+  },
+  {
+    "query": "Retrieval augmented generation",
+    "positive": "Retrieves context from database before generating answer",
+    "negative": "Ensure database service is running and ports are open"
+  },
+  {
+    "query": "Recover lost password",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Team building events quarterly at various venues"
+  },
+  {
+    "query": "Transformer architecture explained",
+    "positive": "Neural architecture using attention mechanisms for NLP",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "Production deployment steps",
+    "positive": "Run tests, build artifacts, and deploy via CI/CD pipeline",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "Forgot password steps",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "Introduction to deep learning",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Combines information retrieval with text generation"
+  },
+  {
+    "query": "What are transformers in NLP?",
+    "positive": "Transformers use self-attention to process sequences in parallel",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "Adapt pretrained models",
+    "positive": "Fine-tuning adapts pretrained models to specific tasks",
+    "negative": "Machine learning trains algorithms on data to make predictions"
+  },
+  {
+    "query": "How do I reset my password?",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Annual subscription includes priority support"
+  },
+  {
+    "query": "Deploy to production",
+    "positive": "Run tests, build artifacts, and deploy via CI/CD pipeline",
+    "negative": "Numerical vectors encoding text or word meaning"
+  },
+  {
+    "query": "How to authenticate API requests?",
+    "positive": "Add authentication token to HTTP headers",
+    "negative": "Model architecture that revolutionized NLP with attention"
+  },
+  {
+    "query": "Can't remember my password",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "Vector representations of text",
+    "positive": "Dense vector representations capturing semantic meaning",
+    "negative": "Check database credentials and server accessibility"
+  },
+  {
+    "query": "Production deployment steps",
+    "positive": "Execute deployment pipeline with health checks",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "Machine learning definition",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Retrieves context from database before generating answer"
+  },
+  {
+    "query": "How to release new version?",
+    "positive": "Use automated deployment with rollback capability",
+    "negative": "Company founded in 2015 by three engineers"
+  },
+  {
+    "query": "Can't remember my password",
+    "positive": "Reset password from account settings security section",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "Transfer learning explained",
+    "positive": "Continue training pretrained model on domain-specific data",
+    "negative": "Holiday party scheduled for December 20th"
+  },
+  {
+    "query": "Database timeout issues",
+    "positive": "Verify connection string and database server status",
+    "negative": "Click 'Forgot Password' on login page and follow email instructions"
+  },
+  {
+    "query": "How does ML work?",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Retrieves context from database before generating answer"
+  },
+  {
+    "query": "What is deep learning?",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "Database connection error",
+    "positive": "Ensure database service is running and ports are open",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "Adapt pretrained models",
+    "positive": "Transfer learning by updating model weights on new data",
+    "negative": "ML enables computers to learn patterns without explicit programming"
+  },
+  {
+    "query": "Password reset not working",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Run tests, build artifacts, and deploy via CI/CD pipeline"
+  },
+  {
+    "query": "What is fine-tuning?",
+    "positive": "Fine-tuning adapts pretrained models to specific tasks",
+    "negative": "Include API key in request headers for authentication"
+  },
+  {
+    "query": "API security best practices",
+    "positive": "Use Bearer token in Authorization header for API requests",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "Text to vector conversion",
+    "positive": "Dense vector representations capturing semantic meaning",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "How do transformers work?",
+    "positive": "Transformers use self-attention to process sequences in parallel",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "CI/CD pipeline setup",
+    "positive": "Use automated deployment with rollback capability",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "How does RAG work?",
+    "positive": "Augments language model with retrieved knowledge",
+    "negative": "Company founded in 2015 by three engineers"
+  },
+  {
+    "query": "Reset account password",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "Deployment best practices",
+    "positive": "Execute deployment pipeline with health checks",
+    "negative": "Click 'Forgot Password' on login page and follow email instructions"
+  },
+  {
+    "query": "API security best practices",
+    "positive": "Add authentication token to HTTP headers",
+    "negative": "Check database credentials and server accessibility"
+  },
+  {
+    "query": "How do I reset my password?",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "Recover lost password",
+    "positive": "Reset password from account settings security section",
+    "negative": "Numerical vectors encoding text or word meaning"
+  },
+  {
+    "query": "Retrieval augmented generation",
+    "positive": "Augments language model with retrieved knowledge",
+    "negative": "Execute deployment pipeline with health checks"
+  },
+  {
+    "query": "Production deployment steps",
+    "positive": "Use automated deployment with rollback capability",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "Machine learning definition",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "Combining retrieval with generation",
+    "positive": "RAG retrieves relevant documents to enhance LLM responses",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "Domain adaptation in ML",
+    "positive": "Fine-tuning adapts pretrained models to specific tasks",
+    "negative": "Reset password from account settings security section"
+  },
+  {
+    "query": "Introduction to deep learning",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "Reset account password",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Low-dimensional vectors representing high-dimensional data"
+  },
+  {
+    "query": "What are embeddings?",
+    "positive": "Numerical vectors encoding text or word meaning",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "Combining retrieval with generation",
+    "positive": "Retrieves context from database before generating answer",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "API key generation",
+    "positive": "Include API key in request headers for authentication",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "What are transformers in NLP?",
+    "positive": "Transformers use self-attention to process sequences in parallel",
+    "negative": "Run tests, build artifacts, and deploy via CI/CD pipeline"
+  },
+  {
+    "query": "Change forgotten password",
+    "positive": "Reset password from account settings security section",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "Vector representations of text",
+    "positive": "Numerical vectors encoding text or word meaning",
+    "negative": "Company founded in 2015 by three engineers"
+  },
+  {
+    "query": "Password reset not working",
+    "positive": "Reset password from account settings security section",
+    "negative": "Use Bearer token in Authorization header for API requests"
+  },
+  {
+    "query": "Reset account password",
+    "positive": "Reset password from account settings security section",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "Vector representations of text",
+    "positive": "Vector space mapping of words preserving semantic relationships",
+    "negative": "Gym membership discount for full-time employees"
+  },
+  {
+    "query": "Database not responding",
+    "positive": "Verify connection string and database server status",
+    "negative": "Holiday party scheduled for December 20th"
+  },
+  {
+    "query": "How do word2vec work?",
+    "positive": "Numerical vectors encoding text or word meaning",
+    "negative": "Annual subscription includes priority support"
+  },
+  {
+    "query": "What are embeddings?",
+    "positive": "Low-dimensional vectors representing high-dimensional data",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "What is fine-tuning?",
+    "positive": "Specialize general model for specific use case",
+    "negative": "Statistical techniques allowing computers to learn from examples"
+  },
+  {
+    "query": "Deployment best practices",
+    "positive": "Deploy through staging before production release",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "Deploy to production",
+    "positive": "Deploy through staging before production release",
+    "negative": "Processes entire sequence simultaneously using attention"
+  },
+  {
+    "query": "What are transformers in NLP?",
+    "positive": "Neural architecture using attention mechanisms for NLP",
+    "negative": "Dense vector representations capturing semantic meaning"
+  },
+  {
+    "query": "Explain ML to beginners",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Gym membership discount for full-time employees"
+  },
+  {
+    "query": "What is deep learning?",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Machine learning trains algorithms on data to make predictions"
+  },
+  {
+    "query": "How do neural networks work?",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Add authentication token to HTTP headers"
+  },
+  {
+    "query": "What are transformers in NLP?",
+    "positive": "Processes entire sequence simultaneously using attention",
+    "negative": "Parking validation available at front desk"
+  },
+  {
+    "query": "Combining retrieval with generation",
+    "positive": "Augments language model with retrieved knowledge",
+    "negative": "Parking validation available at front desk"
+  },
+  {
+    "query": "Database connection error",
+    "positive": "Check firewall rules and database permissions",
+    "negative": "Model architecture that revolutionized NLP with attention"
+  },
+  {
+    "query": "What is RAG?",
+    "positive": "RAG retrieves relevant documents to enhance LLM responses",
+    "negative": "Ensure database service is running and ports are open"
+  },
+  {
+    "query": "What are embeddings?",
+    "positive": "Dense vector representations capturing semantic meaning",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "Can't connect to database",
+    "positive": "Check firewall rules and database permissions",
+    "negative": "Processes entire sequence simultaneously using attention"
+  },
+  {
+    "query": "What are embeddings?",
+    "positive": "Vector space mapping of words preserving semantic relationships",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "How does ML work?",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Use automated deployment with rollback capability"
+  },
+  {
+    "query": "Retrieval augmented generation",
+    "positive": "Combines information retrieval with text generation",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "Introduction to deep learning",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "RAG retrieves relevant documents to enhance LLM responses"
+  },
+  {
+    "query": "Password reset not working",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "Adapt pretrained models",
+    "positive": "Fine-tuning adapts pretrained models to specific tasks",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "Forgot password steps",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "Transformer architecture explained",
+    "positive": "Processes entire sequence simultaneously using attention",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "BERT and GPT architecture",
+    "positive": "Neural architecture using attention mechanisms for NLP",
+    "negative": "Gym membership discount for full-time employees"
+  },
+  {
+    "query": "Bearer token usage",
+    "positive": "OAuth2 or JWT tokens for secure API authentication",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "How do transformers work?",
+    "positive": "Neural architecture using attention mechanisms for NLP",
+    "negative": "Low-dimensional vectors representing high-dimensional data"
+  },
+  {
+    "query": "BERT and GPT architecture",
+    "positive": "Transformers use self-attention to process sequences in parallel",
+    "negative": "Transfer learning by updating model weights on new data"
+  },
+  {
+    "query": "Text to vector conversion",
+    "positive": "Numerical vectors encoding text or word meaning",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "Database not responding",
+    "positive": "Check firewall rules and database permissions",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "Combining retrieval with generation",
+    "positive": "Augments language model with retrieved knowledge",
+    "negative": "Add authentication token to HTTP headers"
+  },
+  {
+    "query": "How to authenticate API requests?",
+    "positive": "OAuth2 or JWT tokens for secure API authentication",
+    "negative": "Run tests, build artifacts, and deploy via CI/CD pipeline"
+  },
+  {
+    "query": "Change forgotten password",
+    "positive": "Reset password from account settings security section",
+    "negative": "Low-dimensional vectors representing high-dimensional data"
+  },
+  {
+    "query": "Reset account password",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Use automated deployment with rollback capability"
+  },
+  {
+    "query": "Deployment best practices",
+    "positive": "Run tests, build artifacts, and deploy via CI/CD pipeline",
+    "negative": "Gym membership discount for full-time employees"
+  },
+  {
+    "query": "API authentication method",
+    "positive": "Add authentication token to HTTP headers",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "Deployment best practices",
+    "positive": "Use automated deployment with rollback capability",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "Bearer token usage",
+    "positive": "Add authentication token to HTTP headers",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "Database connection error",
+    "positive": "Check firewall rules and database permissions",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "How do I reset my password?",
+    "positive": "Reset password from account settings security section",
+    "negative": "RAG retrieves relevant documents to enhance LLM responses"
+  },
+  {
+    "query": "Transformer architecture explained",
+    "positive": "Model architecture that revolutionized NLP with attention",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "SQL connection failed",
+    "positive": "Verify connection string and database server status",
+    "negative": "Learning representations through multiple processing layers"
+  },
+  {
+    "query": "Deep vs shallow learning",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "Attention mechanism in transformers",
+    "positive": "Processes entire sequence simultaneously using attention",
+    "negative": "Team building events quarterly at various venues"
+  },
+  {
+    "query": "Forgot password steps",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Check database credentials and server accessibility"
+  },
+  {
+    "query": "Change forgotten password",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "How do neural networks work?",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "BERT and GPT architecture",
+    "positive": "Neural architecture using attention mechanisms for NLP",
+    "negative": "RAG retrieves relevant documents to enhance LLM responses"
+  },
+  {
+    "query": "How does ML work?",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Numerical vectors encoding text or word meaning"
+  },
+  {
+    "query": "Word embeddings explained",
+    "positive": "Numerical vectors encoding text or word meaning",
+    "negative": "Deep learning uses multi-layer neural networks to learn hierarchies"
+  },
+  {
+    "query": "SQL connection failed",
+    "positive": "Ensure database service is running and ports are open",
+    "negative": "Augments language model with retrieved knowledge"
+  },
+  {
+    "query": "Transfer learning explained",
+    "positive": "Transfer learning by updating model weights on new data",
+    "negative": "Low-dimensional vectors representing high-dimensional data"
+  },
+  {
+    "query": "Deployment best practices",
+    "positive": "Deploy through staging before production release",
+    "negative": "Reset password from account settings security section"
+  },
+  {
+    "query": "How do transformers work?",
+    "positive": "Processes entire sequence simultaneously using attention",
+    "negative": "Ensure database service is running and ports are open"
+  },
+  {
+    "query": "Text to vector conversion",
+    "positive": "Vector space mapping of words preserving semantic relationships",
+    "negative": "Annual subscription includes priority support"
+  },
+  {
+    "query": "How do word2vec work?",
+    "positive": "Dense vector representations capturing semantic meaning",
+    "negative": "Learning representations through multiple processing layers"
+  },
+  {
+    "query": "Deep vs shallow learning",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "API security best practices",
+    "positive": "OAuth2 or JWT tokens for secure API authentication",
+    "negative": "Run tests, build artifacts, and deploy via CI/CD pipeline"
+  },
+  {
+    "query": "SQL connection failed",
+    "positive": "Check database credentials and server accessibility",
+    "negative": "Transformers use self-attention to process sequences in parallel"
+  },
+  {
+    "query": "CI/CD pipeline setup",
+    "positive": "Run tests, build artifacts, and deploy via CI/CD pipeline",
+    "negative": "Model architecture that revolutionized NLP with attention"
+  },
+  {
+    "query": "Database timeout issues",
+    "positive": "Verify connection string and database server status",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "SQL connection failed",
+    "positive": "Check firewall rules and database permissions",
+    "negative": "Retrieves context from database before generating answer"
+  },
+  {
+    "query": "What is machine learning?",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Team building events quarterly at various venues"
+  },
+  {
+    "query": "Recover lost password",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Fine-tuning adapts pretrained models to specific tasks"
+  },
+  {
+    "query": "Domain adaptation in ML",
+    "positive": "Specialize general model for specific use case",
+    "negative": "Annual subscription includes priority support"
+  },
+  {
+    "query": "Can't remember my password",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Include API key in request headers for authentication"
+  },
+  {
+    "query": "Domain adaptation in ML",
+    "positive": "Specialize general model for specific use case",
+    "negative": "Check firewall rules and database permissions"
+  },
+  {
+    "query": "Word embeddings explained",
+    "positive": "Low-dimensional vectors representing high-dimensional data",
+    "negative": "Company founded in 2015 by three engineers"
+  },
+  {
+    "query": "Database timeout issues",
+    "positive": "Check firewall rules and database permissions",
+    "negative": "Fine-tuning adapts pretrained models to specific tasks"
+  },
+  {
+    "query": "Deploy to production",
+    "positive": "Use automated deployment with rollback capability",
+    "negative": "ML enables computers to learn patterns without explicit programming"
+  },
+  {
+    "query": "Introduction to deep learning",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Machine learning trains algorithms on data to make predictions"
+  },
+  {
+    "query": "What is deep learning?",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "How do word2vec work?",
+    "positive": "Vector space mapping of words preserving semantic relationships",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "How to fine-tune models?",
+    "positive": "Specialize general model for specific use case",
+    "negative": "Password reset instructions sent via email within minutes"
+  },
+  {
+    "query": "Forgot password steps",
+    "positive": "Reset password from account settings security section",
+    "negative": "Ensure database service is running and ports are open"
+  },
+  {
+    "query": "Combining retrieval with generation",
+    "positive": "Combines information retrieval with text generation",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "What is RAG?",
+    "positive": "Augments language model with retrieved knowledge",
+    "negative": "Transfer learning by updating model weights on new data"
+  },
+  {
+    "query": "Database connection error",
+    "positive": "Verify connection string and database server status",
+    "negative": "Team building events quarterly at various venues"
+  },
+  {
+    "query": "Password recovery help",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "How do I reset my password?",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Neural networks with multiple hidden layers for complex patterns"
+  },
+  {
+    "query": "Introduction to machine learning",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "What is RAG?",
+    "positive": "Combines information retrieval with text generation",
+    "negative": "Learning representations through multiple processing layers"
+  },
+  {
+    "query": "SQL connection failed",
+    "positive": "Ensure database service is running and ports are open",
+    "negative": "Team building events quarterly at various venues"
+  },
+  {
+    "query": "Machine learning definition",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Deep learning uses multi-layer neural networks to learn hierarchies"
+  },
+  {
+    "query": "Introduction to machine learning",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Reset password from account settings security section"
+  },
+  {
+    "query": "What is machine learning?",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Processes entire sequence simultaneously using attention"
+  },
+  {
+    "query": "Can't remember my password",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "RAG retrieves relevant documents to enhance LLM responses"
+  },
+  {
+    "query": "How does ML work?",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Combines information retrieval with text generation"
+  },
+  {
+    "query": "API authentication method",
+    "positive": "Add authentication token to HTTP headers",
+    "negative": "Numerical vectors encoding text or word meaning"
+  },
+  {
+    "query": "How to authenticate API requests?",
+    "positive": "Add authentication token to HTTP headers",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "Neural network basics",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "Vector representations of text",
+    "positive": "Numerical vectors encoding text or word meaning",
+    "negative": "Neural architecture using attention mechanisms for NLP"
+  },
+  {
+    "query": "API authentication method",
+    "positive": "OAuth2 or JWT tokens for secure API authentication",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "API security best practices",
+    "positive": "Include API key in request headers for authentication",
+    "negative": "Combines information retrieval with text generation"
+  },
+  {
+    "query": "Attention mechanism in transformers",
+    "positive": "Transformers use self-attention to process sequences in parallel",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "API authentication method",
+    "positive": "Use Bearer token in Authorization header for API requests",
+    "negative": "Dense vector representations capturing semantic meaning"
+  },
+  {
+    "query": "Can't connect to database",
+    "positive": "Verify connection string and database server status",
+    "negative": "Use password reset link sent to your registered email"
+  },
+  {
+    "query": "BERT and GPT architecture",
+    "positive": "Processes entire sequence simultaneously using attention",
+    "negative": "Use Bearer token in Authorization header for API requests"
+  },
+  {
+    "query": "What is machine learning?",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Subset of ML using layered neural networks"
+  },
+  {
+    "query": "Production deployment steps",
+    "positive": "Execute deployment pipeline with health checks",
+    "negative": "Ensure database service is running and ports are open"
+  },
+  {
+    "query": "API authentication method",
+    "positive": "Include API key in request headers for authentication",
+    "negative": "Check firewall rules and database permissions"
+  },
+  {
+    "query": "API key generation",
+    "positive": "OAuth2 or JWT tokens for secure API authentication",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "ML vs traditional programming",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Parking validation available at front desk"
+  },
+  {
+    "query": "Production deployment steps",
+    "positive": "Run tests, build artifacts, and deploy via CI/CD pipeline",
+    "negative": "Transformers use self-attention to process sequences in parallel"
+  },
+  {
+    "query": "Introduction to machine learning",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Continue training pretrained model on domain-specific data"
+  },
+  {
+    "query": "How does RAG work?",
+    "positive": "Retrieves context from database before generating answer",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "Neural network basics",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "Neural network basics",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "How to fine-tune models?",
+    "positive": "Fine-tuning adapts pretrained models to specific tasks",
+    "negative": "Annual subscription includes priority support"
+  },
+  {
+    "query": "Can't connect to database",
+    "positive": "Verify connection string and database server status",
+    "negative": "Annual subscription includes priority support"
+  },
+  {
+    "query": "Database not responding",
+    "positive": "Check database credentials and server accessibility",
+    "negative": "Continue training pretrained model on domain-specific data"
+  },
+  {
+    "query": "API authentication method",
+    "positive": "OAuth2 or JWT tokens for secure API authentication",
+    "negative": "Check database credentials and server accessibility"
+  },
+  {
+    "query": "Text to vector conversion",
+    "positive": "Dense vector representations capturing semantic meaning",
+    "negative": "Continue training pretrained model on domain-specific data"
+  },
+  {
+    "query": "What is fine-tuning?",
+    "positive": "Continue training pretrained model on domain-specific data",
+    "negative": "OAuth2 or JWT tokens for secure API authentication"
+  },
+  {
+    "query": "What is machine learning?",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Numerical vectors encoding text or word meaning"
+  },
+  {
+    "query": "Attention mechanism in transformers",
+    "positive": "Model architecture that revolutionized NLP with attention",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "How do transformers work?",
+    "positive": "Model architecture that revolutionized NLP with attention",
+    "negative": "Check database credentials and server accessibility"
+  },
+  {
+    "query": "Password reset not working",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "Can't remember my password",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Processes entire sequence simultaneously using attention"
+  },
+  {
+    "query": "Password recovery help",
+    "positive": "Reset password from account settings security section",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "Transformer architecture explained",
+    "positive": "Processes entire sequence simultaneously using attention",
+    "negative": "Machine learning trains algorithms on data to make predictions"
+  },
+  {
+    "query": "How do word2vec work?",
+    "positive": "Numerical vectors encoding text or word meaning",
+    "negative": "Subset of ML using layered neural networks"
+  },
+  {
+    "query": "How do neural networks work?",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Specialize general model for specific use case"
+  },
+  {
+    "query": "Reset account password",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "How does RAG work?",
+    "positive": "Combines information retrieval with text generation",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "How to fine-tune models?",
+    "positive": "Continue training pretrained model on domain-specific data",
+    "negative": "Company founded in 2015 by three engineers"
+  },
+  {
+    "query": "Word embeddings explained",
+    "positive": "Low-dimensional vectors representing high-dimensional data",
+    "negative": "Combines information retrieval with text generation"
+  },
+  {
+    "query": "What is RAG?",
+    "positive": "Augments language model with retrieved knowledge",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "Recover lost password",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Parking validation available at front desk"
+  },
+  {
+    "query": "Introduction to machine learning",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "Introduction to machine learning",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Combines information retrieval with text generation"
+  },
+  {
+    "query": "How to release new version?",
+    "positive": "Execute deployment pipeline with health checks",
+    "negative": "Fine-tuning adapts pretrained models to specific tasks"
+  },
+  {
+    "query": "Recover lost password",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Neural networks with multiple hidden layers for complex patterns"
+  },
+  {
+    "query": "Combining retrieval with generation",
+    "positive": "Combines information retrieval with text generation",
+    "negative": "Model architecture that revolutionized NLP with attention"
+  },
+  {
+    "query": "What is deep learning?",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "Password reset not working",
+    "positive": "Reset password from account settings security section",
+    "negative": "Team building events quarterly at various venues"
+  },
+  {
+    "query": "What are transformers in NLP?",
+    "positive": "Processes entire sequence simultaneously using attention",
+    "negative": "Augments language model with retrieved knowledge"
+  },
+  {
+    "query": "What is fine-tuning?",
+    "positive": "Fine-tuning adapts pretrained models to specific tasks",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "Password recovery help",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Verify connection string and database server status"
+  },
+  {
+    "query": "Deployment best practices",
+    "positive": "Use automated deployment with rollback capability",
+    "negative": "Learning representations through multiple processing layers"
+  },
+  {
+    "query": "How to authenticate API requests?",
+    "positive": "Use Bearer token in Authorization header for API requests",
+    "negative": "Parking validation available at front desk"
+  },
+  {
+    "query": "Database timeout issues",
+    "positive": "Check firewall rules and database permissions",
+    "negative": "Team building events quarterly at various venues"
+  },
+  {
+    "query": "Deploy to production",
+    "positive": "Run tests, build artifacts, and deploy via CI/CD pipeline",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "Forgot password steps",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Subset of ML using layered neural networks"
+  },
+  {
+    "query": "Attention mechanism in transformers",
+    "positive": "Processes entire sequence simultaneously using attention",
+    "negative": "Transfer learning by updating model weights on new data"
+  },
+  {
+    "query": "Change forgotten password",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Specialize general model for specific use case"
+  },
+  {
+    "query": "Domain adaptation in ML",
+    "positive": "Continue training pretrained model on domain-specific data",
+    "negative": "Ensure database service is running and ports are open"
+  },
+  {
+    "query": "How does ML work?",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "Word embeddings explained",
+    "positive": "Vector space mapping of words preserving semantic relationships",
+    "negative": "Deep learning uses multi-layer neural networks to learn hierarchies"
+  },
+  {
+    "query": "How do I reset my password?",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Numerical vectors encoding text or word meaning"
+  },
+  {
+    "query": "Retrieval augmented generation",
+    "positive": "Retrieves context from database before generating answer",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "Password reset not working",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Subset of ML using layered neural networks"
+  },
+  {
+    "query": "Reset account password",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Company founded in 2015 by three engineers"
+  },
+  {
+    "query": "What are transformers in NLP?",
+    "positive": "Model architecture that revolutionized NLP with attention",
+    "negative": "Statistical techniques allowing computers to learn from examples"
+  },
+  {
+    "query": "RAG architecture explained",
+    "positive": "RAG retrieves relevant documents to enhance LLM responses",
+    "negative": "Team building events quarterly at various venues"
+  },
+  {
+    "query": "BERT and GPT architecture",
+    "positive": "Model architecture that revolutionized NLP with attention",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "Can't connect to database",
+    "positive": "Ensure database service is running and ports are open",
+    "negative": "Statistical techniques allowing computers to learn from examples"
+  },
+  {
+    "query": "How to authenticate API requests?",
+    "positive": "Include API key in request headers for authentication",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "What is RAG?",
+    "positive": "RAG retrieves relevant documents to enhance LLM responses",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "Password recovery help",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Verify connection string and database server status"
+  },
+  {
+    "query": "Introduction to machine learning",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "Bearer token usage",
+    "positive": "Use Bearer token in Authorization header for API requests",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "Transfer learning explained",
+    "positive": "Transfer learning by updating model weights on new data",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "ML vs traditional programming",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "Password reset not working",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Deploy through staging before production release"
+  },
+  {
+    "query": "Vector representations of text",
+    "positive": "Low-dimensional vectors representing high-dimensional data",
+    "negative": "Check firewall rules and database permissions"
+  },
+  {
+    "query": "Retrieval augmented generation",
+    "positive": "Combines information retrieval with text generation",
+    "negative": "Transformers use self-attention to process sequences in parallel"
+  },
+  {
+    "query": "Domain adaptation in ML",
+    "positive": "Transfer learning by updating model weights on new data",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "Recover lost password",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "Adapt pretrained models",
+    "positive": "Continue training pretrained model on domain-specific data",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "Database connection error",
+    "positive": "Check database credentials and server accessibility",
+    "negative": "Continue training pretrained model on domain-specific data"
+  },
+  {
+    "query": "CI/CD pipeline setup",
+    "positive": "Deploy through staging before production release",
+    "negative": "Continue training pretrained model on domain-specific data"
+  },
+  {
+    "query": "ML vs traditional programming",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Check database credentials and server accessibility"
+  },
+  {
+    "query": "Deep vs shallow learning",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "Text to vector conversion",
+    "positive": "Vector space mapping of words preserving semantic relationships",
+    "negative": "Processes entire sequence simultaneously using attention"
+  },
+  {
+    "query": "Transformer architecture explained",
+    "positive": "Transformers use self-attention to process sequences in parallel",
+    "negative": "Low-dimensional vectors representing high-dimensional data"
+  },
+  {
+    "query": "Machine learning definition",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "What is fine-tuning?",
+    "positive": "Specialize general model for specific use case",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "Attention mechanism in transformers",
+    "positive": "Neural architecture using attention mechanisms for NLP",
+    "negative": "Include API key in request headers for authentication"
+  },
+  {
+    "query": "Vector representations of text",
+    "positive": "Low-dimensional vectors representing high-dimensional data",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "How do I reset my password?",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "Can't connect to database",
+    "positive": "Ensure database service is running and ports are open",
+    "negative": "Holiday party scheduled for December 20th"
+  },
+  {
+    "query": "Change forgotten password",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Model architecture that revolutionized NLP with attention"
+  },
+  {
+    "query": "Database connection error",
+    "positive": "Verify connection string and database server status",
+    "negative": "Continue training pretrained model on domain-specific data"
+  },
+  {
+    "query": "Transfer learning explained",
+    "positive": "Fine-tuning adapts pretrained models to specific tasks",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "RAG architecture explained",
+    "positive": "RAG retrieves relevant documents to enhance LLM responses",
+    "negative": "Transformers use self-attention to process sequences in parallel"
+  },
+  {
+    "query": "Reset account password",
+    "positive": "Reset password from account settings security section",
+    "negative": "Numerical vectors encoding text or word meaning"
+  },
+  {
+    "query": "Database not responding",
+    "positive": "Ensure database service is running and ports are open",
+    "negative": "Vector space mapping of words preserving semantic relationships"
+  },
+  {
+    "query": "Can't remember my password",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "How to fine-tune models?",
+    "positive": "Transfer learning by updating model weights on new data",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "Database timeout issues",
+    "positive": "Check database credentials and server accessibility",
+    "negative": "Execute deployment pipeline with health checks"
+  },
+  {
+    "query": "Text to vector conversion",
+    "positive": "Low-dimensional vectors representing high-dimensional data",
+    "negative": "Neural architecture using attention mechanisms for NLP"
+  },
+  {
+    "query": "Attention mechanism in transformers",
+    "positive": "Neural architecture using attention mechanisms for NLP",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "Introduction to deep learning",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "What is machine learning?",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Annual subscription includes priority support"
+  },
+  {
+    "query": "Change forgotten password",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Use automated deployment with rollback capability"
+  },
+  {
+    "query": "Deep vs shallow learning",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "Introduction to deep learning",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Holiday party scheduled for December 20th"
+  },
+  {
+    "query": "Deploy to production",
+    "positive": "Deploy through staging before production release",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "What are transformers in NLP?",
+    "positive": "Neural architecture using attention mechanisms for NLP",
+    "negative": "Parking validation available at front desk"
+  },
+  {
+    "query": "API key generation",
+    "positive": "Use Bearer token in Authorization header for API requests",
+    "negative": "Vector space mapping of words preserving semantic relationships"
+  },
+  {
+    "query": "Database connection error",
+    "positive": "Check database credentials and server accessibility",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "How to fine-tune models?",
+    "positive": "Continue training pretrained model on domain-specific data",
+    "negative": "Transformers use self-attention to process sequences in parallel"
+  },
+  {
+    "query": "What are embeddings?",
+    "positive": "Vector space mapping of words preserving semantic relationships",
+    "negative": "Specialize general model for specific use case"
+  },
+  {
+    "query": "Explain ML to beginners",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Annual subscription includes priority support"
+  },
+  {
+    "query": "Deep learning explained",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "CI/CD pipeline setup",
+    "positive": "Use automated deployment with rollback capability",
+    "negative": "Add authentication token to HTTP headers"
+  },
+  {
+    "query": "How to authenticate API requests?",
+    "positive": "Use Bearer token in Authorization header for API requests",
+    "negative": "Dense vector representations capturing semantic meaning"
+  },
+  {
+    "query": "Deploy to production",
+    "positive": "Execute deployment pipeline with health checks",
+    "negative": "OAuth2 or JWT tokens for secure API authentication"
+  },
+  {
+    "query": "Explain ML to beginners",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Transformers use self-attention to process sequences in parallel"
+  },
+  {
+    "query": "Database not responding",
+    "positive": "Check database credentials and server accessibility",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "Deep learning explained",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Click forgot password and enter your email address"
+  },
+  {
+    "query": "Can't remember my password",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "API key generation",
+    "positive": "Add authentication token to HTTP headers",
+    "negative": "Parking validation available at front desk"
+  },
+  {
+    "query": "ML vs traditional programming",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Dense vector representations capturing semantic meaning"
+  },
+  {
+    "query": "Reset account password",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "Can't remember my password",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Vector space mapping of words preserving semantic relationships"
+  },
+  {
+    "query": "RAG architecture explained",
+    "positive": "Retrieves context from database before generating answer",
+    "negative": "Holiday party scheduled for December 20th"
+  },
+  {
+    "query": "Deep vs shallow learning",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "Password reset instructions sent via email within minutes"
+  },
+  {
+    "query": "What are embeddings?",
+    "positive": "Low-dimensional vectors representing high-dimensional data",
+    "negative": "Subset of ML using layered neural networks"
+  },
+  {
+    "query": "Forgot password steps",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "Production deployment steps",
+    "positive": "Deploy through staging before production release",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "Adapt pretrained models",
+    "positive": "Specialize general model for specific use case",
+    "negative": "Dense vector representations capturing semantic meaning"
+  },
+  {
+    "query": "Text to vector conversion",
+    "positive": "Low-dimensional vectors representing high-dimensional data",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "API security best practices",
+    "positive": "OAuth2 or JWT tokens for secure API authentication",
+    "negative": "Company founded in 2015 by three engineers"
+  },
+  {
+    "query": "API authentication method",
+    "positive": "Use Bearer token in Authorization header for API requests",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "Deep learning explained",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "ML enables computers to learn patterns without explicit programming"
+  },
+  {
+    "query": "BERT and GPT architecture",
+    "positive": "Processes entire sequence simultaneously using attention",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "How does RAG work?",
+    "positive": "RAG retrieves relevant documents to enhance LLM responses",
+    "negative": "Annual subscription includes priority support"
+  },
+  {
+    "query": "Vector representations of text",
+    "positive": "Vector space mapping of words preserving semantic relationships",
+    "negative": "Neural networks with multiple hidden layers for complex patterns"
+  },
+  {
+    "query": "Recover lost password",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Deploy through staging before production release"
+  },
+  {
+    "query": "Word embeddings explained",
+    "positive": "Dense vector representations capturing semantic meaning",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "Database not responding",
+    "positive": "Check firewall rules and database permissions",
+    "negative": "Vector space mapping of words preserving semantic relationships"
+  },
+  {
+    "query": "CI/CD pipeline setup",
+    "positive": "Run tests, build artifacts, and deploy via CI/CD pipeline",
+    "negative": "Holiday party scheduled for December 20th"
+  },
+  {
+    "query": "Deploy to production",
+    "positive": "Use automated deployment with rollback capability",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "How do neural networks work?",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "Run tests, build artifacts, and deploy via CI/CD pipeline"
+  },
+  {
+    "query": "What is machine learning?",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Team building events quarterly at various venues"
+  },
+  {
+    "query": "How to release new version?",
+    "positive": "Deploy through staging before production release",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "Database not responding",
+    "positive": "Ensure database service is running and ports are open",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "Password reset not working",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "Deep learning explained",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "How does RAG work?",
+    "positive": "Retrieves context from database before generating answer",
+    "negative": "Dense vector representations capturing semantic meaning"
+  },
+  {
+    "query": "RAG architecture explained",
+    "positive": "Combines information retrieval with text generation",
+    "negative": "Check firewall rules and database permissions"
+  },
+  {
+    "query": "API security best practices",
+    "positive": "Add authentication token to HTTP headers",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "How does RAG work?",
+    "positive": "Augments language model with retrieved knowledge",
+    "negative": "Low-dimensional vectors representing high-dimensional data"
+  },
+  {
+    "query": "Combining retrieval with generation",
+    "positive": "Retrieves context from database before generating answer",
+    "negative": "Transfer learning by updating model weights on new data"
+  },
+  {
+    "query": "Machine learning definition",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Continue training pretrained model on domain-specific data"
+  },
+  {
+    "query": "CI/CD pipeline setup",
+    "positive": "Execute deployment pipeline with health checks",
+    "negative": "Fine-tuning adapts pretrained models to specific tasks"
+  },
+  {
+    "query": "How to release new version?",
+    "positive": "Execute deployment pipeline with health checks",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "How to release new version?",
+    "positive": "Run tests, build artifacts, and deploy via CI/CD pipeline",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "ML vs traditional programming",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Use password reset link sent to your registered email"
+  },
+  {
+    "query": "Password recovery help",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "Combining retrieval with generation",
+    "positive": "RAG retrieves relevant documents to enhance LLM responses",
+    "negative": "Numerical vectors encoding text or word meaning"
+  },
+  {
+    "query": "Retrieval augmented generation",
+    "positive": "RAG retrieves relevant documents to enhance LLM responses",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "Neural network basics",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Fine-tuning adapts pretrained models to specific tasks"
+  },
+  {
+    "query": "RAG architecture explained",
+    "positive": "Augments language model with retrieved knowledge",
+    "negative": "Processes entire sequence simultaneously using attention"
+  },
+  {
+    "query": "Can't remember my password",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Annual subscription includes priority support"
+  },
+  {
+    "query": "Domain adaptation in ML",
+    "positive": "Fine-tuning adapts pretrained models to specific tasks",
+    "negative": "Parking validation available at front desk"
+  },
+  {
+    "query": "Transfer learning explained",
+    "positive": "Specialize general model for specific use case",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "Can't connect to database",
+    "positive": "Check database credentials and server accessibility",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "CI/CD pipeline setup",
+    "positive": "Deploy through staging before production release",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "Attention mechanism in transformers",
+    "positive": "Transformers use self-attention to process sequences in parallel",
+    "negative": "Combines information retrieval with text generation"
+  },
+  {
+    "query": "How do I reset my password?",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Algorithms that improve automatically through experience with data"
+  },
+  {
+    "query": "Production deployment steps",
+    "positive": "Use automated deployment with rollback capability",
+    "negative": "Specialize general model for specific use case"
+  },
+  {
+    "query": "Password recovery help",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "Bearer token usage",
+    "positive": "Include API key in request headers for authentication",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "Explain ML to beginners",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Company founded in 2015 by three engineers"
+  },
+  {
+    "query": "Introduction to machine learning",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "What is machine learning?",
+    "positive": "Machine learning trains algorithms on data to make predictions",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "Reset account password",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Verify connection string and database server status"
+  },
+  {
+    "query": "Deploy to production",
+    "positive": "Execute deployment pipeline with health checks",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "What is deep learning?",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Fine-tuning adapts pretrained models to specific tasks"
+  },
+  {
+    "query": "How does ML work?",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "SQL connection failed",
+    "positive": "Check database credentials and server accessibility",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "How does ML work?",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "Change forgotten password",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "Database timeout issues",
+    "positive": "Check database credentials and server accessibility",
+    "negative": "Holiday party scheduled for December 20th"
+  },
+  {
+    "query": "Password recovery help",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Gym membership discount for full-time employees"
+  },
+  {
+    "query": "Database timeout issues",
+    "positive": "Ensure database service is running and ports are open",
+    "negative": "Neural architecture using attention mechanisms for NLP"
+  },
+  {
+    "query": "API key generation",
+    "positive": "Include API key in request headers for authentication",
+    "negative": "Reset password from account settings security section"
+  },
+  {
+    "query": "RAG architecture explained",
+    "positive": "Retrieves context from database before generating answer",
+    "negative": "Run tests, build artifacts, and deploy via CI/CD pipeline"
+  },
+  {
+    "query": "What are embeddings?",
+    "positive": "Numerical vectors encoding text or word meaning",
+    "negative": "Click 'Forgot Password' on login page and follow email instructions"
+  },
+  {
+    "query": "Retrieval augmented generation",
+    "positive": "Augments language model with retrieved knowledge",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "How do neural networks work?",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "Word embeddings explained",
+    "positive": "Numerical vectors encoding text or word meaning",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "Word embeddings explained",
+    "positive": "Vector space mapping of words preserving semantic relationships",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "How do transformers work?",
+    "positive": "Neural architecture using attention mechanisms for NLP",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "How to authenticate API requests?",
+    "positive": "Include API key in request headers for authentication",
+    "negative": "Use automated deployment with rollback capability"
+  },
+  {
+    "query": "ML vs traditional programming",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Combines information retrieval with text generation"
+  },
+  {
+    "query": "Database timeout issues",
+    "positive": "Ensure database service is running and ports are open",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "Retrieval augmented generation",
+    "positive": "RAG retrieves relevant documents to enhance LLM responses",
+    "negative": "Ensure database service is running and ports are open"
+  },
+  {
+    "query": "Can't connect to database",
+    "positive": "Check firewall rules and database permissions",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "Attention mechanism in transformers",
+    "positive": "Model architecture that revolutionized NLP with attention",
+    "negative": "Low-dimensional vectors representing high-dimensional data"
+  },
+  {
+    "query": "Bearer token usage",
+    "positive": "OAuth2 or JWT tokens for secure API authentication",
+    "negative": "Combines information retrieval with text generation"
+  },
+  {
+    "query": "Recover lost password",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Summer internship program accepts 20 students"
+  },
+  {
+    "query": "Introduction to machine learning",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Processes entire sequence simultaneously using attention"
+  },
+  {
+    "query": "Reset account password",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Neural networks with multiple hidden layers for complex patterns"
+  },
+  {
+    "query": "How do neural networks work?",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Run tests, build artifacts, and deploy via CI/CD pipeline"
+  },
+  {
+    "query": "API key generation",
+    "positive": "Use Bearer token in Authorization header for API requests",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "Password reset not working",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "Password reset not working",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Augments language model with retrieved knowledge"
+  },
+  {
+    "query": "Domain adaptation in ML",
+    "positive": "Continue training pretrained model on domain-specific data",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "Production deployment steps",
+    "positive": "Deploy through staging before production release",
+    "negative": "Processes entire sequence simultaneously using attention"
+  },
+  {
+    "query": "SQL connection failed",
+    "positive": "Verify connection string and database server status",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "API key generation",
+    "positive": "Add authentication token to HTTP headers",
+    "negative": "Check firewall rules and database permissions"
+  },
+  {
+    "query": "Password recovery help",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Use automated deployment with rollback capability"
+  },
+  {
+    "query": "Adapt pretrained models",
+    "positive": "Continue training pretrained model on domain-specific data",
+    "negative": "Check firewall rules and database permissions"
+  },
+  {
+    "query": "BERT and GPT architecture",
+    "positive": "Model architecture that revolutionized NLP with attention",
+    "negative": "Use Bearer token in Authorization header for API requests"
+  },
+  {
+    "query": "Password recovery help",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "ML enables computers to learn patterns without explicit programming"
+  },
+  {
+    "query": "Change forgotten password",
+    "positive": "Password reset instructions sent via email within minutes",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "How do word2vec work?",
+    "positive": "Low-dimensional vectors representing high-dimensional data",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "What is deep learning?",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Specialize general model for specific use case"
+  },
+  {
+    "query": "Forgot password steps",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Office hours are Monday through Friday 9am to 6pm"
+  },
+  {
+    "query": "How does RAG work?",
+    "positive": "Combines information retrieval with text generation",
+    "negative": "Execute deployment pipeline with health checks"
+  },
+  {
+    "query": "Introduction to deep learning",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "Word embeddings explained",
+    "positive": "Dense vector representations capturing semantic meaning",
+    "negative": "Click 'Forgot Password' on login page and follow email instructions"
+  },
+  {
+    "query": "How do word2vec work?",
+    "positive": "Low-dimensional vectors representing high-dimensional data",
+    "negative": "Model architecture that revolutionized NLP with attention"
+  },
+  {
+    "query": "How do word2vec work?",
+    "positive": "Dense vector representations capturing semantic meaning",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "Neural network basics",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Continue training pretrained model on domain-specific data"
+  },
+  {
+    "query": "API key generation",
+    "positive": "OAuth2 or JWT tokens for secure API authentication",
+    "negative": "Processes entire sequence simultaneously using attention"
+  },
+  {
+    "query": "How do I reset my password?",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Parking validation available at front desk"
+  },
+  {
+    "query": "Change forgotten password",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "Text to vector conversion",
+    "positive": "Numerical vectors encoding text or word meaning",
+    "negative": "Transfer learning by updating model weights on new data"
+  },
+  {
+    "query": "How to fine-tune models?",
+    "positive": "Fine-tuning adapts pretrained models to specific tasks",
+    "negative": "RAG retrieves relevant documents to enhance LLM responses"
+  },
+  {
+    "query": "SQL connection failed",
+    "positive": "Check firewall rules and database permissions",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "Domain adaptation in ML",
+    "positive": "Transfer learning by updating model weights on new data",
+    "negative": "Augments language model with retrieved knowledge"
+  },
+  {
+    "query": "How to release new version?",
+    "positive": "Use automated deployment with rollback capability",
+    "negative": "Vector space mapping of words preserving semantic relationships"
+  },
+  {
+    "query": "Neural network basics",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "RAG retrieves relevant documents to enhance LLM responses"
+  },
+  {
+    "query": "Bearer token usage",
+    "positive": "Include API key in request headers for authentication",
+    "negative": "Check firewall rules and database permissions"
+  },
+  {
+    "query": "Forgot password steps",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Fine-tuning adapts pretrained models to specific tasks"
+  },
+  {
+    "query": "Forgot password steps",
+    "positive": "Use password reset link sent to your registered email",
+    "negative": "Run tests, build artifacts, and deploy via CI/CD pipeline"
+  },
+  {
+    "query": "Deep learning explained",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "Recover lost password",
+    "positive": "Reset password from account settings security section",
+    "negative": "Company founded in 2015 by three engineers"
+  },
+  {
+    "query": "API security best practices",
+    "positive": "Use Bearer token in Authorization header for API requests",
+    "negative": "Run tests, build artifacts, and deploy via CI/CD pipeline"
+  },
+  {
+    "query": "CI/CD pipeline setup",
+    "positive": "Execute deployment pipeline with health checks",
+    "negative": "Ergonomic desk setup includes standing desk"
+  },
+  {
+    "query": "How do I reset my password?",
+    "positive": "Click forgot password and enter your email address",
+    "negative": "Run tests, build artifacts, and deploy via CI/CD pipeline"
+  },
+  {
+    "query": "How do neural networks work?",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "Explain ML to beginners",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Check firewall rules and database permissions"
+  },
+  {
+    "query": "Transformer architecture explained",
+    "positive": "Transformers use self-attention to process sequences in parallel",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "ML vs traditional programming",
+    "positive": "Algorithms that improve automatically through experience with data",
+    "negative": "Parking validation available at front desk"
+  },
+  {
+    "query": "Neural network basics",
+    "positive": "Learning representations through multiple processing layers",
+    "negative": "Numerical vectors encoding text or word meaning"
+  },
+  {
+    "query": "Machine learning definition",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Neural networks with multiple hidden layers for complex patterns"
+  },
+  {
+    "query": "Change forgotten password",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Dense vector representations capturing semantic meaning"
+  },
+  {
+    "query": "Neural network basics",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Professional plan costs $99/month for 25 users"
+  },
+  {
+    "query": "Can't connect to database",
+    "positive": "Check database credentials and server accessibility",
+    "negative": "Neural architecture using attention mechanisms for NLP"
+  },
+  {
+    "query": "How to authenticate API requests?",
+    "positive": "OAuth2 or JWT tokens for secure API authentication",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "How to fine-tune models?",
+    "positive": "Transfer learning by updating model weights on new data",
+    "negative": "Use password reset link sent to your registered email"
+  },
+  {
+    "query": "Database connection error",
+    "positive": "Ensure database service is running and ports are open",
+    "negative": "Low-dimensional vectors representing high-dimensional data"
+  },
+  {
+    "query": "Deployment best practices",
+    "positive": "Execute deployment pipeline with health checks",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "Deep learning explained",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "Vector space mapping of words preserving semantic relationships"
+  },
+  {
+    "query": "How do word2vec work?",
+    "positive": "Vector space mapping of words preserving semantic relationships",
+    "negative": "Statistical techniques allowing computers to learn from examples"
+  },
+  {
+    "query": "What is fine-tuning?",
+    "positive": "Continue training pretrained model on domain-specific data",
+    "negative": "Coffee and snacks provided in break rooms"
+  },
+  {
+    "query": "How does ML work?",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Q4 revenue was $2.5 million with 35% growth"
+  },
+  {
+    "query": "RAG architecture explained",
+    "positive": "Combines information retrieval with text generation",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "Explain ML to beginners",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "How to release new version?",
+    "positive": "Run tests, build artifacts, and deploy via CI/CD pipeline",
+    "negative": "Password reset instructions sent via email within minutes"
+  },
+  {
+    "query": "How to fine-tune models?",
+    "positive": "Specialize general model for specific use case",
+    "negative": "Free trial includes all premium features for 14 days"
+  },
+  {
+    "query": "API security best practices",
+    "positive": "Include API key in request headers for authentication",
+    "negative": "Team building events quarterly at various venues"
+  },
+  {
+    "query": "What is fine-tuning?",
+    "positive": "Transfer learning by updating model weights on new data",
+    "negative": "Stock options vest over 4 years with 1-year cliff"
+  },
+  {
+    "query": "RAG architecture explained",
+    "positive": "Augments language model with retrieved knowledge",
+    "negative": "Performance reviews conducted biannually"
+  },
+  {
+    "query": "Deep vs shallow learning",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Deploy through staging before production release"
+  },
+  {
+    "query": "Machine learning definition",
+    "positive": "ML enables computers to learn patterns without explicit programming",
+    "negative": "Holiday party scheduled for December 20th"
+  },
+  {
+    "query": "Deployment best practices",
+    "positive": "Run tests, build artifacts, and deploy via CI/CD pipeline",
+    "negative": "RAG retrieves relevant documents to enhance LLM responses"
+  },
+  {
+    "query": "Recover lost password",
+    "positive": "Click 'Forgot Password' on login page and follow email instructions",
+    "negative": "Low-dimensional vectors representing high-dimensional data"
+  },
+  {
+    "query": "ML vs traditional programming",
+    "positive": "Statistical techniques allowing computers to learn from examples",
+    "negative": "Employee referral bonus is $2000 per hire"
+  },
+  {
+    "query": "What is deep learning?",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Healthcare coverage starts first day of employment"
+  },
+  {
+    "query": "How do neural networks work?",
+    "positive": "Subset of ML using layered neural networks",
+    "negative": "Quarterly all-hands meeting is every third Friday"
+  },
+  {
+    "query": "Deep learning explained",
+    "positive": "Neural networks with multiple hidden layers for complex patterns",
+    "negative": "Remote work available for approved positions"
+  },
+  {
+    "query": "Vector representations of text",
+    "positive": "Dense vector representations capturing semantic meaning",
+    "negative": "Vacation policy provides 15 days annually"
+  },
+  {
+    "query": "How to release new version?",
+    "positive": "Deploy through staging before production release",
+    "negative": "Combines information retrieval with text generation"
+  },
+  {
+    "query": "What are transformers in NLP?",
+    "positive": "Model architecture that revolutionized NLP with attention",
+    "negative": "Gym membership discount for full-time employees"
+  },
+  {
+    "query": "Introduction to deep learning",
+    "positive": "Deep learning uses multi-layer neural networks to learn hierarchies",
+    "negative": "Password reset instructions sent via email within minutes"
+  },
+  {
+    "query": "Bearer token usage",
+    "positive": "Use Bearer token in Authorization header for API requests",
+    "negative": "Augments language model with retrieved knowledge"
+  },
+  {
+    "query": "What is fine-tuning?",
+    "positive": "Transfer learning by updating model weights on new data",
+    "negative": "Vector space mapping of words preserving semantic relationships"
+  },
+  {
+    "query": "What are embeddings?",
+    "positive": "Dense vector representations capturing semantic meaning",
+    "negative": "Statistical techniques allowing computers to learn from examples"
+  }
+]

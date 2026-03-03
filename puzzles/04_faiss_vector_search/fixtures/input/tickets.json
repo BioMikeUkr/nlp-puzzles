@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "title": "Cannot reset my password",
+    "description": "I tried to reset my password using the forgot password link but never received the email. I've checked my spam folder as well.",
+    "category": "account",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment failed with credit card",
+    "description": "My credit card payment keeps failing. The card is valid and has sufficient funds. Error code: PAYMENT_DECLINED",
+    "category": "billing",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-15T11:45:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Website loads very slowly",
+    "description": "The website takes more than 30 seconds to load. This has been happening for the past 2 days. My internet connection is working fine.",
+    "category": "technical",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2024-01-15T12:20:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Unable to login to my account",
+    "description": "I keep getting 'invalid credentials' error even though I'm using the correct username and password. I've tried resetting my password but the issue persists.",
+    "category": "account",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-15T13:10:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Refund not received after cancellation",
+    "description": "I cancelled my subscription 2 weeks ago but haven't received the refund yet. The confirmation email said it would take 5-7 business days.",
+    "category": "billing",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2024-01-15T14:00:00Z"
+  },
+  {
+    "id": 6,
+    "title": "App crashes on startup",
+    "description": "The mobile app crashes immediately after I open it. I've tried reinstalling but the problem continues. iPhone 12, iOS 17.2",
+    "category": "technical",
+    "status": "in_progress",
+    "priority": "high",
+    "created_at": "2024-01-14T09:30:00Z"
+  },
+  {
+    "id": 7,
+    "title": "How to change my email address",
+    "description": "I need to update the email address associated with my account but can't find the option in settings.",
+    "category": "account",
+    "status": "resolved",
+    "priority": "low",
+    "created_at": "2024-01-14T10:15:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Duplicate charges on my card",
+    "description": "I was charged twice for the same transaction. Transaction IDs: TXN123456 and TXN123457. Please refund the duplicate charge.",
+    "category": "billing",
+    "status": "in_progress",
+    "priority": "high",
+    "created_at": "2024-01-14T11:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Feature request: Dark mode",
+    "description": "It would be great to have a dark mode option for the app, especially for use at night.",
+    "category": "feature",
+    "status": "open",
+    "priority": "low",
+    "created_at": "2024-01-14T12:30:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Data export not working",
+    "description": "When I try to export my data, I get an error message saying 'Export failed'. I need my data for my records.",
+    "category": "technical",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2024-01-14T13:45:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Account locked after multiple login attempts",
+    "description": "My account got locked after I mistyped my password several times. How can I unlock it?",
+    "category": "account",
+    "status": "resolved",
+    "priority": "medium",
+    "created_at": "2024-01-13T09:00:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Subscription auto-renewed unexpectedly",
+    "description": "My subscription was auto-renewed even though I had disabled auto-renewal. I want to cancel and get a refund.",
+    "category": "billing",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-13T10:20:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Missing data after sync",
+    "description": "After syncing between devices, some of my data is missing. Last sync was yesterday at 3 PM.",
+    "category": "technical",
+    "status": "in_progress",
+    "priority": "high",
+    "created_at": "2024-01-13T11:30:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Cannot update profile picture",
+    "description": "Whenever I try to upload a new profile picture, I get an error. The image is under 5MB and in JPG format.",
+    "category": "account",
+    "status": "open",
+    "priority": "low",
+    "created_at": "2024-01-13T12:15:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Wrong amount charged",
+    "description": "I was charged $99.99 but my plan is supposed to be $79.99 per month. Please correct this and refund the difference.",
+    "category": "billing",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-13T13:40:00Z"
+  },
+  {
+    "id": 16,
+    "title": "404 error on dashboard page",
+    "description": "I keep getting a 404 error when trying to access my dashboard. All other pages work fine.",
+    "category": "technical",
+    "status": "in_progress",
+    "priority": "high",
+    "created_at": "2024-01-12T09:20:00Z"
+  },
+  {
+    "id": 17,
+    "title": "Two-factor authentication not working",
+    "description": "I enabled 2FA but I'm not receiving the verification codes via SMS. I've tried multiple times.",
+    "category": "account",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-12T10:30:00Z"
+  },
+  {
+    "id": 18,
+    "title": "Invoice not generated",
+    "description": "I need an invoice for my last payment but it's not showing up in my billing history.",
+    "category": "billing",
+    "status": "resolved",
+    "priority": "medium",
+    "created_at": "2024-01-12T11:15:00Z"
+  },
+  {
+    "id": 19,
+    "title": "API rate limit too restrictive",
+    "description": "The current API rate limit of 100 requests per hour is too low for our use case. Can we increase it?",
+    "category": "technical",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2024-01-12T12:00:00Z"
+  },
+  {
+    "id": 20,
+    "title": "Delete my account and all data",
+    "description": "I want to permanently delete my account and all associated data per GDPR requirements.",
+    "category": "account",
+    "status": "in_progress",
+    "priority": "medium",
+    "created_at": "2024-01-12T13:30:00Z"
+  },
+  {
+    "id": 21,
+    "title": "Payment method declined",
+    "description": "I'm trying to add a new payment method but it keeps getting declined. The card works on other websites.",
+    "category": "billing",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2024-01-11T09:45:00Z"
+  },
+  {
+    "id": 22,
+    "title": "Search function returns no results",
+    "description": "The search bar is not working. No matter what I search for, it returns zero results.",
+    "category": "technical",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-11T10:50:00Z"
+  },
+  {
+    "id": 23,
+    "title": "Password reset link expired",
+    "description": "The password reset link I received expired before I could use it. Can you send a new one?",
+    "category": "account",
+    "status": "resolved",
+    "priority": "medium",
+    "created_at": "2024-01-11T11:25:00Z"
+  },
+  {
+    "id": 24,
+    "title": "Pricing page shows incorrect information",
+    "description": "The pricing page lists features that aren't available in my plan. This is confusing and misleading.",
+    "category": "billing",
+    "status": "open",
+    "priority": "low",
+    "created_at": "2024-01-11T12:10:00Z"
+  },
+  {
+    "id": 25,
+    "title": "File upload fails for large files",
+    "description": "I cannot upload files larger than 10MB. The upload progress bar reaches 100% but then fails with a timeout error.",
+    "category": "technical",
+    "status": "in_progress",
+    "priority": "medium",
+    "created_at": "2024-01-11T13:00:00Z"
+  },
+  {
+    "id": 26,
+    "title": "Email notifications not being sent",
+    "description": "I'm not receiving any email notifications even though I have them enabled in my settings.",
+    "category": "account",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2024-01-10T09:30:00Z"
+  },
+  {
+    "id": 27,
+    "title": "Trial period ended unexpectedly",
+    "description": "My trial period was supposed to last 30 days but it ended after only 2 weeks.",
+    "category": "billing",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-10T10:40:00Z"
+  },
+  {
+    "id": 28,
+    "title": "Mobile app not syncing with web",
+    "description": "Changes I make on the mobile app don't show up on the website and vice versa.",
+    "category": "technical",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-10T11:20:00Z"
+  },
+  {
+    "id": 29,
+    "title": "Username already taken error",
+    "description": "During signup, I keep getting 'username already taken' error even when I try unique usernames.",
+    "category": "account",
+    "status": "in_progress",
+    "priority": "medium",
+    "created_at": "2024-01-10T12:15:00Z"
+  },
+  {
+    "id": 30,
+    "title": "Discount code not working",
+    "description": "I have a 20% discount code (SAVE20) but when I apply it at checkout, nothing happens.",
+    "category": "billing",
+    "status": "resolved",
+    "priority": "medium",
+    "created_at": "2024-01-10T13:05:00Z"
+  },
+  {
+    "id": 31,
+    "title": "Database connection timeout errors",
+    "description": "Getting frequent database connection timeout errors. This makes the service unusable.",
+    "category": "technical",
+    "status": "in_progress",
+    "priority": "critical",
+    "created_at": "2024-01-09T09:00:00Z"
+  },
+  {
+    "id": 32,
+    "title": "Change account owner",
+    "description": "I need to transfer ownership of this account to a different user. How do I do that?",
+    "category": "account",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2024-01-09T10:10:00Z"
+  },
+  {
+    "id": 33,
+    "title": "Credit card information not updating",
+    "description": "I'm trying to update my credit card information but the changes don't save.",
+    "category": "billing",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-09T11:25:00Z"
+  },
+  {
+    "id": 34,
+    "title": "Images not loading on product pages",
+    "description": "Product images are not loading. I just see blank placeholders. This happens on all browsers.",
+    "category": "technical",
+    "status": "resolved",
+    "priority": "high",
+    "created_at": "2024-01-09T12:30:00Z"
+  },
+  {
+    "id": 35,
+    "title": "Cannot link social media accounts",
+    "description": "The option to link my Twitter and LinkedIn accounts is not working. Button does nothing when clicked.",
+    "category": "account",
+    "status": "open",
+    "priority": "low",
+    "created_at": "2024-01-09T13:15:00Z"
+  },
+  {
+    "id": 36,
+    "title": "Subscription downgrade pending",
+    "description": "I requested a subscription downgrade 5 days ago but it still shows as pending. When will it be processed?",
+    "category": "billing",
+    "status": "in_progress",
+    "priority": "medium",
+    "created_at": "2024-01-08T09:20:00Z"
+  },
+  {
+    "id": 37,
+    "title": "SSL certificate error",
+    "description": "I'm getting an SSL certificate error when trying to access the site. Browser says connection is not secure.",
+    "category": "technical",
+    "status": "open",
+    "priority": "critical",
+    "created_at": "2024-01-08T10:35:00Z"
+  },
+  {
+    "id": 38,
+    "title": "Account verification email not received",
+    "description": "I signed up yesterday but never received the account verification email. I've checked spam folder.",
+    "category": "account",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-08T11:40:00Z"
+  },
+  {
+    "id": 39,
+    "title": "Billing cycle changed without notice",
+    "description": "My billing cycle was changed from monthly to annual without my consent or notification.",
+    "category": "billing",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-08T12:20:00Z"
+  },
+  {
+    "id": 40,
+    "title": "API documentation outdated",
+    "description": "The API documentation doesn't match the actual API responses. Several endpoints are missing or incorrect.",
+    "category": "technical",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2024-01-08T13:45:00Z"
+  },
+  {
+    "id": 41,
+    "title": "Session timeout too short",
+    "description": "I keep getting logged out every 15 minutes. Can the session timeout be extended?",
+    "category": "account",
+    "status": "resolved",
+    "priority": "low",
+    "created_at": "2024-01-07T09:10:00Z"
+  },
+  {
+    "id": 42,
+    "title": "Tax calculation incorrect",
+    "description": "The tax amount on my invoice seems wrong. I'm being charged 15% tax but it should be 10% in my state.",
+    "category": "billing",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2024-01-07T10:25:00Z"
+  },
+  {
+    "id": 43,
+    "title": "Memory leak in desktop application",
+    "description": "The desktop app's memory usage keeps growing over time until it crashes. Windows 11, 16GB RAM.",
+    "category": "technical",
+    "status": "in_progress",
+    "priority": "high",
+    "created_at": "2024-01-07T11:30:00Z"
+  },
+  {
+    "id": 44,
+    "title": "Privacy settings not saving",
+    "description": "Whenever I change my privacy settings and save, they revert back to default after I refresh the page.",
+    "category": "account",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-07T12:15:00Z"
+  },
+  {
+    "id": 45,
+    "title": "Pro features not activated after upgrade",
+    "description": "I upgraded to Pro plan yesterday and was charged, but I still don't have access to Pro features.",
+    "category": "billing",
+    "status": "in_progress",
+    "priority": "critical",
+    "created_at": "2024-01-07T13:00:00Z"
+  },
+  {
+    "id": 46,
+    "title": "Webhook not receiving events",
+    "description": "My webhook endpoint is not receiving any events. I've verified the URL is correct and accessible.",
+    "category": "technical",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-06T09:30:00Z"
+  },
+  {
+    "id": 47,
+    "title": "Merge duplicate accounts",
+    "description": "I accidentally created two accounts with different emails. Can you merge them into one?",
+    "category": "account",
+    "status": "in_progress",
+    "priority": "medium",
+    "created_at": "2024-01-06T10:45:00Z"
+  },
+  {
+    "id": 48,
+    "title": "Payment receipt shows wrong currency",
+    "description": "My payment receipt shows USD but I paid in EUR. The amount is also converted incorrectly.",
+    "category": "billing",
+    "status": "open",
+    "priority": "low",
+    "created_at": "2024-01-06T11:20:00Z"
+  },
+  {
+    "id": 49,
+    "title": "CORS error in API requests",
+    "description": "Getting CORS errors when making API requests from my frontend. Access-Control-Allow-Origin header is missing.",
+    "category": "technical",
+    "status": "resolved",
+    "priority": "high",
+    "created_at": "2024-01-06T12:30:00Z"
+  },
+  {
+    "id": 50,
+    "title": "Cannot access account from new device",
+    "description": "I'm trying to login from a new laptop but getting 'suspicious activity detected' warning and can't access my account.",
+    "category": "account",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2024-01-06T13:40:00Z"
+  }
+]
