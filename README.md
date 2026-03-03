@@ -24,7 +24,7 @@ Each puzzle follows the same flow:
 
 ```bash
 # Clone and create venv
-https://github.com/BioMikeUkr/nlp-puzzles.git
+git clone https://github.com/BioMikeUkr/nlp-puzzles.git
 cd nlp-puzzles
 python -m venv .venv && source .venv/bin/activate
 
